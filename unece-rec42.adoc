@@ -4,6 +4,9 @@
 :docnumber: 42
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :copyright-year: 2017
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
 
 [abstract]
 .Foreword
@@ -19,7 +22,7 @@ United Nations Economic Commission for Europe
 
 == Recommendation n° 42: Establishment of a Trade and Transport Facilitation Monitoring Mechanism (TTFMM)
 === Introduction
-  
+
 Many countries around the world have made efforts to facilitate trade and transport. Few, however, have established sustainable mechanisms to monitor the effectiveness of policies and procedures that facilitate trade and speed up international supply and value chains.
 
 Several global trade facilitation performance surveys and databases{blank}footnote:[Some examples of this are the World Bank’s Logistics Performance Index (LPI) and Doing Business databases, the Word Economic Forum Executive Opinion Surveys, and the ESCAP-World Bank Trade Cost Database (see <<annex1>>).] are now available, and have proven very useful as benchmarking and awareness raising tools. They do not, however, provide sufficiently detailed information to assist in developing or updating national trade facilitation action plans.
@@ -37,7 +40,7 @@ The purpose of this Recommendation is to encourage governments, business communi
 This Recommendation is primarily focused on TTFMMs at the national level. However, many of the basic principles can be equally applied to local, sub-regional, regional, and global levels.
 
 === Benefits
-The adoption of a TTFMM will bring the following benefits to a country: 
+The adoption of a TTFMM will bring the following benefits to a country:
 
 * Cost-effective and sustainable monitoring of trade and transport facilitation;
 * Reliable, systematic, consistent and harmonized data available for policymaking and modernization;
@@ -52,7 +55,7 @@ In the light of the above, UN/CEFACT at its twenty-third Plenary session in Apri
 ** Build national capacity to ensure that TTFMM activities, whenever possible, are carried out by national experts and teams; and
 ** Institutionalize TTFMMs: A body overseeing the functioning of a TTFMM should include representatives of all, or key, stakeholders in trade and transport facilitation; and National Trade Facilitation Bodies, whenever possible, should be fully utilized to lead the activities under a TTFMM.
 * International organizations and development partners, whenever possible, should extend their assistance to countries in need, to assist them in establishing their own TTFMMs – and especially the Least Developed Countries (LDCs), Landlocked Developing Countries (LLDCs) and Small Island Developing Countries (SIDS).
- 
+
 == Guidelines for Recommendation n°42 on the establishment of a Trade and Transport  Facilitation Monitoring Mechanism (TTFMM)
 === Introduction
 There is a need for countries to establish sustainable national Trade and Transport Facilitation Monitoring Mechanisms (TTFMMs) to measure and assess progress in trade and transport facilitation and assist in formulating, updating and prioritizing recommendations for trade and transport facilitation. Experiences have shown that trade and transport facilitation assessments have been successfully conducted in some countries. However, in many cases they are ad hoc in nature, with little coordination among development partners, and with limited support from the governmental agencies involved.
@@ -69,7 +72,7 @@ Stakeholders in trade and transport facilitation within the territory covered by
 The scope of monitoring should be decided by a country according to its specific situation. Two different countries may have different priorities for the monitoring. For instance, a landlocked country may be eager to monitor the procedures at land border posts, while an island country may be most concerned about the performance at ports and shipping connectivity. Consultation meetings with stakeholders should be arranged to decide the scope of monitoring.
 
 NOTE: When defining the scope of monitoring, Specific, Measureable, Achievable, Relevant and Time-bound (SMART) criteria should be adopted whenever appropriate.
-   
+
 |===
 h|Specific | The areas for monitoring need to be clear and unambiguous.
 h|Measureable | A country needs to review its resources and capacity for the monitoring exercise. If the monitoring exercise is carried out for the first time, the country may be focused on a small number of strategically important procedures, products or trade routes for the monitoring exercise. Over time, with enhanced national capacity and experiences, more products and trade routes can be included for monitoring.
@@ -147,7 +150,7 @@ The executive body of a TTFMM, such as a NTFB, should develop, maintain and upda
 
 The rationale for structuring the database in such way is that, while international trade and transport facilitation indicators provide an overview of trade and transport facilitation in a country vis-à-vis other countries, data related to specific trade processes, products, and/or specific trade corridors provide more detailed information for analysis and the development of specific recommendations for remedial action.
 
-=== Data analysis and recommendations 
+=== Data analysis and recommendations
 ==== Presentation of data and key results
 Data should be presented in a very user-friendly manner whenever possible. For this purpose, data may be grouped into different tiers, as shown in <<figure2>>. The top tier data should be a small number of indicators which are targeted for policy decision-making or general public awareness. The middle tier of data should be structured to assist government control agencies to analyse and manage trade and transport facilitation. The lower tier database provides information that is as detailed as possible for eventual analysis by technical teams or analysts. An example of top- and middle-tiers indicators is given in <<annex2>>. This classification is largely in line with the Recommendation n°40 on “level of participation”.
 

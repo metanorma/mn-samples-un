@@ -1,19 +1,20 @@
 = Paperless Trade White Paper
 :title: Paperless Trade White Paper
-:subtitle: How Does It Impact the Trade System
+:subtitle: How Does It Impact the Trade System?
 :doctype: plenary
-:docnumber: GE.18-02016(E
+:docnumber: GE.18-02016(E)
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :copyright-year: 2018
 :session: 24
 :session-date: Geneva, 30 April – 1 May 2018
-:agenda-item: Item 6 of the provisional agenda 
+:agenda-item: Item 6 of the provisional agenda
 :collaborator: World Economic Forum
 :agenda-id: ECE/TRADE/C/CEFACT/2018/6
-:docnumber:    GE.18-02016(E)
-:revdate:  9 February 2018
+:revdate: 9 February 2018
 :language: English
 :distribution: General
+:local-cache-only:
+:data-uri-image:
 
 [abstract]
 In 2017, the World Economic Forum approached UN/CEFACT in order to create a guide on Paperless Trade which might help countries to understand and implement specific provisions of the World Trade Organization’s Trade Facilitation Agreement, specifically article 10 on Formalities connected with importation and exportation (10.2, 10.3 and 10.4) as well as article 7 on Release and clearance of goods (7.1 and 7.2).
@@ -165,7 +166,7 @@ Select FTAs require parties to work towards the implementation of initiatives th
 Some countries have inserted provisions on cooperation in relation to paperless trading. This can take the form of sharing experiences on regulations, laws and programmes on e-commerce and e-government – with the latter a proxy for paperless trading – or regulatory dialogue. A limited number of agreements require parties to cooperate bilaterally and in international forums to enhance the acceptance of electronic versions of trade administration documents. The Japan-Singapore FTA commits parties to encourage cooperation between relevant private entities engaged in paperless trading and establishes a joint committee on paperless trade geared towards reviewing implementation issues.
 
 The minority of FTAs in which the language of the standalone “paperless trading” provision is drafted as a binding obligation almost all concern an FTA with Australia or New Zealand. These include the Australia-China FTA, Australia-Malaysia FTA, Australia- Singapore FTA, Australia-Thailand FTA and New Zealand-Thailand FTA. Each of these agreements allows limited exceptions if there is a “domestic or international legal requirement to the contrary” or if paperless trading would “reduce the effectiveness of the trade administration process”.
- 
+
 Among recent FTAs, the Trans-Pacific Partnership (TPP) had the broadest comprehensive coverage in terms of elements related to paperless trading. It included acceptance of electronic copies; e-submission of trade-related documents such as SPS certification; electronic customs systems; e-certification and e-signature, including mutual recognition; and international standards. Besides the TPP, other FTAs with a broad scope of coverage include the US-Republic of Korea FTA and several other recent Korean FTAs (such as those with China and Viet Nam).
 
 In general, the breadth of paperless trading elements is broadest for FTAs negotiated in the Asia-Pacific, reflecting the region’s leadership in this area. While the EU has focused on building paperless trading systems for its members, FTAs negotiated by the European Commission tend not to put as much emphasis on paperless trading as compared to those negotiated by the US, Australia, Republic of Korea, or others. The EU agreement with Colombia and Peru includes the commitment to endeavour to make trade management documents available electronically and to accept electronic documents as the legal equivalent of paper. The agreement with Korea includes cooperation on implementing paperless trading.
@@ -180,7 +181,9 @@ To date, it is worth noting that electronic messages have been treated as a dire
 A process-driven approach to the chain of information exchanges would instead consider each exchange within the context of other exchanges related to the same process. Each electronic message in the chain only needs to contain new information, rather than repeating redundant information. The approach implies rethinking how information is exchanged. It also corresponds more closely to the one-time data entry called for in single windows, as defined in UNECE Recommendation 33, and is closer to concepts behind blockchain technology. UN/CEFACT has produced Reference Data Models that support this approach.
 
 Finally, as has been made clear by now, technical standards are a key part of paperless trade. However, it is important to keep in mind the individual agendas of organizations that push their standards, or that disparage another standard. Many IT companies will make a living off complicated data exchange so it may not be in their interest to have an interoperable system. This is sometimes the case for certain governments or government administrations as well. Nevertheless, as more and more trade and international business processes move online, ensuring interoperability and interconnectivity between systems would help to maximize the benefits of the digital economy. This is as much a strategic regulatory choice as it is a business case.
+
 == Options for Further Trade Governance
+
 Several WTO Members have raised the possibility of discussing paperless trade at the WTO, in some instances in connection with implementing the TFA. This includes suggestions for WTO members to accept electronic trade administration documents and grant these the same legal status as paper versions; and facilitating access to, use of and data exchange with the single window of a member’s authorities for international trade by cross-border e-commerce transaction platforms and traders.
 
 One question raised by the examination above is whether WTO members would be willing to accept any treaty language that takes the form of binding, rather than soft, commitments. To date, most RTAs have not used such language – with a few exceptions in the Asia-Pacific region – except on cooperation and information exchange provisions. What type of principles or cooperative approach could the WTO take? What could be learned from the TFA in terms of graduated levels of commitment and binding?
@@ -207,7 +210,7 @@ Capacity building programmes are a key element to ensure that the benefits of pa
 Experts also recommend using workshops and consultations with SMEs to discuss the digitalization of trade processes – including taking stock of what trade information is already processed electronically; what blockages exist to SMEs participating in the electronic exchange of documents; and what human resource capacity building and/or other facilities would be needed to enable SMEs to benefit from electronic procedures, such as mobile applications.footnote:[http://www.intracen.org/uploadedFiles/intracenorg/Content/Publications/makingwto.pdf (link as of 09/2017)]
 
 An outstanding question across the policy, technical and business community lies in the application and spread of new advanced technologies. Are businesses in developing countries equipped with the infrastructure and enabling environment to stay connected to international production networks? Will these technologies add costs or make processes easier and cheaper? If applied in a B2G context, how to ensure interoperability and capacity building? International production networks dependent on advances in technology have helped to drive global growth over the past several decades. A world with increased connectivity, digitization and smart technology could accelerate this still further, providing the right frameworks are in place.
- 
+
 [[annex-a]]
 [appendix]
 == Selection of UN/CEFACT Technical Standards

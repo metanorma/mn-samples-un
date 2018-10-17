@@ -1,4 +1,4 @@
-SRC  := $(wildcard *.adoc)
+SRC  := $(wildcard unece-*.adoc)
 XML  := $(patsubst %.adoc,%.xml,$(SRC))
 HTML := $(patsubst %.adoc,%.html,$(SRC))
 DOC  := $(patsubst %.adoc,%.doc,$(SRC))
@@ -22,7 +22,7 @@ bundle:
 	bundle
 
 %.xml %.html %.doc:	%.adoc | bundle
-	bundle exec metanorma -t unece -r metanorma-unece -x doc,xml,html $^
+	bundle exec metanorma -t unece -x doc,xml,html $^
 
 html: clean-html $(HTML)
 
