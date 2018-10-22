@@ -22,7 +22,7 @@ bundle:
 	bundle
 
 %.xml %.html %.doc:	%.adoc | bundle
-	bundle exec metanorma -t unece -x doc,xml,html $^
+	bundle exec metanorma -t unece -x xml,html,doc $^
 
 html: clean-html $(HTML)
 

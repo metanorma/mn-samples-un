@@ -42,7 +42,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-unece
-  revision: 72ae8135d7901a16d524212d9867b068f1e85448
+  revision: c3de4b52a45b5284c4c6e5e8d950b85e858b9f6b
   specs:
     metanorma-unece (0.0.1)
       asciidoctor (~> 1.5.7)
