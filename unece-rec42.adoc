@@ -2,6 +2,7 @@
 :title: Trade and Transport Facilitation Monitoring Mechanism
 :doctype: recommendation
 :docnumber: 42
+:status: published
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :copyright-year: 2017
 :imagesdir: images

@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-iso
-  revision: 2b2361bf24084e0919205767dbc321d408c7f162
+  revision: aa7f1b6ec7ae4835c63b242793b53155f8ad33d4
   specs:
     metanorma-iso (1.0.7)
       asciidoctor (~> 1.5.7)
@@ -42,7 +42,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-unece
-  revision: 6a1f67506615075d223b27a50146d27e54cef489
+  revision: 72ae8135d7901a16d524212d9867b068f1e85448
   specs:
     metanorma-unece (0.0.1)
       asciidoctor (~> 1.5.7)

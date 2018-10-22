@@ -4,6 +4,7 @@
 :doctype: plenary
 :docnumber: GE.18-02016(E)
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
+:status: published
 :copyright-year: 2018
 :session: 24
 :session-date: Geneva, 30 April – 1 May 2018
@@ -27,6 +28,7 @@ This document is submitted to the twenty-fourth UN/CEFACT Plenary for noting.
 
 
 == Introduction: What is Paperless Trading?
+
 When goods and services cross borders in international trade, information needs to be passed between relevant parties, whether private companies or public bodies, including suppliers, logistics providers, customs, regulatory agencies, sellers and buyers. Paperless trade refers to the digitization of these information flows, including making available and enabling the exchange of trade-related data and documents electronically. Less formally, one can think of this as cross-border trade transactions using electronic data in lieu of paper-based documents.
 
 Transforming what was traditionally a paper-based documentation system into an electronic format can speed up trade and ease the cost of doing business in today’s interconnected world. Bottlenecks in supply chain management and regulatory documentation can be particularly tricky for smaller businesses or e-traders with less experience and resources. Paperless trading, therefore, serves as a promising means to deal with the logistical challenges of e-commerce and, in particular, small shipments across borders. Overall, it is quickly becoming an essential component of governmental efforts to improve the efficiency of customs controls and trade administration processes, and of ensuring trade competitiveness in a rapidly digitizing world.
@@ -236,6 +238,7 @@ International trade in agricultural products is an important economic activity. 
 The Netherlands and China launched a five-year project in 2010 to pilot the practical implementation of electronic SPS certificates. The project used a step-wise, confidence- building approach, with the two parties initially exchanging information on standards and technology, then subsequently using certificates both in electronic and paper form, and finally moving to a fully digitized system.
 
 The project used a UN/CEFACT standard XML message developed for electronic SPS certificates. Questions arose, however, around ensuring the authenticity of the document. Paper certificates are in most cases produced on security paper and signed and stamped to provide a proof of integrity and authentication. As a result, each electronic message containing the SPS certificate was accompanied by an electronic signature using the XMLDSig standard of the W3C. The management of the electronic signature was based on the FIPS 140-2 (National Institute of Standards and Technology of the USA) standard terms of technology and procedures. The shift also required legal frameworks that recognized the electronic signature.
+
 === Paperless Air Cargo (IATA Cargo-XML): Jamaica
 The International Air Transport Association (IATA) has developed the Cargo-XML Messaging standards using the UN/CEFACT core component library. These Cargo-XML messaging standards are used by the airlines for end-to-end cargo business, fulfil customs’ advance cargo information (ACI) and filing requirements and provide compliance with regulators’ security requirements. The use of core components from the UN/CEFACT data library (CCL) makes the IATA Cargo-XML standards multi-modal and compatible for cross-border movements allowing interoperability between various systems and stakeholders. For example, the IATA Cargo-XML standard is compatible with the WCO Data Model, since both are based on UN/CEFACT core components.
 
@@ -267,6 +270,7 @@ UN/LOCODE is used extensively throughout the world by the international trade co
 Since being adopted as a Chinese national standard (GB/T/15514) and obligatory for certain regulatory documents in China, UN/LOCODE has played an important role in facilitating international trade. For example, before Ruago port – a city in Jiangsu province on the eastern coast of China – was assigned with UN/LOCODE, exporters could only deliver goods to Shanghai to then be transported the rest of the journey by highway. For one importer of stone materials, this cost of about around 4,000 renminbi per container – acting as a significant cost draft. After a UN/LOCODE was assigned to Ruago port in 2014, the importer saved about 1.2 billion renminbi annually as the containers are delivered directly.
 
 === Electronic Single Window: Canada
+
 In 2011 the Canadian Prime Minister Stephen Harper and US President Barack Obama announced a new initiative – Beyond the Border: A Shared Vision for Perimeter Security and Economic Competitiveness – pledging to develop common border practices, and streamlining customs processing and regulatory compliance. A joint action plan identified full implementation of an electronic single window as one of 32 joint priorities. Both Canada and the US were to convert to electronic form data requirements of all government departments and agencies participating in the initiative by 2013, as well as for border-related decision processes for at least the top four priority departments.
 
 As the lead agency, the Canada Border Services Agency (CBSA) developed its Single Window in accordance with the UN/CEFACT Recommendation 33 (on establishing a Single Window); Recommendation 34 (on trade data simplification and standardization); and Recommendation 36 (on Single Window interoperability). CBSA also ensured that representatives from all relevant public and private sector agencies were involved from initiation through to implementation. Oversight, review and contribution were also made by stakeholders, including participating government departments and agencies (PGA), trade chain partners (importers, carriers, brokers and freight-forwarders) and international partnerships (UN/CEFACT, US Customs and Border Protection, the WTO, the WCO, and APEC).
