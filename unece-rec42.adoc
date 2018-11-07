@@ -6,6 +6,7 @@
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :copyright-year: 2017
 :imagesdir: images
+:toc:
 :local-cache-only:
 :data-uri-image:
 
