@@ -4,7 +4,7 @@
 
 [source,sh]
 ----
-git clone https://github.com/riboseinc/unece-docs/
+git clone https://github.com/metanorma/unece-docs/
 ----
 
 == Installing Build Tools
@@ -38,7 +38,7 @@ make clean all
 
 The following outputs will be built:
 
-* UNECE XML (https://github.com/riboseinc/metanorma-model-unece) (`[filename].xml`)
+* UNECE XML (https://github.com/metanorma/metanorma-model-unece) (`[filename].xml`)
 * HTML (`[filename].html`)
 * Word DOC (`[filename].doc`)
 
