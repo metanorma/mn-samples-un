@@ -1,24 +1,23 @@
 #!make
 SHELL := /bin/bash
 
-include metanorma.env
-export $(shell sed 's/=.*//' metanorma.env)
+IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
-DOCTYPE := $(METANORMA_DOCTYPE)
-FORMATS := $(METANORMA_FORMATS)
-comma := ,
-empty :=
-space := $(empty) $(empty)
-FORMATS_LIST := $(subst $(space),$(comma),$(FORMATS))
+SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+ifeq ($(SRC),ll)
+SRC := $(filter-out README.adoc, $(wildcard *.adoc))
+endif
 
-SRC  := $(filter-out README.adoc, $(wildcard *.adoc))
-XML  := $(patsubst %.adoc,%.xml,$(SRC))
-HTML := $(patsubst %.adoc,%.html,$(SRC))
-DOC  := $(patsubst %.adoc,%.doc,$(SRC))
-PDF  := $(patsubst %.adoc,%.pdf,$(SRC))
+FORMAT_MARKER := mn-output-
+FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d ' ' | tr ',' '\n' | sort | uniq | tr '\n' ' ')
 
-COMPILE_CMD_LOCAL := bundle exec metanorma -t $(DOCTYPE) -x $(FORMATS_LIST) $$FILENAME
-COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma -t $(DOCTYPE) -x $(FORMATS_LIST) $$FILENAME"
+INPUT_XML  := $(patsubst %.adoc,%.xml,$(SRC))
+OUTPUT_XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(SRC)))
+OUTPUT_HTML := $(patsubst %.xml,%.html,$(OUTPUT_XML))
+
+COMPILE_CMD_LOCAL := bundle exec metanorma -R $${FILENAME//adoc/rxl} $$FILENAME
+METANORMA_DOCKER_IMAGE ?= metanorma/metanorma
+COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ $(METANORMA_DOCKER_IMAGE) "metanorma $${FILENAME//adoc/rxl} $$FILENAME"
 
 ifdef METANORMA_DOCKER
   COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
@@ -29,11 +28,28 @@ endif
 _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
-all: $(OUT_FILES)
+all: documents.html
 
-%.xml %.html %.doc %.pdf:	%.adoc | bundle
+documents:
+	mkdir -p $@
+
+documents/%.xml: documents sources/%.xml
+	mv sources/$*.{xml,html,pdf,rxl} documents
+
+%.xml %.html:	%.adoc | bundle
 	FILENAME=$^; \
 	${COMPILE_CMD}
+
+documents.rxl: $(OUTPUT_XML)
+	bundle exec relaton concatenate \
+	  -t "$(shell yq r metanorma.yml relaton.collection.name)" \
+		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
+		documents $@
+
+documents.html: documents.rxl
+	bundle exec relaton xml2html documents.rxl
+
+%.adoc:
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
@@ -52,12 +68,10 @@ endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 
-# open: $(foreach FORMAT,$(FORMATS),open-$(FORMAT))
-
 open: open-html
 
 clean:
-	rm -f $(OUT_FILES)
+	rm -rf documents published *_images sources/*.{rxl,xml,html,pdf}
 
 bundle:
 	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
@@ -105,18 +119,9 @@ watch-serve: $(NODE_BIN_DIR)/run-p
 #
 # Deploy jobs
 #
-
-publish:
-	mkdir -p published  && \
-	cp -a $(basename $(SRC)).* published/ && \
-	cp $(firstword $(HTML)) published/index.html; \
+publish: published
+published: documents.html
+	mkdir -p published && \
+	cp -a documents $@/ && \
+	cp $< published/index.html; \
 	if [ -d "images" ]; then cp -a images published; fi
-
-deploy_key:
-	openssl aes-256-cbc -K $(encrypted_$(ENCRYPTION_LABEL)_key) \
-		-iv $(encrypted_$(ENCRYPTION_LABEL)_iv) -in $@.enc -out $@ -d && \
-	chmod 600 $@
-
-deploy: deploy_key
-	export COMMIT_AUTHOR_EMAIL=$(COMMIT_AUTHOR_EMAIL); \
-	./deploy.sh
