@@ -16,6 +16,7 @@
 :distribution: General
 :mn-document-class: unece
 :mn-output-extensions: xml,html,doc
+:docfile: unece-plenary.adoc
 :toc:
 :local-cache-only:
 :data-uri-image:
