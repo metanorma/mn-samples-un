@@ -225,8 +225,6 @@ PLATFORMS
 
 DEPENDENCIES
   metanorma-cli
-  metanorma-iso
-  metanorma-standoc
   metanorma-unece
   relaton-cli
 
