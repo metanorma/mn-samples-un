@@ -8,6 +8,7 @@
 :imagesdir: images
 :mn-document-class: unece
 :mn-output-extensions: xml,html,doc
+:docfile: unece-rec42.adoc
 :toc:
 :local-cache-only:
 :data-uri-image:
