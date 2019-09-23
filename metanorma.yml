@@ -4,5 +4,5 @@ metanorma:
     email: "travis-ci@metanorma.org"
 relaton:
   collection:
-    name: Metanorma-UNECE sample documents
-    organization: The United Nations Economic Commission for Europe
+    organization: "United Nations Economic Commission for Europe (UNECE)"
+    name: "UNECE Recommendations in Metanorma"
