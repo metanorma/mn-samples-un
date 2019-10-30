@@ -7,7 +7,7 @@
 :copyright-year: 2017
 :imagesdir: images
 :mn-document-class: unece
-:mn-output-extensions: xml,html,doc
+:mn-output-extensions: xml,html,doc,rxl
 :docfile: unece-rec42.adoc
 :toc:
 :local-cache-only:

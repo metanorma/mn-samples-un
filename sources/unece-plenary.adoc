@@ -15,7 +15,7 @@
 :language: English
 :distribution: General
 :mn-document-class: unece
-:mn-output-extensions: xml,html,doc
+:mn-output-extensions: xml,html,doc,rxl
 :docfile: unece-plenary.adoc
 :toc:
 :local-cache-only:
