@@ -1,0 +1,59 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>UNECE Recommendations in Metanorma</title><contributor><role type='author'/><organization><name>The United Nations Economic Commission for Europe (UNECE)</name></organization></contributor><relation type='partOf'><bibdata type='standard'>
+<fetched>2019-10-30</fetched>
+<title>Trade and Transport Facilitation Monitoring Mechanism</title>
+<docidentifier>42</docidentifier>
+<uri type='xml'>documents/unece-rec42.xml</uri>
+<uri type='html'>documents/unece-rec42.html</uri>
+<uri type='doc'>documents/unece-rec42.doc</uri>
+<uri type='rxl'>documents/unece-rec42.rxl</uri>
+<language>ar</language>
+<script>Latn</script>
+<copyright><from>2017</from>
+<owner><organization><name>UNECE</name></organization></owner>
+</copyright><contributor>
+<role type='author'/>
+<organization><name>UNECE</name></organization>
+</contributor>
+<contributor>
+<role type='publisher'/>
+<organization><name>UNECE</name></organization>
+</contributor>
+<language>ar</language>
+<script>Latn</script>
+<status>
+    published
+  </status>
+</bibdata>
+</relation>
+<relation type='partOf'><bibdata type='standard'>
+<fetched>2019-10-30</fetched>
+<title>Paperless Trade White Paper</title>
+<docidentifier>GE.18-02016(E)</docidentifier>
+<uri type='xml'>documents/unece-plenary.xml</uri>
+<uri type='html'>documents/unece-plenary.html</uri>
+<uri type='doc'>documents/unece-plenary.doc</uri>
+<uri type='rxl'>documents/unece-plenary.rxl</uri>
+<language>English</language>
+<script>Latn</script>
+<copyright><from>2018</from>
+<owner><organization><name>UNECE</name></organization></owner>
+</copyright><contributor>
+<role type='author'/>
+<organization><name>UNECE</name></organization>
+</contributor>
+<contributor>
+<role type='publisher'/>
+<organization><name>UNECE</name></organization>
+</contributor>
+<language>English</language>
+<script>Latn</script>
+<abstract>In 2017, the World Economic Forum approached UN/CEFACT in order to create a guide on Paperless Trade which might help countries to understand and implement specific provisions of the World Trade Organization’s Trade Facilitation Agreement, specifically article 10 on Formalities connected with importation and exportation (10.2, 10.3 and 10.4) as well as article 7 on Release and clearance of goods (7.1 and 7.2).
+This White Paper provides a brief history on standardization of electronic business processes, especially within UN/CEFACT; the basics, benefits and challenges in electronic business processes; the governance of paperless trade; and future evolutions.
+This document has been published by the World Economic Forum in October 2017 under the reference 261017, case 00036073.
+This document is submitted to the twenty-fourth UN/CEFACT Plenary for noting.</abstract>
+<status>
+    published
+  </status>
+</bibdata>
+</relation>
+</relaton-collection>
