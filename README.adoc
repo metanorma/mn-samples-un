@@ -1,11 +1,27 @@
-= Metanorma UNECE documents samples
+= UNECE document samples in Metanorma (Metanorma-UNECE)
+
+image:https://github.com/metanorma/mn-samples-unece/workflows/publish/badge.svg["Build Status", link="https://github.com/metanorma/mn-samples-unece/actions?workflow=publish"]
+
+This document is available in its rendered forms here:
+
+* https://metanorma.github.io/mn-samples-unece/[UNECE sample documents (repository)]
+
+== Introduction
+
+This repository provides examples of UNECE documents encoded in the   https://github.com/metanorma/metanorma-unece[Metanorma-UNECE]
+format.
+
+Refer to the https://www.metanorma.com/overview/getting-started/[Metanorma quickstart] for a primer on creating Metanorma-UNECE documents.
+
+Specific syntax document for Metanorma-UNECE can be found at: https://www.metanorma.com/author/unece/authoring/[Syntax for writing UNECE documents using Metanorma].
 
 == Fetching the document
 
 [source,sh]
 ----
-git clone https://github.com/metanorma/unece-docs/
+git clone https://github.com/metanorma/mn-samples-unece/
 ----
+
 
 == Installing Build Tools
 
@@ -29,25 +45,23 @@ The `Makefile` will automatically choose the proper command to
 execute.
 
 
-== Building The Document
+== Example documents provided in this repo
 
-[source,sh]
-----
-make clean all
-----
+=== UNECE Plenary document
 
-The following outputs will be built:
-
-* UNECE XML (https://github.com/metanorma/metanorma-model-unece) (`[filename].xml`)
-* HTML (`[filename].html`)
-* Word DOC (`[filename].doc`)
+* `unece-plenary.adoc`: Metanorma-UNECE markup source
+for a UNECE Plenary document.
 
 
-== Iterating the document
+=== UNECE Recommendation
 
-[source,sh]
-----
-make html
-open *.html
-----
+* `unece-plenary.adoc`: Metanorma-UNECE markup source
+for UNECE Recommendation No. 42.
+
+
+== Description of generated artifacts
+
+* `{filename}.xml`: Metanorma-UNECE XML output corresponding to the `{filename}.adoc` source
+
+* `{filename}.html`: Metanorma-UNECE HTML output corresponding to the `{filename}.adoc` source
 
