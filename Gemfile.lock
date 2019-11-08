@@ -5,7 +5,6 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     asciidoctor (1.5.8)
     asciimath (1.0.9)
-    byebug (11.0.1)
     camertron-eprun (1.1.1)
     cldr-plurals-runtime-rb (1.0.1)
     cnccs (0.1.5)
@@ -146,7 +145,7 @@ GEM
       ruby-jing
       sterile (~> 1.0.14)
       unicode2latex (~> 0.0.1)
-    metanorma-unece (0.2.6)
+    metanorma-unece (0.2.7)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
       iso-639
@@ -233,7 +232,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   metanorma-cli
   metanorma-unece
   relaton-cli
