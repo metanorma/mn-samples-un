@@ -16,7 +16,7 @@
 :distribution: General
 :mn-document-class: unece
 :mn-output-extensions: xml,html,doc,rxl
-:docfile: unece-plenary.adoc
+:docfile: ECE_TRADE_C_CEFACT_2018_6E.adoc
 :toc:
 :local-cache-only:
 :data-uri-image:
