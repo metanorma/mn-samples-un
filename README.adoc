@@ -4,16 +4,16 @@ image:https://github.com/metanorma/mn-samples-un/workflows/publish/badge.svg["Bu
 
 This document is available in its rendered forms here:
 
-* https://metanorma.github.io/mn-samples-un/[UNECE sample documents (repository)]
+* https://metanorma.github.io/mn-samples-un/[UN sample documents (repository)]
 
 == Introduction
 
-This repository provides examples of UNECE documents encoded in the   https://github.com/metanorma/metanorma-un[Metanorma-UNECE]
+This repository provides examples of UN documents encoded in the   https://github.com/metanorma/metanorma-un[Metanorma-UN]
 format.
 
-Refer to the https://www.metanorma.com/overview/getting-started/[Metanorma quickstart] for a primer on creating Metanorma-UNECE documents.
+Refer to the https://www.metanorma.com/overview/getting-started/[Metanorma quickstart] for a primer on creating Metanorma-UN documents.
 
-Specific syntax document for Metanorma-UNECE can be found at: https://www.metanorma.com/author/unece/authoring/[Syntax for writing UNECE documents using Metanorma].
+Specific syntax document for Metanorma-UN can be found at: https://www.metanorma.com/author/unece/authoring/[Syntax for writing UN documents using Metanorma].
 
 == Fetching the document
 
