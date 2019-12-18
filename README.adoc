@@ -1,4 +1,4 @@
-= UNECE document samples in Metanorma (Metanorma-UNECE)
+= UN document samples in Metanorma (Metanorma-UN)
 
 image:https://github.com/metanorma/mn-samples-un/workflows/publish/badge.svg["Build Status", link="https://github.com/metanorma/mn-samples-un/actions?workflow=publish"]
 
