@@ -9,14 +9,13 @@
 :session: 25
 :session-date: Geneva, 8–9 April 2019
 :agenda-item: Item 7 (c) of the provisional agend
-// :collaborator: World Economic Forum
 :agenda-id: ECE/TRADE/C/CEFACT/2019/9
 :revdate: 17 January 2019
 :language: English
 :distribution: General
 :mn-document-class: unece
 :mn-output-extensions: xml,html,doc,rxl
-:docfile: 11E_ECE_TRADE_C_CEFACT_2019_09_WP_Blockchain_Overview.adoc
+:docfile: ECE_TRADE_C_CEFACT_2019_09.adoc
 :toc:
 :local-cache-only:
 :data-uri-image:
@@ -37,7 +36,7 @@ Document ECE/TRADE/C/CEFACT/2019/9 is submitted by the UN/CEFACT Bureau to the t
 
 . As described further below, the term “blockchain” is being used throughout this document, although it is interchanged with the term Distributed Ledger Technology.
 
-. Blockchain technology is based on an innovative use of cryptography and has attracted a lot of attention due to its characteristics, which include: 
+. Blockchain technology is based on an innovative use of cryptography and has attracted a lot of attention due to its characteristics, which include:
 +
 --
 * The creation of data records that are permanent (i.e. cannot be changed or deleted);
@@ -364,7 +363,7 @@ image::11E_ECE_TRADE_C_CEFACT_2019_09_WP_Blockchain_Overview/001.png["",1144,644
 
 | Any special hardware or “other” used (IoT, QR codes, etc.) | If not relevant or available enter N.A.
 
-| Any open-source software being used/proposed | If not relevant or available enter N.A. 
+| Any open-source software being used/proposed | If not relevant or available enter N.A.
 
 | Links to related information, including technical White Papers | If not relevant or available enter N.A.
 |===
