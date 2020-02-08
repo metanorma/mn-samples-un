@@ -1,5 +1,4 @@
 = Briefing note on sustainable textile value chains in the garment and footwear domain for SDG12
-:title: Briefing note on sustainable textile value chains in the garment and footwear domain for SDG12
 :doctype: plenary
 :docnumber: GE.19-04574(E)
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
@@ -9,13 +8,13 @@
 :session-date: Geneva, 8-9 April 2019
 :agenda-item: Item 11 of the provisional agenda
 :agenda-id: ECE/TRADE/C/CEFACT/2019/26
-:revdate: 19 March 2019
-:language: English
+:revdate: 2019-03-19
+:language: en
 :distribution: General
 :mn-document-class: unece
 :mn-output-extensions: xml,html,doc,rxl
-:docfile: ECE_TRACE_C_CEFACT_2019_26.adoc
-:imagesdir: images/ECE_TRACE_C_CEFACT_2019_26
+:docfile: ECE_TRADE_C_CEFACT_2019_26.adoc
+:imagesdir: images/ECE_TRADE_C_CEFACT_2019_26
 :toc:
 :local-cache-only:
 :data-uri-image:
@@ -25,7 +24,7 @@
 == Summary
 The garment and footwear (GF) industry has one of the highest environmental footprint, and risks for human health and the society. At the same time, the complexity and opacity of the value chain makes it difficult to identify where such impacts occur and to devise necessary targeted actions. In the next decades, fast fashion trends, coupled to growing demand in emerging economies, are going to intensify the effects on the environment and human health of practices and processes, and on working conditions. Key actors in the industry have identified interoperable and scalable traceability and transparency of the value chain, as crucial enablers of more responsible production and consumption patterns, in support of Sustainable Development Goal (SDG) 12 of the United Nations 2030 Agenda for Sustainable Development.
 
-Document ECE/TRADE/C/CEFACT/2019/27 is submitted by the Secretariat to the twenty-fifth session of the Plenary for noting.
+Document ECE/TRADE/C/CEFACT/2019/26 is submitted by the Secretariat to the twenty-fifth session of the Plenary for noting.
 
 
 == Introduction
