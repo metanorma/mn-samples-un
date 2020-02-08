@@ -1,5 +1,4 @@
 = Annotated provisional agenda for the twenty-fourth session
-:title: Annotated provisional agenda for the twenty-fourth session{blank}
 :subtitle: To be held at the Palais des Nations, Geneva, starting at 10.00 on Monday, 30 April 2018,
 in Salle VII.
 :doctype: plenary
@@ -11,8 +10,8 @@ in Salle VII.
 :session-date: Geneva, 30 April – 1 May 2018
 :agenda-item: Item 1 of the provisional agenda
 :agenda-id: ECE/TRADE/C/CEFACT/2018/1
-:revdate: 9 February 2018
-:language: English
+:revdate: 2018-02-09
+:language: en
 :distribution: General
 :mn-document-class: unece
 :mn-output-extensions: xml,html,doc,rxl
@@ -76,7 +75,7 @@ h|_Document title_ h|_Document symbol_ |
 
 Delegations who are physically present will elect the Chair for the UN/CEFACT Bureau for the period 2018 – 2021. The Chair will preside over the rest of the twenty-fourth session.
 
-Delegations are encouraged to refer to “Consolidated UN/CEFACT mandate and terms of reference” (ECE/TRADE/C/CEFACT/2017/15), paragraphs 52-73, adopted at the twenty-third session.
+Delegations are encouraged to refer to "`Consolidated UN/CEFACT mandate and terms of reference`" (ECE/TRADE/C/CEFACT/2017/15), paragraphs 52-73, adopted at the twenty-third session.
 
 
 === Item 3. Matters arising since the twenty-third session
@@ -90,7 +89,7 @@ h|_Document title_ h|_Document symbol_ |
 |For information
 |===
 
-The secretariat will report on matters arising from the UNECE’s Executive Committee (EXCOM) and other UN bodies and conferences since the twenty-third session.
+The secretariat will report on matters arising from the UNECE's Executive Committee (EXCOM) and other UN bodies and conferences since the twenty-third session.
 
 Delegations will have an opportunity to review and discuss the topics raised.
 
@@ -275,7 +274,7 @@ h|_Document title_ h|_Document symbol_ |
 |For information
 |===
 
-At the 23rd Plenary, the UN/LOCODE Advisory Group Mandate and Terms of Reference were approved (ECE/TRADE/C/CEFACT/2017/17). This group aims to ensure the maintenance and further develop the UN/LOCODE standards and to further enhance the network of UN/LOCODE Focal Points. The first meeting of this group was held in December 2017; this meeting’s report will be presented to the Plenary for endorsement.
+At the 23rd Plenary, the UN/LOCODE Advisory Group Mandate and Terms of Reference were approved (ECE/TRADE/C/CEFACT/2017/17). This group aims to ensure the maintenance and further develop the UN/LOCODE standards and to further enhance the network of UN/LOCODE Focal Points. The first meeting of this group was held in December 2017; this meeting's report will be presented to the Plenary for endorsement.
 
 Delegations will have an opportunity to review and discuss this.
 
@@ -300,7 +299,7 @@ h|_Document title_ h|_Document symbol_ |
 |===
 
 
-At the 23rd Plenary, the “Sustainable Fisheries Team of Specialists Mandate and Terms of Reference” were approved (ECE/TRADE/C/CEFACT/2017/16) and was subsequently approved, with minor modifications, by the UNECE Executive Committee (EXCOM), during its 92nd meeting (ECE/TRADE/C/CEFACT/2017/16/Rev1). This group aims to support the implementation of the Fisheries Language for Universal eXchange (FLUX) standard as well as other standards on sustainable fisheries on a global scale. The first meeting of this group was held in January 2018; this meeting’s report will be presented to the Plenary for information.
+At the 23rd Plenary, the "`Sustainable Fisheries Team of Specialists Mandate and Terms of Reference`" were approved (ECE/TRADE/C/CEFACT/2017/16) and was subsequently approved, with minor modifications, by the UNECE Executive Committee (EXCOM), during its 92nd meeting (ECE/TRADE/C/CEFACT/2017/16/Rev1). This group aims to support the implementation of the Fisheries Language for Universal eXchange (FLUX) standard as well as other standards on sustainable fisheries on a global scale. The first meeting of this group was held in January 2018; this meeting's report will be presented to the Plenary for information.
 
 The Sustainable Fisheries Team of Specialists will present for approval their proposed Programme of Work for the period 2018-2019 (ECE/TRADE/C/CEFACT/2018/22).
 
@@ -327,7 +326,7 @@ h|_Document title_ h|_Document symbol_ |
 
 Delegations will have an opportunity to provide their perspectives on emerging requirements and developments in the field of trade facilitation and electronic business.
 
-UN/CEFACT continues to have an important role to play in the implementation of the WTO’s Trade Facilitation Agreement, including with respect to the single window, use of international standards and national trade facilitation committees. Blockchain and Traceability is becoming an increasingly important issue for governments and business, as well as for organisations such as the WTO and WCO. It is critical that UN/CEFACT standards continue to underpin new trends in international trade. UN/CEFACT will also seek to ensure that its work supports the 2030 Agenda for Sustainable Development.
+UN/CEFACT continues to have an important role to play in the implementation of the WTO's Trade Facilitation Agreement, including with respect to the single window, use of international standards and national trade facilitation committees. Blockchain and Traceability is becoming an increasingly important issue for governments and business, as well as for organisations such as the WTO and WCO. It is critical that UN/CEFACT standards continue to underpin new trends in international trade. UN/CEFACT will also seek to ensure that its work supports the 2030 Agenda for Sustainable Development.
 
 The goal of this session is to brainstorm on how to build on progress in key projects and activities and on those areas that might be given priority in the future.
 
