@@ -245,7 +245,6 @@ PLATFORMS
 
 DEPENDENCIES
   metanorma-cli
-  metanorma-unece
   relaton-cli
 
 BUNDLED WITH
