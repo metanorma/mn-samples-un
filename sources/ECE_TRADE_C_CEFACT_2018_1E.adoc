@@ -1,5 +1,5 @@
 = Annotated provisional agenda for the twenty-fourth session
-:title: Annotated provisional agenda for the twenty-fourth session{blank}footnote:[For reasons of economy, delegates are requested to bring copies of all relevant documents to the session. There will be no documentation available in the conference room. Before the session, documents may be downloaded from the UNECE website (http://www.unece.org/24thuncefactplenary.html).] footnote:[All delegates are requested to complete the online registration form available on the UNECE website (http://www.unece.org/24thuncefactplenary.html). Upon arrival at the Palais des Nations, delegates should obtain an identification badge at the UNOG Security and Safety Section, located at the Pregny Gate (14, Av. de la Paix). In case of difficulty, please contact the secretariat by telephone (ext. 73254). For a map of the Palais des Nations and other useful information, see the website: http://www.unece.org/meetings/practical.html.]
+:title: Annotated provisional agenda for the twenty-fourth session{blank}
 :subtitle: To be held at the Palais des Nations, Geneva, starting at 10.00 on Monday, 30 April 2018,
 in Salle VII.
 :doctype: plenary
@@ -21,6 +21,9 @@ in Salle VII.
 :local-cache-only:
 :data-uri-image:
 
+NOTE: For reasons of economy, delegates are requested to bring copies of all relevant documents to the session. There will be no documentation available in the conference room. Before the session, documents may be downloaded from the UNECE website (http://www.unece.org/24thuncefactplenary.html).
+
+NOTE: All delegates are requested to complete the online registration form available on the UNECE website (http://www.unece.org/24thuncefactplenary.html). Upon arrival at the Palais des Nations, delegates should obtain an identification badge at the UNOG Security and Safety Section, located at the Pregny Gate (14, Av. de la Paix). In case of difficulty, please contact the secretariat by telephone (ext. 73254). For a map of the Palais des Nations and other useful information, see the website: http://www.unece.org/meetings/practical.html.
 
 == Provisional agenda
 
@@ -43,9 +46,9 @@ in Salle VII.
 
 === Openning
 
-The provisional agenda and timetable for the twenty-fourth session of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has been drawn up by the Bureau in consultation with the secretariat. It is based on the decisions adopted at the twenty-third session. There will be simultaneous interpretation into English, French and Russian. 
+The provisional agenda and timetable for the twenty-fourth session of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has been drawn up by the Bureau in consultation with the secretariat. It is based on the decisions adopted at the twenty-third session. There will be simultaneous interpretation into English, French and Russian.
 
-The session will be opened by the Executive Secretary of the United Nations Economic Commission for Europe (UNECE). 
+The session will be opened by the Executive Secretary of the United Nations Economic Commission for Europe (UNECE).
 
 
 === Item 1. Adoption of the agenda
@@ -93,11 +96,11 @@ Delegations will have an opportunity to review and discuss the topics raised.
 
 === Item 4.	Bureau overview of developments
 
-The Bureau will provide an overview of developments since the last session and will set the stage for the following agenda items. 
+The Bureau will provide an overview of developments since the last session and will set the stage for the following agenda items.
 
-Delegations will have an opportunity to review and discuss the topics raised. 
+Delegations will have an opportunity to review and discuss the topics raised.
 
-=== Item 5. Reports of rapporteurs 
+=== Item 5. Reports of rapporteurs
 
 [%unnumbered,cols="3*"]
 |===
@@ -130,7 +133,7 @@ A discussion will take place on potential areas for collaboration between UN/CEF
 
 The following standards will be presented to the Plenary for approval and delegations will have an opportunity to discuss these:
 
-UN/EDIFACT Directory (Versions D.17A and D.17B) 
+UN/EDIFACT Directory (Versions D.17A and D.17B)
 (http://www.unece.org/tradewelcome/un-centre-for-trade-facilitation-and-e-business-uncefact/outputs/standards/unedifact/directories/2011-present.html)
 
 UN/LOCODE Directory (Versions 2017-1 and 2017-2)
@@ -139,7 +142,7 @@ UN/LOCODE Directory (Versions 2017-1 and 2017-2)
 UN/CEFACT Core Component Library (Versions D.17A and D.17B)
 (http://www.unece.org/cefact/codesfortrade/unccl/ccl_index.html)
 
-UN/CEFACT XML Schema Library (Versions D.17A and D.17B) (http://www.unece.org/cefact/xml_schemas/index) 
+UN/CEFACT XML Schema Library (Versions D.17A and D.17B) (http://www.unece.org/cefact/xml_schemas/index)
 
 Animal Traceability Business Requirement Specification version 1.2 (http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS_Animal_Traceability_BRS_v1.2.pdf)
 
@@ -157,7 +160,7 @@ Cross Industry Ordering Process Requirement Specification Mapping version 3 (htt
 
 Cross Industry Quotation Process Requirement Specification Mapping version 2 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIQ_CCBDA_Cross_Industry_Quotation__Process_v2.pdf)
 
-Cross Industry Remittance Process Requirement Specification Mapping version 2 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIR_CCBDA_Cross_Industry_Remittance_Process_v2.pdf) 
+Cross Industry Remittance Process Requirement Specification Mapping version 2 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIR_CCBDA_Cross_Industry_Remittance_Process_v2.pdf)
 
 eCMR Business Requirement Specification version 1 (to be put on the website shortly)
 
@@ -212,7 +215,7 @@ h|_Document title_ h|_Document symbol_ |
 |ECE/TRADE/C/CEFACT/2018/14
 |For noting
 
-|Meeting Report and Recommendations of the 4th UNECE International Conference on Single Window of October 2017 
+|Meeting Report and Recommendations of the 4th UNECE International Conference on Single Window of October 2017
 |ECE/TRADE/C/CEFACT/2018/15
 |For information
 
@@ -352,7 +355,7 @@ h|_Document title_ h|_Document symbol_ |
 
 [%unnumbered,cols="3*"]
 |===
-^.^h|_Date and time_ 
+^.^h|_Date and time_
 ^.^h|_Agenda item_
 ^.^h|_Introduced by_
 
@@ -387,11 +390,11 @@ h|_Document title_ h|_Document symbol_ |
 |Rapporteurs
 
 |15.30 – 16:00
-|*Item 6:* Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business 
+|*Item 6:* Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business
 |Secretariat
 
 |16.00 – 17.30
-|*Item 7:* United Nations Centre for Trade Facilitation and Electronic Business  recommendations and standards 
+|*Item 7:* United Nations Centre for Trade Facilitation and Electronic Business  recommendations and standards
 |Bureau
 
 |17.30 – 18.00
@@ -401,11 +404,11 @@ h|_Document title_ h|_Document symbol_ |
 3+^.^|*Tuesday, 1 May*
 
 |10:00 – 10:30
-|*Item 9:* Advisory Group on the United Nations Code for Trade and Transport Locations 
+|*Item 9:* Advisory Group on the United Nations Code for Trade and Transport Locations
 |Advisory Group Chair
 
 |10:30 – 11:00
-|*Item 10:*  Team of Specialists on Sustainable Fisheries 
+|*Item 10:*  Team of Specialists on Sustainable Fisheries
 |Team of Specialists Chair
 
 |11.00 – 12.30
