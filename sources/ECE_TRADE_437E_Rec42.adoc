@@ -1,5 +1,4 @@
 = Trade and Transport Facilitation Monitoring Mechanism
-:title: Trade and Transport Facilitation Monitoring Mechanism
 :doctype: recommendation
 :docnumber: 42
 :status: published
@@ -15,11 +14,11 @@
 
 [abstract]
 .Foreword
-It is my pleasure to introduce this new recommendation on monitoring the effectiveness of policies and procedures that facilitate trade and speed up international supply and value chains. Facilitating trade is one of the vectors to improving peoples’ lives and reducing inequalities. Using international standards and standard procedures creates a level playing field for all actors in both developed and developing economies.
+It is my pleasure to introduce this new recommendation on monitoring the effectiveness of policies and procedures that facilitate trade and speed up international supply and value chains. Facilitating trade is one of the vectors to improving peoples' lives and reducing inequalities. Using international standards and standard procedures creates a level playing field for all actors in both developed and developing economies.
 
 There is a need, however, for countries to establish sustainable national trade and transport facilitation monitoring mechanisms to measure and assess progress and to assist in policy making and modernization efforts.
 
-Recommendation 42 on Trade and Transport Facilitation Monitoring Mechanisms (TTFMM) addresses issues related to institutional arrangements and methodology in designing and implementing TTFMM. It is an important contribution to UNECE’s suite of Trade Facilitation recommendations and guidance material.
+Recommendation 42 on Trade and Transport Facilitation Monitoring Mechanisms (TTFMM) addresses issues related to institutional arrangements and methodology in designing and implementing TTFMM. It is an important contribution to UNECE's suite of Trade Facilitation recommendations and guidance material.
 
 //image::olga-signature.png[]
 
@@ -33,7 +32,7 @@ United Nations Economic Commission for Europe
 
 Many countries around the world have made efforts to facilitate trade and transport. Few, however, have established sustainable mechanisms to monitor the effectiveness of policies and procedures that facilitate trade and speed up international supply and value chains.
 
-Several global trade facilitation performance surveys and databases{blank}footnote:[Some examples of this are the World Bank’s Logistics Performance Index (LPI) and Doing Business databases, the Word Economic Forum Executive Opinion Surveys, and the ESCAP-World Bank Trade Cost Database (see <<annex1>>).] are now available, and have proven very useful as benchmarking and awareness raising tools. They do not, however, provide sufficiently detailed information to assist in developing or updating national trade facilitation action plans.
+Several global trade facilitation performance surveys and databases{blank}footnote:[Some examples of this are the World Bank's Logistics Performance Index (LPI) and Doing Business databases, the Word Economic Forum Executive Opinion Surveys, and the ESCAP-World Bank Trade Cost Database (see <<annex1>>).] are now available, and have proven very useful as benchmarking and awareness raising tools. They do not, however, provide sufficiently detailed information to assist in developing or updating national trade facilitation action plans.
 
 Trade and transport facilitation assessments have also been conducted in some countries. In many cases these are ad hoc in nature, with little coordination among development partners, and with limited support from the governmental agencies involved.
 
@@ -64,7 +63,8 @@ In the light of the above, UN/CEFACT at its twenty-third Plenary session in Apri
 ** Institutionalize TTFMMs: A body overseeing the functioning of a TTFMM should include representatives of all, or key, stakeholders in trade and transport facilitation; and National Trade Facilitation Bodies, whenever possible, should be fully utilized to lead the activities under a TTFMM.
 * International organizations and development partners, whenever possible, should extend their assistance to countries in need, to assist them in establishing their own TTFMMs – and especially the Least Developed Countries (LDCs), Landlocked Developing Countries (LLDCs) and Small Island Developing Countries (SIDS).
 
-== Guidelines for Recommendation n°42 on the establishment of a Trade and Transport  Facilitation Monitoring Mechanism (TTFMM)
+== Guidelines for Recommendation n°42 on the establishment of a Trade and Transport Facilitation Monitoring Mechanism (TTFMM)
+
 === Introduction
 There is a need for countries to establish sustainable national Trade and Transport Facilitation Monitoring Mechanisms (TTFMMs) to measure and assess progress in trade and transport facilitation and assist in formulating, updating and prioritizing recommendations for trade and transport facilitation. Experiences have shown that trade and transport facilitation assessments have been successfully conducted in some countries. However, in many cases they are ad hoc in nature, with little coordination among development partners, and with limited support from the governmental agencies involved.
 
@@ -110,12 +110,12 @@ When selecting products for monitoring, and whenever possible, one or more of th
 * The product should be relevant to the health, well-being and/or social cohesion of citizens.
 
 [[trade-routes-corridors]]
-====  Trade routes and corridors{blank}footnote:[According to the World Bank, a trade and transport corridor is a coordinated bundle of transport and logistics infrastructure and services that facilitates trade and transport flows between major centers of economic activity. Source: Carruthers, Robin; Kunaka, Charles. 2014. Trade and transport corridor management toolkit. Washington DC; World Bank Group.]
+==== Trade routes and corridors{blank}footnote:[According to the World Bank, a trade and transport corridor is a coordinated bundle of transport and logistics infrastructure and services that facilitates trade and transport flows between major centers of economic activity. Source: Carruthers, Robin; Kunaka, Charles. 2014. Trade and transport corridor management toolkit. Washington DC; World Bank Group.]
 
 The trade routes and corridors to be assessed should be selected primarily as a function of the products selected for assessment and/or because of their economic importance. In the case where products are transported along different corridors, priority should be given to those corridors which are most frequently used or are more strategically important to the country or region. Consultation with the private sector could be very useful in identifying such corridors.
 
 ==== Data available from international organisations
-International trade and transport facilitation indicators already collected by international organizations should be considered when developing a general overview of national trade and transport facilitation. Such indicators may be derived from (among others) the ESCAP{blank}footnote:[Economic and Social Commission for Asia and the Pacific (ESCAP).]-World Bank Trade Cost database, the World Bank Logistics Performance Index, the World Bank Doing Business/Trading Across Borders Indicators, the UNCTAD{blank}footnote:[United Nations Conference on Trade and Development (UNCTAD).] Liner Shipping Connectivity Index, the OECD{blank}footnote:[Organization for Economic Cooperation and Development (OECD).] Trade Facilitation database, the United Nations Regional Commissions Trade Facilitation and Paperless Trade Implementation Survey database, the World Economic Forum’s Global Competitiveness Index, and ADB’s CAREC{blank}footnote:[Asian Development Bank (ADB) Central Asia Regional Economic Cooperation (CAREC).] Corridor Performance Measurement and Monitoring.footnote:[An overview of different indicators is shown in <<annex1>>.] A description of some of these indicators can be found in <<annex1>>.
+International trade and transport facilitation indicators already collected by international organizations should be considered when developing a general overview of national trade and transport facilitation. Such indicators may be derived from (among others) the ESCAP{blank}footnote:[Economic and Social Commission for Asia and the Pacific (ESCAP).]-World Bank Trade Cost database, the World Bank Logistics Performance Index, the World Bank Doing Business/Trading Across Borders Indicators, the UNCTAD{blank}footnote:[United Nations Conference on Trade and Development (UNCTAD).] Liner Shipping Connectivity Index, the OECD{blank}footnote:[Organization for Economic Cooperation and Development (OECD).] Trade Facilitation database, the United Nations Regional Commissions Trade Facilitation and Paperless Trade Implementation Survey database, the World Economic Forum's Global Competitiveness Index, and ADB's CAREC{blank}footnote:[Asian Development Bank (ADB) Central Asia Regional Economic Cooperation (CAREC).] Corridor Performance Measurement and Monitoring.footnote:[An overview of different indicators is shown in <<annex1>>.] A description of some of these indicators can be found in <<annex1>>.
 
 === Data collection methodology and indicators
 Data collection, including (among others) the types of data and data collection methods, should be defined within, and at the same time as, the scope of monitoring. The methods for data collection, calculation and aggregation (whenever possible) should be selected, aligned and harmonized so as to facilitate, to the greatest extent possible, national, regional and international comparisons. Data collection should be reviewed and conducted on regular basis for the purpose of effective monitoring (e.g. monthly, quarterly, or yearly as appropriate).
@@ -125,7 +125,7 @@ Data related to trade and transport facilitation monitoring, in an automated sys
 
 Some necessary data will not be available from existing automated systems in a country. Any TTFMM should consider developing a methodology to collect further data which would be pertinent to the monitoring as identified through its specific business use case.footnote:[See UNECE Recommendation n°34 on Data Simplification and Standardization for International Trade, available at http://www.unece.org/fileadmin/DAM/trade/Publications/ECE-TRADE-400E_Rec34.pdf (accessed 14 December 2016).]
 
-==== Business Process Analysis (BPA) as a potential method for data collection{blank}footnote:[UN/CEFACT has developed such a methodology called “Business Requirement Specification”, available at http://www.unece.org/cefact/brs/brs_index.html (accessed 14 December 2016).]
+==== Business Process Analysis (BPA) as a potential method for data collection{blank}footnote:[UN/CEFACT has developed such a methodology called "`Business Requirement Specification`", available at http://www.unece.org/cefact/brs/brs_index.html (accessed 14 December 2016).]
 
 It is recommended that countries utilize published instruments and existing tools and techniques for business process analysis. An example of this is the UNNExT _Business Process Analysis Guide to Simplify Trade Procedures_{blank}footnote:[For more information, refer to UNNExT, 2012, _Business Process Analysis Guide to Simplify Trade Procedures_, UNNExT. available at http://www.unescap.org/resources/business-process-analysis-guide-simplify-trade-procedures (accessed 2 January 2017).] which was developed to assist in the collection and analysis of data, the construction of databases and the generation of appropriate indicators.
 
@@ -141,16 +141,16 @@ The Business Process Analysis Plus (BPA+) approach is built upon the BPA concept
 
 image::figure2a.png[]
 
-
 TCD/CPMM and TRS, which focus on a subset of procedures covered by BPA (See the Figure above) and provide alternative data collection methods, could be used to verify and supplement the data and outputs from the standard BPA. BPA data is typically based on interviews with key informants, which are verified through stakeholder consultation(s), while TCD/CPMM is often based on the accumulation of quantitative information provided by drivers moving a single shipment along a selected route. TRS is based on data collection forms filled by Customs officers, customs brokers or electronic time stamps (when available) for a sample of shipments/customs declarations.
 
-Another difference between BPA and the other two methods (TRS and TCD/CPMM) is that BPA not only provides indicators, but also provides a ‘standard’ way of analyzing indicators, trade procedures, identifying bottlenecks and diagnosing trade barriers—while the other two methods mainly provide indicators.
+Another difference between BPA and the other two methods (TRS and TCD/CPMM) is that BPA not only provides indicators, but also provides a ‘standard' way of analyzing indicators, trade procedures, identifying bottlenecks and diagnosing trade barriers—while the other two methods mainly provide indicators.
 
 Source: The box is derived from an ESCAP-ADB publication entitled _Towards a National Integrated and Sustainable Trade and Transport Facilitation Monitoring Mechanism: BPA+_ (2014). Available as of 14 December 2016 at: <http://www.unescap.org/resources/towards-national-integrated-and-sustainable-trade-and-transport-facilitation-monitoring>.
 ====
 
 
-====  Construction and updating of national database
+==== Construction and updating of national database
+
 The executive body of a TTFMM, such as a NTFB, should develop, maintain and update a national TTFMM database. The database should include the following data whenever possible:
 
 * Trade process descriptions, process flows and related rules/regulations for each, trade & transport procedures for selected processes/products along selected corridors;
@@ -161,7 +161,7 @@ The rationale for structuring the database in such way is that, while internatio
 
 === Data analysis and recommendations
 ==== Presentation of data and key results
-Data should be presented in a very user-friendly manner whenever possible. For this purpose, data may be grouped into different tiers, as shown in <<figure2>>. The top tier data should be a small number of indicators which are targeted for policy decision-making or general public awareness. The middle tier of data should be structured to assist government control agencies to analyse and manage trade and transport facilitation. The lower tier database provides information that is as detailed as possible for eventual analysis by technical teams or analysts. An example of top- and middle-tiers indicators is given in <<annex2>>. This classification is largely in line with the Recommendation n°40 on “level of participation”.
+Data should be presented in a very user-friendly manner whenever possible. For this purpose, data may be grouped into different tiers, as shown in <<figure2>>. The top tier data should be a small number of indicators which are targeted for policy decision-making or general public awareness. The middle tier of data should be structured to assist government control agencies to analyse and manage trade and transport facilitation. The lower tier database provides information that is as detailed as possible for eventual analysis by technical teams or analysts. An example of top- and middle-tiers indicators is given in <<annex2>>. This classification is largely in line with the Recommendation n°40 on "`level of participation`".
 
 [[figure2]]
 .Recommended tier of indicators and database
@@ -185,9 +185,9 @@ As part of ensuring the sustainability of a TTFMM, the national human capacity f
 
 One type of stakeholder, which may be pertinent to a TTFMM, and good to involve, are existing national think tanks or research institutions that already have a mandate for trade or economic development, and which could, therefore, support the trade facilitation performance studies under their existing—or a slightly expanded—mandate.
 
-To further increase sustainability, a “training of trainers” mechanism may be established, whereby those receiving initial training are asked to commit to sharing the knowledge they have gained by training others. The ultimate goal is to create a pool of proficient local experts (or institutions) to conduct all of the essential studies.
+To further increase sustainability, a "`training of trainers`" mechanism may be established, whereby those receiving initial training are asked to commit to sharing the knowledge they have gained by training others. The ultimate goal is to create a pool of proficient local experts (or institutions) to conduct all of the essential studies.
 
-Priority for participation in capacity building activities should be carefully thought out and given to those most likely be involved directly in the studies and related activities, including, for example, NTFB members and Secretariat staff (or staff from the lead agency), Customs officers, personnel from trucking or freight-forwarders’ associations, and the staff of trade-related research institutions.
+Priority for participation in capacity building activities should be carefully thought out and given to those most likely be involved directly in the studies and related activities, including, for example, NTFB members and Secretariat staff (or staff from the lead agency), Customs officers, personnel from trucking or freight-forwarders' associations, and the staff of trade-related research institutions.
 
 === Resources
 In the long term, the operation of a TTFMM is likely to be underpinned by national resources, as well as external assistance from development partners or donors. While an adequate and separate budget may be provided by the Government for operation of a TTFMM, given its broad social and economic benefits, innovative solutions towards system sustainability should be considered (such as key government agencies providing qualified staff on a part-time or full-time basis to conduct the studies). While this latter solution may raise issues regarding the neutrality of the outputs of the TTFMM, this approach could be useful in building the capacity of officials that will continue to serve—or ultimately return to—their original agency.
@@ -203,7 +203,7 @@ Some countries, especially those identified in the previous section, may face di
 While a TTFMM usually has a national scope, some countries (and particularly landlocked developing or transit countries) are very much dependent on other countries for facilitating trade. In such cases, bilateral or sub-regional mechanisms will be needed to enable the sharing of information, to conduct cross-border studies for monitoring progress, and to identify simplification measures and modernisation projects needed along the relevant international supply chains. Some suggestions for cross-country indicators that could contribute to establishing the basis for a regional TTFMM can be found in <<annex1>>.
 
 === Gender considerations
-UN/CEFACT is committed to ensuring that the gender dimension is reflected in norms, roles, procedures, and access to resources. Government and trade are encouraged to promote equal opportunities for women and men within the scope of the activities of National Trade Facilitation bodies or similar institutions. UN/CEFACT specifically encourages the collection, analysis, and monitoring of gender disaggregated data in order to better understand and support women’s engagement in international trade and transport facilitation.
+UN/CEFACT is committed to ensuring that the gender dimension is reflected in norms, roles, procedures, and access to resources. Government and trade are encouraged to promote equal opportunities for women and men within the scope of the activities of National Trade Facilitation bodies or similar institutions. UN/CEFACT specifically encourages the collection, analysis, and monitoring of gender disaggregated data in order to better understand and support women's engagement in international trade and transport facilitation.
 
 This Recommendation encourages governments, business communities, development partners, international organizations, and other policymakers to follow UN/CEFACT ́s commitment to ensure inclusiveness for women.
 
@@ -212,13 +212,13 @@ This Recommendation encourages governments, business communities, development pa
 == An overview of different cross-country indicators{blank}footnote:[The summary of each indicator has been made as concise as possible because of the constantly evolving nature of these indicators. Readers are advised to browse the relevant website to obtain the latest information on the composition of each indicator.]
 
 === UNCTAD Liner Shipping Connectivity Index
-UNCTAD Liner Shipping Connectivity index (LSCI) serves as an indicator of a country’s level of integration into global liner shipping networks. The degree of a country’s access to world markets depends largely on their transport connectivity, especially when it comes to regular shipping services for the import and export of manufactured goods. The LSCI is therefore generated using data such as number of ships; total container-carrying capacity of those ships; maximum vessel size; number of services; and number of companies that deploy container ships on services to and from a country’s ports.
+UNCTAD Liner Shipping Connectivity index (LSCI) serves as an indicator of a country's level of integration into global liner shipping networks. The degree of a country's access to world markets depends largely on their transport connectivity, especially when it comes to regular shipping services for the import and export of manufactured goods. The LSCI is therefore generated using data such as number of ships; total container-carrying capacity of those ships; maximum vessel size; number of services; and number of companies that deploy container ships on services to and from a country's ports.
 
 === ESCAP-World Bank Trade Cost database
 The trade cost measure is a comprehensive all-inclusive measure based on micro-theory and calculated using macroeconomic data. The current version includes data from 1995 to 2014 for over 180 countries. Available as of 14 December 2016 at: http://databank.worldbank.org/data/reports.aspx?source=escap-world-bank-international-trade-costs.
 
 === World Bank Logistics Performance Index (LPI)
-The LPI is based on a worldwide survey of operators on the ground (global freight forwarders and express carriers) providing feedback on the logistics “friendliness” of the countries in which they operate and those with which they trade. Available as of 14 December 2016 at: http://lpi.worldbank.org/
+The LPI is based on a worldwide survey of operators on the ground (global freight forwarders and express carriers) providing feedback on the logistics "`friendliness`" of the countries in which they operate and those with which they trade. Available as of 14 December 2016 at: http://lpi.worldbank.org/
 
 === World Bank Doing Business / Trading Across Borders Indicators
 Doing Business records the time and cost associated with the logistical process of exporting and importing goods. Available as of 14 December 2016 at: http://www.doingbusiness.org/data/exploretopics/trading-across-borders#.
@@ -229,11 +229,11 @@ The OECD trade facilitation indicators cover a large range of border procedures 
 === United Nations Regional Commissions Trade Facilitation and Paperless Trade Implementation Survey database
 The latest survey reports the state of trade facilitation implementation in over 100 economies covering some of the key trade facilitation measures featured in the WTO Trade Facilitation Agreement and more advanced cross-border paperless trade measures. Available as of 14 December 2016 at: http://www.unescap.org/resources/joint-unrcs-trade-facilitation-and-paperless-trade-implementation-survey-2015-global.
 
-=== World Economic Forum’s Global Competitiveness Index
+=== World Economic Forum's Global Competitiveness Index
 The Global Competitiveness Report 2016-2017 provides an assessment of 138 economies and included areas related to trade and transport facilitation. Available as of 14 December 2016 at: http://reports.weforum.org/global-competitiveness-index/#topic=data.
 
-=== ADB’s CAREC Corridor Performance Measurement and Monitoring (CPMM)
-ADB’s CAREC CPMM covers trade and transport facilitation performance in selected Central Asian countries. Available as of 14 December 2016 at: https://www.adb.org/publications/carec-corridor-performance-measurement-and-monitoring-forward-looking-retrospective.
+=== ADB's CAREC Corridor Performance Measurement and Monitoring (CPMM)
+ADB's CAREC CPMM covers trade and transport facilitation performance in selected Central Asian countries. Available as of 14 December 2016 at: https://www.adb.org/publications/carec-corridor-performance-measurement-and-monitoring-forward-looking-retrospective.
 
 [[annex2]]
 [appendix]
@@ -242,7 +242,7 @@ ADB’s CAREC CPMM covers trade and transport facilitation performance in select
 A country may consider developing the following indicators to monitor trade and transport facilitation. Each indicator can be associated with exports and/or imports. For each indicator, a comparison with historical data, if available, can be useful for assessing whether performance has improved or deteriorated.
 
 === Top tier indicators
-The indicators under the category “Product-specific indicators” in <<table_a1>> are derived from indicators under Trading Across Borders developed by the World Bank, available as of 14 December 2016 at:<http://www.doingbusiness.org/data/exploretopics/trading-across-borders#close>. At the same time, when done at a country-level these indicators should be determined on a product-by-product basis, for those products which the country has identified as being a priority (the World Bank tries to use the same products for all countries in order for data to be comparable).
+The indicators under the category "`Product-specific indicators`" in <<table_a1>> are derived from indicators under Trading Across Borders developed by the World Bank, available as of 14 December 2016 at:<http://www.doingbusiness.org/data/exploretopics/trading-across-borders#close>. At the same time, when done at a country-level these indicators should be determined on a product-by-product basis, for those products which the country has identified as being a priority (the World Bank tries to use the same products for all countries in order for data to be comparable).
 
 [[table_a1]]
 .Proposed top tier indicators

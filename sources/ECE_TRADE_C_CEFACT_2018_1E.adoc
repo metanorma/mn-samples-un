@@ -1,0 +1,435 @@
+= Annotated provisional agenda for the twenty-fourth session
+:subtitle: To be held at the Palais des Nations, Geneva, starting at 10.00 on Monday, 30 April 2018,
+in Salle VII.
+:doctype: plenary
+:docnumber: GE.18-01763(E)
+:committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
+:status: published
+:copyright-year: 2018
+:session: 24
+:session-date: Geneva, 30 April – 1 May 2018
+:agenda-item: Item 1 of the provisional agenda
+:agenda-id: ECE/TRADE/C/CEFACT/2018/1
+:revdate: 2018-02-09
+:language: en
+:distribution: General
+:mn-document-class: unece
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_TRADE_C_CEFACT_2018_1E.adoc
+:toc:
+:local-cache-only:
+:data-uri-image:
+
+NOTE: For reasons of economy, delegates are requested to bring copies of all relevant documents to the session. There will be no documentation available in the conference room. Before the session, documents may be downloaded from the UNECE website (http://www.unece.org/24thuncefactplenary.html).
+
+NOTE: All delegates are requested to complete the online registration form available on the UNECE website (http://www.unece.org/24thuncefactplenary.html). Upon arrival at the Palais des Nations, delegates should obtain an identification badge at the UNOG Security and Safety Section, located at the Pregny Gate (14, Av. de la Paix). In case of difficulty, please contact the secretariat by telephone (ext. 73254). For a map of the Palais des Nations and other useful information, see the website: http://www.unece.org/meetings/practical.html.
+
+== Provisional agenda
+
+. Adoption of the agenda.
+. Elections.
+. Matters arising since the twenty-third session.
+. Bureau overview of developments.
+. Reports of rapporteurs.
+. Activities of other Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business.
+. Recommendations and standards.
+. United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference and procedures.
+. Advisory Group on the United Nations Code for Trade and Transport Locations.
+. Team of Specialists on Sustainable Fisheries.
+. Future challenges in trade facilitation and electronic business.
+. Other business.
+. Adoption of decisions and draft report of the twenty-fourth session.
+
+
+== Annotations
+
+=== Openning
+
+The provisional agenda and timetable for the twenty-fourth session of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has been drawn up by the Bureau in consultation with the secretariat. It is based on the decisions adopted at the twenty-third session. There will be simultaneous interpretation into English, French and Russian.
+
+The session will be opened by the Executive Secretary of the United Nations Economic Commission for Europe (UNECE).
+
+
+=== Item 1. Adoption of the agenda
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Draft agenda |ECE/TRADE/C/CEFACT/2018/1 |For decision
+|===
+
+The secretariat will present the dra|t agenda for adoption (ECE/TRADE/C/CEFACT/2018/1) and will inform the Plenary of any proposed changes.
+
+
+=== Item 2. Elections
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Consolidated United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) mandate and terms of reference
+|ECE/TRADE/C/CEFACT/2017/15
+|For information
+|===
+
+Delegations who are physically present will elect the Chair for the UN/CEFACT Bureau for the period 2018 – 2021. The Chair will preside over the rest of the twenty-fourth session.
+
+Delegations are encouraged to refer to "`Consolidated UN/CEFACT mandate and terms of reference`" (ECE/TRADE/C/CEFACT/2017/15), paragraphs 52-73, adopted at the twenty-third session.
+
+
+=== Item 3. Matters arising since the twenty-third session
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Matters arising since the twenty-third session
+|ECE/TRADE/C/CEFACT/2018/3
+|For information
+|===
+
+The secretariat will report on matters arising from the UNECE's Executive Committee (EXCOM) and other UN bodies and conferences since the twenty-third session.
+
+Delegations will have an opportunity to review and discuss the topics raised.
+
+=== Item 4.	Bureau overview of developments
+
+The Bureau will provide an overview of developments since the last session and will set the stage for the following agenda items.
+
+Delegations will have an opportunity to review and discuss the topics raised.
+
+=== Item 5. Reports of rapporteurs
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Report of Rapporteur for Africa
+|ECE/TRADE/C/CEFACT/2018/4
+|For noting
+
+|Report of Rapporteur for Asia and the Pacific
+|ECE/TRADE/C/CEFACT/2018/5
+|For noting
+|===
+
+The regional rapporteurs will report on activities related to UN/CEFACT in their regions.
+
+Delegations will have an opportunity to review and discuss the topics raised.
+
+
+=== Item 6. Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business
+
+Delegates will be briefed about activities of other UNECE bodies on matters of potential interest to UN/CEFACT. Representatives from other UN organizations and other international organizations will be invited to highlight areas for potential cooperation with UN/CEFACT as well as current and future activities of relevance.
+
+A discussion will take place on potential areas for collaboration between UN/CEFACT and other UNECE bodies and international organizations.
+
+
+=== Item 7.	Recommendations and standards
+
+==== Standards for approval
+
+The following standards will be presented to the Plenary for approval and delegations will have an opportunity to discuss these:
+
+UN/EDIFACT Directory (Versions D.17A and D.17B)
+(http://www.unece.org/tradewelcome/un-centre-for-trade-facilitation-and-e-business-uncefact/outputs/standards/unedifact/directories/2011-present.html)
+
+UN/LOCODE Directory (Versions 2017-1 and 2017-2)
+(http://www.unece.org/cefact/locode/welcome.html)
+
+UN/CEFACT Core Component Library (Versions D.17A and D.17B)
+(http://www.unece.org/cefact/codesfortrade/unccl/ccl_index.html)
+
+UN/CEFACT XML Schema Library (Versions D.17A and D.17B) (http://www.unece.org/cefact/xml_schemas/index)
+
+Animal Traceability Business Requirement Specification version 1.2 (http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS_Animal_Traceability_BRS_v1.2.pdf)
+
+Fisheries Language for Universal eXchange (FLUX); also known as "Electronic Interchange of fisheries catch data" Business Requirements Specification version 1.1 (http://www.unece.org/fileadmin/DAM/cefact/brs/FLUX_P1000-v1.1.zip)
+
+Traceability of Primary Natural Products Business Requirements Specification version 1.0 (http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS__TraceabilityOfPrimaryNaturalProducts_v1.0.pdf)
+
+Cross Industry Scheduling Business Requirements Specification version 2.0 (http://www.unece.org/fileadmin/DAM/cefact/brs/BRS_Cross_Industry_Scheduling_Process_v2_FINAL.pdf)
+
+Cross Industry Catalogue Process Requirement Specification Mapping version 2 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIC_CCBDA_Cross_Industry_Catalogue_Process_v2.pdf)
+
+Cross Industry Delivering Process Requirement Specification Mapping version 3 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CID_CCBDA_Cross_Industry_Delivering_Process_v3.pdf)
+
+Cross Industry Ordering Process Requirement Specification Mapping version 3 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIO_CCBDA_Cross_Industry_Ordering_Process_v3.pdf)
+
+Cross Industry Quotation Process Requirement Specification Mapping version 2 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIQ_CCBDA_Cross_Industry_Quotation__Process_v2.pdf)
+
+Cross Industry Remittance Process Requirement Specification Mapping version 2 (http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIR_CCBDA_Cross_Industry_Remittance_Process_v2.pdf)
+
+eCMR Business Requirement Specification version 1 (to be put on the website shortly)
+
+==== Other deliverable for noting
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|White Paper on Paperless Trade
+|ECE/TRADE/C/CEFACT/2018/6
+|For noting
+
+|White Paper on Trusted Transboundary Environment
+|ECE/TRADE/C/CEFACT/2018/7
+|For noting
+
+|White Paper on Data Pipeline Concept for Improving Data Quality in the Supply Chain
+|ECE/TRADE/C/CEFACT/2018/8
+|For noting
+
+|White Paper on Technical Application of Blockchain to United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Deliverables
+|ECE/TRADE/C/CEFACT/2018/9
+|For noting
+
+|White Paper on Women in Trade Facilitation
+|ECE/TRADE/C/CEFACT/2018/10
+|For noting
+
+|Procedure for Reference Data Model Artefact Publication
+|ECE/TRADE/C/CEFACT/2018/11
+|For noting
+|===
+
+The above deliverables will be presented to the Plenary for noting and delegations will have an opportunity to review and discuss these.
+
+==== Related issues for noting and information
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Executive Guide on eInvoicing / Cross Industry Invoice
+|ECE/TRADE/C/CEFACT/2018/12
+|For noting
+
+|Executive Guide on UN/LOCODE
+|ECE/TRADE/C/CEFACT/2018/13
+|For noting
+
+|Executive Guide on e-CMR
+|ECE/TRADE/C/CEFACT/2018/14
+|For noting
+
+|Meeting Report and Recommendations of the 4th UNECE International Conference on Single Window of October 2017
+|ECE/TRADE/C/CEFACT/2018/15
+|For information
+
+|Meeting Report of the 3rd UN/LOCODE Conference of April 2017
+|ECE/TRADE/C/CEFACT/2018/16
+|For information
+
+|UNECE 2017 Regional Report on Trade Facilitation and Paperless Trade
+|ECE/TRADE/C/CEFACT/2018/17
+|For information
+
+|UN Regional Commissions 2017 Global Report on Trade Facilitation and Paperless Trade
+|ECE/TRADE/C/CEFACT/2018/18
+|For information
+
+|Report on the use of United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Standards
+|ECE/TRADE/C/CEFACT/2018/Misc.1
+|For information
+|===
+
+Three Executive Guides and two meeting reports will be presented to the Plenary for noting.
+
+The UNECE Trade Facilitation Secretariat, in cooperation with the other UN Regional Commissions, has performed a survey and a subsequent report on the state of trade facilitation and paperless trade. The Global Report and the Regional Report will be presented to the Plenary for noting.
+
+Following up on Plenary Decision 16-16 (ECE/TRADE/C/CEFACT/2016/2 para 64) and Plenary Decision 17-21 (ECE/TRADE/C/CEFACT/2017/2 para 59-61), the secretariat has surveyed a sample of the user community in order to see how UN/CEFACT deliverables are being used. The Report (ECE/TRADE/C/CEFACT/2018/Misc.1) will be presented to the Plenary for information.
+
+Delegations will have an opportunity to review and discuss these.
+
+
+=== Item 8.	United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference and procedures
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Representation Procedure Guidelines
+|ECE/TRADE/C/CEFACT/2018/19
+|For noting
+|===
+
+The secretariat and the Bureau will present a Representation Procedure Guideline (ECE/TRADE/C/CEFACT/2018/19) to the Plenary for noting.
+
+Delegations will have an opportunity to review and discuss this.
+
+=== Item 9.	Advisory Group on the United Nations Code for Trade and Transport Locations
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Meeting Report of the UN/LOCODE Advisory Group of December 2017
+|ECE/TRADE/C/CEFACT/2018/20
+|For endorsement
+
+|Mandate and Terms of Reference of the Advisory Group on the United Nations Code for Trade and Transport Locations (UN/LOCODE)
+|ECE/TRADE/C/CEFACT/2017/17
+|For information
+|===
+
+At the 23rd Plenary, the UN/LOCODE Advisory Group Mandate and Terms of Reference were approved (ECE/TRADE/C/CEFACT/2017/17). This group aims to ensure the maintenance and further develop the UN/LOCODE standards and to further enhance the network of UN/LOCODE Focal Points. The first meeting of this group was held in December 2017; this meeting's report will be presented to the Plenary for endorsement.
+
+Delegations will have an opportunity to review and discuss this.
+
+
+=== Item 10. Team of Specialists on Sustainable Fisheries
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Meeting Report of the Team of Specialists on Sustainable Fisheries of January 2018
+|ECE/TRADE/C/CEFACT/2018/21
+|For endorsement
+
+|Programme of Work of the Team of Specialists on Sustainable Fisheries 2018-2019
+|ECE/TRADE/C/CEFACT/2018/22
+|For endorsement
+
+|Mandate and Terms of Reference of the Sustainable Fisheries Team of Specialists
+|ECE/TRADE/C/CEFACT/2017/16/Rev1
+|For information
+|===
+
+
+At the 23rd Plenary, the "`Sustainable Fisheries Team of Specialists Mandate and Terms of Reference`" were approved (ECE/TRADE/C/CEFACT/2017/16) and was subsequently approved, with minor modifications, by the UNECE Executive Committee (EXCOM), during its 92nd meeting (ECE/TRADE/C/CEFACT/2017/16/Rev1). This group aims to support the implementation of the Fisheries Language for Universal eXchange (FLUX) standard as well as other standards on sustainable fisheries on a global scale. The first meeting of this group was held in January 2018; this meeting's report will be presented to the Plenary for information.
+
+The Sustainable Fisheries Team of Specialists will present for approval their proposed Programme of Work for the period 2018-2019 (ECE/TRADE/C/CEFACT/2018/22).
+
+Delegations will have an opportunity to review and discuss this.
+
+=== Item 11. Future challenges in trade facilitation and electronic business
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Transparency in textile value chains in relation to the environmental, social and human health impacts of parts, components and production processes
+|ECE/TRADE/C/CEFACT/2018/23
+|For noting
+
+|Briefing note on United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Contributions to UN Sustainable Development Goal 12 – Responsible Production and Consumption
+|ECE/TRADE/C/CEFACT/2018/24
+|For noting
+
+|Briefing note on Blockchain for SDG
+|ECE/TRADE/C/CEFACT/2018/25
+|For noting
+|===
+
+Delegations will have an opportunity to provide their perspectives on emerging requirements and developments in the field of trade facilitation and electronic business.
+
+UN/CEFACT continues to have an important role to play in the implementation of the WTO's Trade Facilitation Agreement, including with respect to the single window, use of international standards and national trade facilitation committees. Blockchain and Traceability is becoming an increasingly important issue for governments and business, as well as for organisations such as the WTO and WCO. It is critical that UN/CEFACT standards continue to underpin new trends in international trade. UN/CEFACT will also seek to ensure that its work supports the 2030 Agenda for Sustainable Development.
+
+The goal of this session is to brainstorm on how to build on progress in key projects and activities and on those areas that might be given priority in the future.
+
+
+=== Item 12. Other business
+
+Delegations will be invited to raise other issues not previously addressed during the session.
+
+=== Item 13. Adoption of decisions and draft report of the twenty-fourth session
+
+Delegations will be invited to adopt the decisions and the draft report.
+
+[%unnumbered,cols="3*"]
+|===
+h|_Document title_ h|_Document symbol_ |
+
+|Draft report of the twenty-fourth session
+|ECE/TRADE/C/CEFACT/2018/2
+|For decision
+|===
+
+*Closing*
+
+== Provisional timetable
+
+[%unnumbered,cols="3*"]
+|===
+^.^h|_Date and time_
+^.^h|_Agenda item_
+^.^h|_Introduced by_
+
+3+^.^|*Monday, 30 April*
+
+|10.00 – 10.15
+|Opening
+|Executive Secretary of the United Nations Economic Commission for Europe
+
+|10.15 – 10.30
+|*Item 1:* Adoption of the agenda
+|Secretariat
+
+|10.30 – 11:30
+|*Item 2:* Elections
+|Secretariat and Bureau
+
+|11.30 – 12.00
+|*Item 3:* Matters arising since the twenty-third session
+|Secretariat
+
+|12.00 – 13.00
+|*Item 4:* Bureau overview of developments
+|Bureau
+
+|13.00 – 15.00
+|*Lunch break*
+|
+
+|15.00 – 15.30
+|*Item 5:* Reports of rapporteurs
+|Rapporteurs
+
+|15.30 – 16:00
+|*Item 6:* Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business
+|Secretariat
+
+|16.00 – 17.30
+|*Item 7:* United Nations Centre for Trade Facilitation and Electronic Business  recommendations and standards
+|Bureau
+
+|17.30 – 18.00
+|*Item 8:* United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference, and procedures
+|Secretariat and Bureau
+
+3+^.^|*Tuesday, 1 May*
+
+|10:00 – 10:30
+|*Item 9:* Advisory Group on the United Nations Code for Trade and Transport Locations
+|Advisory Group Chair
+
+|10:30 – 11:00
+|*Item 10:*  Team of Specialists on Sustainable Fisheries
+|Team of Specialists Chair
+
+|11.00 – 12.30
+|*Item 11:* Future challenges in trade facilitation
+and electronic business
+|Secretariat
+
+|12.30 – 13.00
+|*Item 12:* Other business
+|Chair
+
+|13.00 – 15.00
+|*Lunch break*
+|
+
+|15.00 – 18.00
+|*Item 13:* Adoption of decisions and draft report
+of the twenty-fourth session
+|Secretariat
+
+|
+|*Closing*
+|Chair
+
+|===

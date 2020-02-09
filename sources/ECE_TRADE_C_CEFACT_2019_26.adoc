@@ -1,0 +1,200 @@
+= Briefing note on sustainable textile value chains in the garment and footwear domain for SDG12
+:doctype: plenary
+:docnumber: GE.19-04574(E)
+:committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
+:status: published
+:copyright-year: 2019
+:session: 25
+:session-date: Geneva, 8-9 April 2019
+:agenda-item: Item 11 of the provisional agenda
+:agenda-id: ECE/TRADE/C/CEFACT/2019/26
+:revdate: 2019-03-19
+:language: en
+:distribution: General
+:mn-document-class: unece
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_TRADE_C_CEFACT_2019_26.adoc
+:imagesdir: images/ECE_TRADE_C_CEFACT_2019_26
+:toc:
+:local-cache-only:
+:data-uri-image:
+
+
+[abstract]
+== Summary
+The garment and footwear (GF) industry has one of the highest environmental footprint, and risks for human health and the society. At the same time, the complexity and opacity of the value chain makes it difficult to identify where such impacts occur and to devise necessary targeted actions. In the next decades, fast fashion trends, coupled to growing demand in emerging economies, are going to intensify the effects on the environment and human health of practices and processes, and on working conditions. Key actors in the industry have identified interoperable and scalable traceability and transparency of the value chain, as crucial enablers of more responsible production and consumption patterns, in support of Sustainable Development Goal (SDG) 12 of the United Nations 2030 Agenda for Sustainable Development.
+
+Document ECE/TRADE/C/CEFACT/2019/26 is submitted by the Secretariat to the twenty-fifth session of the Plenary for noting.
+
+
+== Introduction
+
+Garment and footwear (GF) are one of the industries with the highest footprint in terms of social, environmental and health impacts, mainly happening in raw material production and manufacturing in developing countries. Its value chains are both global and complex, with numerous stakeholders involved, driven by big retailers and traders, however constituted by an enormous amount of small and scattered production facilities all around the world (OECD 2017). Small brands making around half of the industry, are lacking the knowledge and resources to significantly improve their footprint.
+
+Important ingredients to mitigate sustainability risks and impacts in the sector, include: 1) Improving working conditions of employees in the raw material production and manufacturing stages, especially in the upstream segments of the value chain; 2) Improving the environmental footprint of products and production processes throughout the entire value chain, including aspects such as use, reuse and recycling, in line with a circular economy approach; 3) Moving consumers attitudes towards more intelligent and ethical consumption; 4) Ensuring that final consumers receive accurate and relevant information about the social, environmental and health risks of what they buy (EC 2017).
+
+This paper explores how traceability and transparency of value chains can help advance the sustainability of the garment and footwear sector. It highlights that transparency and traceability must be a collaborative effort and investigate requirements for and components of robust scheme and provides a series of recommendations on possible measures for public authorities. Such efforts will support achieving relevant Sustainable Development Goals (SDGs) targets of the 2030 United Nations Agenda for Sustainable Development, particularly under SDG 12 on responsible consumption and production, with targets 12.6 inviting Member States to encourage companies to adopt and report on sustainability practices, and target 12.8 about ensuring that people everywhere have the relevant information and awareness for sustainable development and lifestyles.
+
+
+== Methodology
+
+The paper addresses the following research questions: 1. How can transparency and traceability of the value chains help advance sustainability of the GF sector? 2. What are the key requirements for the business sector to put in place a robust transparency and traceability scheme? 3. What are possible measures that public authorities (national/regional/international) could devise to support traceability and transparency of sustainable GF value chains?
+
+To answer these questions, quantitative and qualitative analysis have been conducted through targeted interviews and field visits.
+
+For this study the term clothing refers to both garment and footwear.
+
+
+*Traceability*:: is understood as “the ability to trace the history, application or location of an object” in a supply chain (ISO, 2015).In this context, it is defined as the ability to identify and trace the history, distribution, location and application of products, parts and materials, to ensure the reliability of sustainability claims, in the areas of human rights, labor (including health and safety), the environment and anti-corruption (UN Global Compact 2014); and “the process by which enterprises track materials and products and the conditions in which they were produced through the supply chain” (OECD, 2017)
+
+*Transparency*:: relates directly to relevant information been made available to all elements of the value chain in a standardized way, which allows common understanding, accessibility, clarity and comparison (EC 2017)
+
+*Sustainability*:: in this context, is understood as the manufacturing, marketing and use of garment, footwear and accessories, and its parts and components, taking into account the environmental, health, human rights and socio-economic impacts, and their continuous improvement through all stages of the product’s life cycle (design, raw material production, manufacturing, transport, storage, marketing and final sale, to use, reuse, repair, remake and recycling of parts and components) (UNECE 2018).
+
+
+Regarding the survey questionnaire, 100 companies have responded from all over the world. Companies represent the textile sector for 68%, while 21% of the respondents are from the leather sector, and 11% only cover both sectors. In terms of geographical coverage, more than 80% of the 100 companies that took part in the Survey are from the European Union, while the rest are from America from Africa (1 from South Africa) and from Asia, with the rest having provided anonymous responses.
+
+
+== Key facts for the garment and footwear industry
+
+Clothing’s market is valued at US$ 3 trillion in 2017 and represents 2% of the world GDP (Euromonitor 2017, Fashion United 2015, BCG 2017) footnote:[Market size estimates based on triangulation of Euromonitor International (Apparel and Footwear) 2017, Fashion United 2015, Boston Consulting Group 2017.] 1 and is expected to accelerate its pace, with an annual growth rate estimated at 2.1% between 2017 and 2022 (Euromonitor 2017). Globally, the industry employs more than 60 million workers (Fashion United 2018), with most of them in the upstream part of the value chain and in LDCs, and up to 75% of workers being women (ILO 2017). Currently, clothing represents about 5% of total manufactured goods exported in the world (WTO 2017), with China leading (36%), followed by the EU (28%), Bangladesh (6.4%), Vietnam (5.5%) and India (4%). And in 2018, the sector appears to have reached a tipping point, with more than half of sales of garment and footwear going to emerging markets located in Asia-Pacific, Latin America and other regions, as more people in such regions have joined the middle class. This evolution lies in the phasing-out of the Multi-Fibre Arrangement (MFA) that had governed the world trade of clothing from 1994 to 2004 through quotas on developing countries’ exports to advanced economies (EC 2017). Coupled to the accelerated adoption of disruptive technology, digitalization across the value chain, adoption of innovative business models and proliferation of data, this has led to the globalization and fragmentation of the industry value chain, and a move towards faster and more flexible production models (MacKensey&Company 2018).
+
+The increasing delocalization trend of the upstream part of the supply chain has been certainly due to the opportunity to benefit from cheaper labor costs, less stringent and demanding legislation on labor rights in developing economies (ILO 2017). Consumers have responded to lower prices and a greater variety by buying more items of clothing. The number of clothing items produced each year has doubled since 2000 and exceeded 100 billion in 2014 (MacKensey & Company 2018).
+
+
+== An overview of sustainability risks in the garment and footwear industry value chain
+
+Regarding the environment, while natural fiber cultivation involving pesticides results in decreased soil fertility and water pollution, in the manufacturing stage the industry has an environmental footprint mainly linked to discharge of pollutants and water consumption (79 million m3/year of water consumption), and it is no secret that the clothing sector consumes very high levels of energy and plays a role in climate change (1,715 mln tons/year CO2 emissions) (Strähle et al. 2015).
+
+When it comes to the health risks associated with the handling of chemicals, and the illnesses that are a by-product of using such substances, it is reported that 10 % of textile-related substances are of potential concern to human health, and that 25 % of chemicals manufactured globally are applied in the clothing industry.
+
+Lastly, but not of less importance, social risks exist as the production of garments is often outsourced to developing countries, where there are less stringent labor laws. On average, it is estimated that minimum wages are half the level of leaving wages, there are 5.6 injured per 100 workers every year, and in certain countries, for 87% of the workforce (manly women), wages are lower than the minimum wage, which is well below living wages (ILO 2017). Such risks and impacts are expected to growth, following an increase in global fashion consumption by 63% (from 62 to 102 mln tons) between 2015 and 2030, also due to fast fashion trends, that has led to an average increase from 2 to about 5 fashion cycles a year. This has put great emphasis on the need to investigate waste production and the issues of reuse and recyclability, starting from the fiber stage of the supply chain.
+
+
+== Companies’ strategies for sustainable production patterns
+
+Due to growing concerns on the industry footprint, sustainability practices are receiving increased attention from industries. Consumers are getting more and more concerned about the ethical and environmental impacts of their purchases. In 2015, a survey in 60 countries found that 66% of consumers are ready to pay more for products or services from companies committed to sustainability (Nielsen, 2015). And more recent studies show that conscious consumers increasingly leave in emerging economies, are educated, with high income and children below the age of 17 (Euromonitor International 2018). At the same time, challenges for the sector have intensified and new drivers have emerged – such as product safety, product authentication (anti-counterfeit), sustainability and Corporate Social Responsibility (CSR) (GS1 2018). Companies are therefore starting to think not only in terms of economic profit but also of sustainability and of the societal values they create, to manage reputational risks. In fact, most of the companies surveyed for this study have a formal sustainability strategy in place specially focused on companies’ internal operations and own facilities, at the level of raw material extraction and production in the manufacturing and assembling process, or at the design stage. However, when it comes to addressing sustainability risks and impacts along the value chain and requesting compliance with environmental and social standards to suppliers and subcontractors, such share is sensibly lower (less than 40%).
+
+In terms of social and ethical risks for employees’, key concerns are described in <<fig-social-risks>>.
+
+[[fig-social-risks]]
+.Environmental and Social/Ethical Risks in Sustainability Approaches. Source: UNECE 2018
+image::social-ethical-risks.png[]
+
+Regarding environmental risks, sustainability approaches mainly investigate levels of energy and water consumption, use of chemicals, production waste treatment and recycling, and CO2 emissions in production processes. Increasing attention is also paid to circular approaches in terms of reuse, recycling and green R&D. However, there is less attention to impacts in the upstream part of the value chain, such as the environmental footprint of raw material production. When it comes to working towards compliance with sustainability claims, 51% of surveyed companies mentioned they have voluntary certification/s on sustainability performances footnote:[For raw materials: GOTS, FSC, GRS, OEKO TEX, Tessile e Salute are the most mentioned; for products: OEKO TEX, GOTS, USI 140001-S001-18001, Tessile e Salute, Serico, FSC, Detox are the most mentioned; for internal production: ISO 14001, OEKO TEX, Standard 100, GOTS, INDITEX, Tessile e Salute, FSC, Detox are the most mentioned.]. Also, it is worth mentioning that companies are becoming increasingly aware of the relevance of their sustainability approaches to achieving the SDGs (38% of respondents).
+
+
+== Transparency and traceability as means to advance sustainability of the value chain
+
+Brands, retailers, suppliers, processors, manufacturers, distributors, logistics providers and solution providers, regulators - and consumers - are all demanding fast, accurate and complete information that can be seamlessly accessed across traceability systems (GS1 2018). However, it is a challenge for companies to meet the ever-increasing demand for trusted information about the products consumers purchase and wear or use - without a framework to ensure that traceability systems are interoperable and scalable.
+
+Products for this sector, are the result of numerous production phases, and the interaction of multiple economic actors that exchange raw-materials, semi-finished goods, parts and components and finished goods and large geographical and cultural distances between retailers and brands from one side and farmers and manufacturers on the other side. Therefore, sustainability can’t be achieved in the boundaries of a company’s own operations but must be pursued and traced throughout the entire value chain (Winter and Lash 2016, OECD 2017).
+
+Improving traceability and transparency are key means to investigate and collect most of the data needed to qualitatively and quantitatively assess the environmental and social sustainability of a value chain, and as the first necessary step in the roadmap for scaling-up sustainable patterns (BCG and GFA 2018). Traceability is the capacity to substantiate a claim via the collection of relevant data generated along the value chain (history, distribution, location and application of products, parts and materials). Its application allows the mapping of the business and production flows, from farming and raw materials extraction to semi-finished product and parts production to final product manufacturing, retail, and possibly use and reuse, in line with a circular economy approach (Agrawal at al. 2016). This requires the active collaboration of partners involved in the same production network. By using this approach, each actor can include in its network the sustainable partners, which can adopt the same method for the selection of their own suppliers. The next step is Transparency, which relates directly to relevant information been made available to all parties and actors of the value chain in a standardized way, which allows common understanding, accessibility, clarity and comparison (EC 2017).
+
+But “How can transparency and traceability of the value chains help advance sustainability in the garment and footwear sector?” This is the first research question addressed in this paper. In fact, key actors in the industry have identified traceability and transparency as crucial enablers for change towards more responsible production and consumption patterns, and as the first core priority for immediate implementation (CEO Agenda 2018, BCG and GFA 2018). It allows connection between producers and firms, firms and brands and retailers, and provides a rigorous way of collecting information related to operations and products along the value chain. <<table-benefits-traceability>> reports the results of the Survey conducted for this study, which highlights the business sector views on the key benefits of traceability in garment and footwear value chains. According to respondents, traceability helps companies to build trust with consumers, along with stronger relationships and more solid networks with clients and suppliers. It also helps identify opportunities for efficient and sustainable management of resources, as well as risks for health, the environment and labor rights. Presenting the information in a standardized form, supports common understanding, accessibility, clarity and comparison, and fosters credible communication towards consumers and the public.
+
+[[table-benefits-traceability]]
+.The benefits of traceability. Source: UNECE 2018, GS1 2018, Kumar et Al. 2017.
+[cols="2*"]
+|===
+|*Consumers’ trust*
+|More accurate information to consumer’s regarding product safety, due to availability of more robust, and complete product data used in B2B and B2C processes. This is to be coupled to more accurate and rapid detection and deterrence of counterfeit products.
+
+|*Reputational risk management*
+|More efficient and accurate sustainability and CSR information, resulting from increased transparency and automated recording and sharing of traceability data. This allows to better address pressures from civil society, media, politicians and regulators, regarding products and operations claims
+
+|*Efficient supply chain/resource management*
+|Costs savings resulting from simplified and automated business processes such as inventory management, but also from better information and control over resource use (water, energy, chemicals, etc.)
+
+|*Enhanced communication with business partners*
+|More accurate and complete information exchange helps improve communication with business partners along the value chain.
+|===
+
+
+To address this research questions, the Study has investigated research papers and has conducted face to face interviews with multiple stakeholders. They highlight that traceability and transparency of the value chain are important pre-conditions for sustainability and are key for identifying and monitoring risks and impacts, sustaining the reliability of claims and companies’ accountability, reducing public pressures and for making relevant information available to final consumers.
+
+Finally, the Study have found that actions to advance transparency and traceability of value chains have a positive effect on companies’ sustainability performance. A regression of Survey’s data on companies’ responses regarding their traceability and transparency actions on one side and their sustainability reporting on the other side, shows a significant positive correlation, with a correlation coefficient of 0.5 (See <<fig-value-chain-traceability>>).
+
+
+[[fig-value-chain-traceability]]
+.Traceability of the value chain in the garment and footwear sector. Source: UNECE 2018
+image::value-chain-traceability.png[]
+
+
+== Challenges and opportunities to achieving value chain traceability and transparency
+
+Tracking and tracing the value chain is a challenging task because of the organizational and technological complexities for the industry (Kumar at al 2017). The Survey has enquired among respondents on the actual share of companies tracking and tracing their value chain. The results point out that only 34% of companies has a traceability approach in place, of which half has visibility up to Tier 2 (material manufacturing or finished materials production) only (See <<fig-garment-foot-traceability>>).
+
+[[fig-garment-foot-traceability]]
+.Traceability of the value chain in the garment and footwear sector. Source: UNECE 2018 [In the left graph, other refers to Chemical Suppliers]
+image::garment-foot-traceability.png[]
+
+In the Survey, respondents view key challenges as mainly in relation to:
+
+- The fragmentation and complexity of the business network (for 69% of respondents) makes it often difficult for companies to track products history and features. Multiple actors with different systems and requirements contribute to production across international borders, and some areas in a supply chain are especially opaque. However, technological advances (e.g. blockchain, bar codes, chips) may make this increasingly more manageable;
+
+- Privacy of data and data security (for 55% of respondents), which are of concern particularly for brands, traders, and companies in the high value segment of the market, as they are often ready to share information about specialized providers.
+
+- The costs associated with the necessary resources and technologies for the implementation of such schemes, also due to increasing amounts of data and information to manage and inventory volumes (for 49% of respondents). Traceability requires substantial investment in technology and processes aimed at performing various levels of verification on products, parts and components at all stages of the value chain.
+
+- Technological barriers. Indeed, technological advances such as blockchain and distributed ledger technologies, bar codes and chips, offer an opportunity. Mastering these technologies is a challenge, also due to geographical and language barriers. These costs are a concern for many actors pursuing traceability, which is the case especially for non-vertically integrated companies or brands and SMEs (29% of respondents). When leadership is there, and collaboration is widespread, there is an incentive for actors to work together, which lowers cost overall.
+
+When it comes to transparency and the disclosure of information about suppliers, location of production sites, and compliance with sustainability standards in companies own operations and suppliers, only 28% of companies make their suppliers list publicly available. The same share of companies produces a sustainability report that covers the environmental/social and ethical risks and impacts. Such reports are mainly addressed to the public, the clients/suppliers base, and investors, and are disclosed though companies’ websites. But having or disclosing information about Tier-1/Tier-2 suppliers is not enough. Traceability is required through the whole value chain. According to the Pulse of the Fashion Industry 2018 report, 2/3 of negative sustainability impact occurs at the raw materials stage (tier-four).
+
+
+The second research question enquired by this study, is as follows: “What are the key requirements for the business sector to put in place a robust transparency and traceability scheme?”
+
+According to Survey’s respondents, key data/information to be exchanged through a robust traceability system for sustainable value chain in the sector should include information on the country of origin of the main products, parts and components of garment and footwear (81% of respondents), features and properties of raw material and products (78 % of respondents), information on the processing step (58% of respondents) and compliance with sustainability requirements in terms of social, environmental and health risks and impacts (56% of respondents). Other type of data should relate to costs, responsible parties, transport modalities and trade transactions (See <<fig-garment-foot-traceability>>).
+
+When it comes to technical standards to exchange such information and data, the GS1 Global Standards provides general guidelines to identify, capture and share supply chain data. They define business process and system requirements for full supply chain traceability, although the standards developed so far do not focus specifically on textile and leather value chains. The EU Ecolabel, the Global Organic Textiles Standard (GOTS) and the Fairtrade Textiles Standards all contain elements of traceability implementation for textiles.
+
+All together, these standards and guidelines do not cover all the materials and types of production used in textile and leather value chains, thus do not encompass every single stage of the value chain. This makes it hard for companies and consumers to navigate and chose which model to use. Based on such indications, a cornerstone of a Traceability Framework would be a standardized representation of business processes, business transactions and information entities (Business Requirement Specifications BRS), to map and describe the exchange of data for the traceability of raw materials, products parts and components, during extraction, processing, assembling, transport, within a country or across borders, as well as location and responsible parties. Such scheme should also map and describe the exchange of data related to the origin of raw materials, textile products, parts and components and how they have been made, including with respect to social, environmental and health requirements, based for instance, on a complete set of sustainability criteria, like those included in the OECD Due Diligence Guidelines for Multinational Enterprises. This will allow the exchange of certificates for compliance sustainability requirements.
+
+The Framework should also provide for the standardization of the basic structure of supporting Business Documents (Core Component Business Document Assembly CCBDA) and describe the information exchanged in a Business Interaction in textile and leather value chains, in a syntax and technology neutral way. In addition, a XML and/or EDIFACT message schema should provide for the harmonized electronic exchange of data and certificates B2G and B2B that supports the business processes for sustainable value chains. Finally, implementation guidelines should be made available for usage of the message and exchange mechanisms, including the specification of identifiers for product, parties and locations and other devices, and use of code lists (UN/CEFACT 2015).
+
+
+== Policy and legislation in support of transparency and traceability of value chains in the garment and footwear sector
+
+“What are possible measures that public authorities (national/regional/international) could devise to support traceability and transparency of sustainable garment and footwear value chains?”
+
+The results of this Study highlight the relevance of policy as a key driver for advancing transparency and traceability of value chains. Compliance with national, regional or international regulatory requirements or guidance directives and common criteria to measure and benchmark sustainability performance, coupled with an effective auditing system for compliance and alert on violations, is a priority for companies (75% of respondents), which have also stressed the need for fiscal incentives (64%) and support to R&D (54%) and training for skills development (61%).
+
+For the GF sector, at the regional level, Regulation (EC 907/2006) of the European Parliament and of the Council REACH mandates the traceability for all chemical substances, including those used in garment and footwear manufactured or imported in Europe. Also, in 2011, the EU adopted a Regulation (EU 1007/2011) on textile names and the related labelling of textile products. And in April 2014, the European Parliament voted that manufacturers should be required to label all non-food goods with their country of origin. Finally, an EU Regulation (1007/2011) concerns the marking and labelling of the composition of products fibers and other information for the consumer on products quality.
+
+At the international level, the OECD Due Diligence Guidance for Responsible Supply Chains in the GF Sector encourages enterprises to take a due diligence approach and implement traceability and transparency systems. The Guidelines stress the need to collect and record information regarding companies’ ownership structure, location, size and nature of production stage, suppliers and intermediaries operating at Tier 1 (suppliers and intermediaries/trading agents). They also emphasize the importance of working towards mapping all suppliers of Tier 2, and account for progress over time, with the supply chain mapping including information on subcontractors, to the extent possible. Companies should also work towards identifying the country of origin for all materials or components sourced from high risk areas.
+
+The UN Global Compact also provides guidance to help companies and stakeholders understand and advance supply chain traceability and provides practical steps for implementing traceability programs within companies. And the UN Guiding Principles on Business and Human Rights impose obligations for corporations to practice due diligence covering ‘adverse human rights impact that the business enterprise may cause or contribute to through its own activities, or which may be directly linked to its operations.
+
+A targeted policy document should be therefore developed providing vision and objectives for a global transparency and traceability system. Such a policy should also explore the potential application of new technologies, such as blockchain and other distributed ledger technologies, Internet of Things, artificial intelligence, use of electronic identifiers and labels.
+
+
+== Conclusions and recommendations
+
+Traceability and transparency are crucial enablers for responsible production and consumption patterns. Traceability helps companies to build trust with consumers, along with stronger relationships and more solid networks with clients and suppliers. It also helps identifies opportunities for efficient and sustainable management of resources, as well as risks for health, the environment and labour rights. However, the numerous existing standards and guidelines do not cover all the materials and types of production used in the sector, and do not encompass every single stage of the value chain.
+
+_A sectoral Framework for Traceability and Transparency of the Value Chain_, that is interoperable and scalable can be the response. It would allow an effective connection between producers and firms, firms and brands and retailers. We develop recommendations about main elements of such sectoral Framework:
+
+*Recommendation 1:*:: To develop a comprehensive Technical Global Standard for the Traceability of Sustainable Value Chains in the Garment and Footwear Sector, covering the entire life-cycle of products, consisting of:
+
+*Component 1:*:: A standardized representation of business processes, business transactions and information entities (Business Requirement Specifications BRS), to map and describe the entire value chain in the GF sectors, including sustainability risks at key nodes of the production and consumption process.
+
+*Component 2:*:: A standardized basic structure of supporting Business Documents (Core Component Business Document Assembly CCBDA) and a description of the information exchanged in a Business Interaction in textile and leather value chains, in a syntax and technology neutral way.
+
+*Component 3:*:: An XML and/or EDIFACT message schema to provide for the harmonized electronic exchange of data and certificates B2G and B2B that supports the business processes for sustainable value chains in the textile and leather sector.
+
+*Component 4:*:: Finally, implementation guidelines should be made available for usage of the message and exchange mechanisms, including the specification of identifiers for product, parties and locations and other devices, and use of code lists (UN/CEFACT 2015).
+
+Transparency and Traceability Framework needs: a targeted Policy Document, providing its objectives along with implementation phases, a distribution model of costs and benefits among stakeholders, rules for collaboration, a framework for data exchange, including sustainability risks, rules on confidentiality, and measurement of performance. It should also explore the application of new technologies (blockchain, other distributed ledger technologies).
+
+*Recommendation 2:*:: To develop a Policy Recommendation, to enable governments to advance the necessary policy and regulatory approaches and to support parties along the value chain in their efforts to implement improvement plans, self-assess themselves against recognized international initiatives, standards, codes of conduct and audit protocols.
+
+*Principle 1:*:: it should be based on a holistic, multi-stakeholders approach, aiming to ensure traceability for the whole life-cycle and value chain of a product, with its parts and components, and requiring companies to cover the entire set of sustainability criteria (e.g. the requirements of the OECD Due Diligence Guidelines).
+
+*Principle 2:*:: it should include a standardized set of criteria for reporting on the sustainability performance of different parties of the value chain and encourage transparency.
+
+*Principle 3:*:: it should provide a roadmap for continuous improvement and set the bar high enough to only acknowledge companies that go above and beyond average performance and are committed to continuous improvement.
+
+*Principle 4:*:: it should also be science-based and reflect regulatory improvements.
+
+The Framework, i.e. the Technical Standard and the Policy Recommendation, could be developed by the United Nations Centre for Trade Facilitation and e-Business UN/CEFACT considering its mandate and expertise on traceability schemes for sustainable value chains, through a multi-stakeholder consultation approach, to achieving the Sustainable Development Goals (SDGs) footnote:[This paper is a summary of the study conducted in connection with the United Nations sabbatical programme undertaken by Maria Teresa Pisani, for the Economic Cooperation and Trade Division of UNECE, during the period May-October 2018.].
