@@ -5,7 +5,7 @@
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :copyright-year: 2017
 :imagesdir: images/ECE_TRADE_437E_Rec42
-:mn-document-class: unece
+:mn-document-class: un
 :mn-output-extensions: xml,html,doc,rxl
 :docfile: ECE_TRADE_437E_Rec42.adoc
 :toc:
