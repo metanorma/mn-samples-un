@@ -13,7 +13,7 @@
 :revdate: 2018-02-09
 :language: en
 :distribution: General
-:mn-document-class: unece
+:mn-document-class: un
 :mn-output-extensions: xml,html,doc,rxl
 :docfile: ECE_TRADE_C_CEFACT_2018_6E.adoc
 :toc:
