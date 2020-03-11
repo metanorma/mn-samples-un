@@ -100,7 +100,7 @@ As the focal point for trade facilitation and electronic business standards in t
 ** Healthcare services and blockchain.
 
 
-[del]#In addition, information on use cases and actual implementations have been collected using the template found in the <<annex>>.#
+In addition, information on use cases and actual implementations have been collected using the template found in the <<annex>>.
 
 === Next steps
 
