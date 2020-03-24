@@ -16,7 +16,6 @@ in Salle VII.
 :mn-document-class: un
 :mn-output-extensions: xml,html,doc,rxl
 :docfile: ECE_TRADE_C_CEFACT_2018_1E.adoc
-:toc:
 :local-cache-only:
 :data-uri-image:
 
