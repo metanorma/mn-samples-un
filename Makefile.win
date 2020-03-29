@@ -72,7 +72,7 @@ clean:
 	del /q *_images
 
 bundle:
-	IF  "x" == "%METANORMA_DOCKER%" bundle
+	IF "" == "%METANORMA_DOCKER%" bundle
 
 .PHONY: bundle all open clean
 
