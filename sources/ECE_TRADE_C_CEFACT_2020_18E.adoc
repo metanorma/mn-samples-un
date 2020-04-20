@@ -1,0 +1,160 @@
+= Programme of Work of the Advisory Group on Advanced Technologies in Trade and Logistics
+:doctype: program-of-work
+:docnumber: GE.20-02502(E)
+:committee: Centre for Trade Facilitation and Electronic Business
+:status: published
+:copyright-year: 2020
+:session: 26
+:session-date: Geneva, 4-5 May 2019
+:item-number: 8 of the provisional agenda
+:agenda-id: ECE/TRADE/C/CEFACT/2020/18
+:item-name: Advisory Group on Advanced Technologies in Trade and Logistics
+:revdate: 18 February 2020
+:language: en
+:distribution: General
+:mn-document-class: un
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_TRADE_C_CEFACT_2020_18E.adoc
+:local-cache-only:
+:data-uri-image:
+
+
+[abstract]
+== Summary
+
+The Advisory Group on Advanced Technologies in Trade and Logistics will present its first draft Programme of Work for 2020-2021.
+
+Document ECE/TRADE/C/CEFACT/2020/18 is submitted by the UN/CEFACT Bureau to the twenty-sixth session of the Plenary for endorsement.
+
+
+== Background
+
+The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has proposed the establishment of an Advisory Group in order to advise and support the United Nations Economic Commission for Europe (UNECE) Secretariat and UN/CEFACT on advanced technologies in trade facilitation and electronic business. The technologies in question include blockchain, the Internet of Things (IoT), and Artificial Intelligence (AI). These are the most recent areas of rapid development in the international supply chain.
+
+Technology is evolving faster than ever before in human history. We are at the intersection of several cutting-edge technologies that are redefining interactions between the physical and virtual world, driving disruption and enabling new business modes. The importance of technology innovation is recognized by the international community in Sustainable Development Goal 17: Strengthen the means of implementation and revitalize the global partnership for sustainable development.
+
+Technologies such as Distributed Ledger Technology, Artificial Intelligence, the Internet of Things, Quantum Computing, Edge computing, 5G and connectivity related ones, hold significant promise for trade facilitation. Given these cutting-edge developments in technology, it becomes important to keep up to date with the latest trends to evaluate which trends and approaches may be viable for future developments, investments and practical implementation.
+
+== Introduction
+
+The present document sets out the Programme of Work for the Advisory Group on Advanced Technologies in Trade and Logistics for 2020-2021.
+
+== Vision statement
+
+The work of the Advisory Group will be instrumental in
+
+* achieving an effective and efficient analysis of advanced technologies related to trade and logistics and the subsequent business needs and opportunities for all stakeholders;
+
+* providing advice and expertise on implementation requirements and challenges;
+
+* identifying potential new work items for UN/CEFACT and needs for updating existing deliverables; and
+
+* contributing to the realization of Sustainable Development Goals, particularly goal 17 of the United Nations Agenda 2030 on strengthening the means of implementation and revitalizing the global partnership for sustainable development.
+
+== Mission statement
+
+The Advisory Group will monitor the latest enabling technology developments and trends relevant for trade and logistics; study the potential impact of these technologies on standards, business models and operations; and identify implementation challenges and best practices learned by overcoming these challenges. In particular, the Advisory Group will prepare regular reports on the latest technology trends and the way they may impact relevant trade and logistic areas.
+
+In a collaborative environment, together with other relevant entities and organizations, the members of this Advisory Group will work to analyze the latest technology trends, share experiences in development and implementation issues, and facilitate and support the best practices for overcoming these issues.
+
+The Advisory Group will give advice and conduct support activities regarding policymaking and technical implementation of advanced technologies.
+
+The Advisory Group will contribute to information and knowledge exchange between all relevant stakeholders and provide outreach to other partner organizations in the areas of trade and logistics, management organizations and technical communities.
+
+The Advisory Group will propose new project developments to be taken up within UN/CEFACT under the Open Development Process (ECE/TRADE/C/CEFACT/2016/17), identify needs for updating existing deliverables and propose ways they could be updated to address findings from emerging technology analysis.
+
+The Advisory Group will function as a platform for the following:
+
+* Monitoring of advanced technologies, assessment and advice;
+
+* Dialog on implementation challenges and for the exchange of best practice;
+
+* Communication and outreach for Advisory Group findings;
+
+* Proposals related to Advanced Technologies.
+
+
+== Scope, overall objective, activities, work areas
+
+=== Scope
+
+The work of the Advisory Group shall have a scope that potentially covers all United Nations Member States, international trade organizations and other organizations involved in technological development and technological implementation activities. It encompasses activities in support of sustainable trade and sustainable economic development.
+
+It does so by monitoring and analyzing technology trends in trade and logistics and relevant business areas such as digital identity and trustworthiness, security, interoperability and others, promoting, facilitating and supporting the implementation of technology standards, including proposing any necessary development of such standards.
+
+The Programme of Work is linked to the Terms of Reference (ECE/EX/2/Rev.1) as approved at the thirty-fifth meeting of the UNECE EXCOM (31 March 2010).
+
+=== Objective
+
+The purpose of the Advisory Group is to advise on advanced technologies such as blockchain and IoT, as well as implementation challenges (i.e. regulatory obstacles). This includes the potential impact of these technologies on standards, services and everyday electronic data exchange operations.
+
+=== Activities
+
+The Advisory Group aims to support UN/CEFACT in achieving this objective by:
+
+. monitoring the business needs related to these technologies and how they relate back to UN/CEFACT and its deliverables;
+
+. supporting dialogue with key external stakeholders;
+
+. providing advice and expertise on implementation requirements and challenges;
+
+. identifying new work items which will support the role of UN/CEFACT and its deliverables in the context of these technologies;
+
+. preparing synopses of good practices on selected issues within the Group's mandate for discussion and endorsement by the Bureau; and
+
+. providing support to senior managers on advanced technology issues, especially in the context of how these can be used with UN/CEFACT standards and UNECE recommendations.
+
+Under the guidance of the UNECE Secretariat, the Advisory Group may invite the participation of other organizations (or their membership) actively exploring the applications of this technology. Such organizations include the International Telecommunication Union (ITU), the United Nations Office for Project Services (UNOPS), the World Food Programme (WFP), the United Nations Development Programme (UNDP), the World Bank, the International Monetary Fund (IMF), the International Organization for Standardization (ISO), the Organization for Economic Cooperation and Development (OECD), the World Economic Forum (WEF), and other relevant standards development organizations.
+
+=== Work areas
+
+The Programme of work is structured around the following work areas (WA):
+
+* WA1: Technical monitoring, assessment and advice.
+
+* WA2: Implementation challenges and good practices.
+
+* WA3: Support strategic dialogue with key external stakeholders.
+
+* WA4: Proposals for new development.
+
+==== WA1: Technical monitoring, assessment and advice
+
+This Work Area involves monitoring and analyzing current and emerging technologies used in the trade and logistics areas. This Work Area encompasses active engagement with technology leaders, developers and early adopters on a global scale by contributing to events on technology developments related to trade and by contacting authorities, standardization organizations and academia.
+
+==== WA2: Implementation challenges and good practices
+
+The Work Area on implementation challenges and advice facilitates and supports the implementation of relevant advanced technologies on business, interoperability, legal and technical levels. The Advisory Group shall contribute by identifying and advising on business, legal and technical implementation issues related to technology and sharing best practices with a specific focus on support for decision-making.
+
+==== WA3: Support strategic dialogue with key external stakeholders
+
+Activities of this Work Area are as follows:
+
+* Creating the content for UNECE website of the Advisory Group (maintenance, content and design, including possible use of social media and videos)
+
+* Contributing to relevant events within the United Nations and in other organizations to disseminate the work of UN/CEFACT and the Advisory Group (in line with the internal UN/CEFACT Representation Guidelines)
+
+* Reaching out to trade and logistics management organizations and technical communities to exploit the benefits sharing knowledge and expertise through partnerships and to minimize the chance of working separately on the same issues
+
+* Capacity building in the use of advanced technologies in Trade and Logistics
+
+==== WA4: Proposals for new development
+
+The Advisory Group shall identify areas where new standards or guidance material are necessary and propose such work items to be launched within UN/CEFACT under the Open Development Process (ECE/TRADE/C/CEFACT/2016/17) procedure for project development.
+
+== Governance
+
+Participation in the Advisory Group will be on a self-funded, voluntary basis. All members of the Advisory Group must register as experts of UN/CEFACT in accordance with relevant procedures. All contributions to the work of the Advisory Group are in the context of the UN/CEFACT Intellectual Property Rights Policy (ECE/TRADE/C/CEFACT/2010/20/Rev.2), the Code of Conduct (ECE/TRADE/C/CEFACT/2010/18/Rev.1) and the overarching UN/CEFACT Mandate and Terms of Reference (ECE/TRADE/C/CEFACT/2017/15).
+
+The Advisory Group appoints its Chair and Vice-Chair(s) for a mandate of two years, in accordance with the Guidelines for the establishment and functioning of Teams of Specialists (UNECE ECE/EX/2/Rev.1).
+
+The Advisory Group will plan at least one face-to-face meeting per year and virtual meetings as necessary.
+
+It is the responsibility of the Chair that the objectives of the Group are met, and all relevant procedures properly applied including this Programme of Work.
+
+The UNECE Secretariat provides necessary support to the Advisory Group within available resources.
+
+== Reporting
+
+The Advisory Group will report to the UN/CEFACT Plenary annually and will keep the UN/CEFACT Plenary Bureau informed of its activities.
+
