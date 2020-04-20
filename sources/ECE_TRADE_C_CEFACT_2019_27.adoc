@@ -1,0 +1,126 @@
+= Briefing note on the importance of Semantics within Trade Facilitation and Electronic Business for SDG 17
+:doctype: briefing-note
+:committee: Centre for Trade Facilitation and Electronic Business
+:status: published
+:copyright-year: 2019
+:session: 25
+:session-date: Geneva, 8-9 April 2019
+:item-number: 11 of the provisional agenda
+:item-name: Future challenges in trade facilitation and electronic business
+:agenda-id: ECE/TRADE/C/CEFACT/2019/27
+:revdate: 14 January 2019
+:language: en
+:distribution: General
+:mn-document-class: un
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_TRADE_C_CEFACT_2019_27.adoc
+:local-cache-only:
+:data-uri-image:
+
+[abstract]
+== Summary
+The 2030 Agenda for Sustainable Development with its seventeen Sustainable Development Goals (SDGs), adopted by the United Nations General Assembly in 2015, guides the work of the United Nations and its Member States. This briefing note discusses the importance of clear semantic data-exchange standards and how this supports both the World Trade Organization’s Trade Facilitation Agreement (WTO TFA) as well as the United Nations SDGs. The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) aims to be the semantic hub for all trade-related data-exchange standards.
+
+Document ECE/TRADE/C/CEFACT/2019/27 is submitted by the Secretariat to the twenty-fifth session of the Plenary for noting.
+
+
+== Introduction
+
+Semantics, in the context of electronic data exchange, is the unambiguous meaning of each of the pieces of information to be shared between sender, receiver and any stakeholder who views or uses the information.
+
+The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has been basing much of its work over the past decades on its semantic standards – standards that describe the clear meaning of the information to be shared, whether it be in the business processes or in the electronic data exchange messages themselves. This paper aims to explain why UN/CEFACT deems this to be essential to its mission and to international trade in general.
+
+== From paper to electronic
+
+In the paper-based world, information written on a document is often '`free text.`' This means that the information is not structured and that the data provided can, in theory, take the form of any text. Many paper forms will request specific information such as consignor or consignee, which provides a certain structure; however, depending on the business context and which stakeholder is questioned, such information can be interpreted differently by any recipient. Some paper forms will provide a specific number of spaces: for example, allowing a maximum of three letters (for Yes or No), In this case, responding to a question with "`it depends`" will exceed the space and should not be possible. The UN Layout Key as defined in UNECE Recommendation 1 describes a way of harmonizing paper document layouts to maximize standardized reading of the data across international trade paper documents. Whilst this has helped since its introduction in the 1970s, it remains a manual human process to access the data, i.e. the data cannot be automatically processed.
+
+When moving to electronic data exchange, practically all information must be structured. The consignor, the buyer, the importer or the freight forwarder are identified in fields dedicated to entering this specific information. An address will usually not be provided as a box of free text, but rather structured in the following manner: address line1, address line2, city name, zip code, country. Very often information will be codified with a clear, limited code list.
+
+In electronic messages, it is important to distinguish between the semantics (the base meaning of each data element) and the syntax (the protocol or language used to communicate the information). If everyone used the same syntax (for example the UN/EDIFACT syntax, which is centrally developed, maintained and published as a global standard) then the information in the message would be clear and everyone would be sure to understand it the same way - whether sending, receiving or consulting.
+
+=== Multiple exchange languages
+
+However, this is not always the case. Many administrations and companies are using the eXtensible Marked-up Language (XML) protocol, which can be very flexible and can be human readable. The base principle of XML is that there are tags which identify types of information with an opening tag and a closing tag containing the same text as the opening tag but preceded by a slash. For example: "`<importer>XXX</importer>.`" In this example, it is clear that the information which is being transmitted concerns the importer; the name of the importer here is "`XXX.`" 
+
+A single standard of XML syntax has not yet prevailed, though standards such as those of UN/CEFACT do exist. Every computer programmer can establish their own version of XML. It is often easier for a programmer to create their own logic of XML instead of trying to adhere to a standardized message. The result is a plethora of XML messages and no consistent use of tag naming especially when tags are named in different country languages.
+
+Other syntaxes also exist. UN/EDIFACT is still widely used in many sectors of activity; EDIFACT-assimilated messages are also being used and which are not completely compliant with the United Nations standard. JavaScript Object Notation (JSON) is another syntax which is gaining in popularity as it is also rather flexible and it often takes less computer memory.
+
+=== Building Bridges
+
+To establish the links between the sender's syntax and the receiver's syntax, correlation tables and bridges must be used; these map each piece of information from one data exchange syntax to the other. If there are multiple partners each has their own data exchange syntax, then each one requires a separate mapping. If there is information that is not clearly defined in a data exchange, approximations must be made; these can later cause problems if the type of information they contain is not harmonized. Any change in a message requires an update of the mappings. The syntax must therefore be constantly looked after.
+
+Information is not just flat, it is typically hierarchal in nature. For example, a seal identification number will be linked to the container on which it is affixed, or a city name will be linked to the address to which it refers. Such hierarchies may be differently defined by each sender and this will result in extra problems for receivers increasing exponentially with the number of trading partners that they have.
+
+This certainly creates work for computer programmers and data mappers, but this creates costs without providing any real value. When faced with new messages which do not align exactly to their version of syntax, the Information Technology (IT) staff within an organization will simply proceed to develop the required mappings. Since many decision makers do not realize what this work entails, they simply trust their computer divisions to do the necessary work. The more data-exchange partners an organization has, the more staff is required to develop and maintain these mappings. This pulls resources away from the core activities of a business in order to deal with an aspect of their business which is purely administrative and costly to the bottom line.
+
+There are suggestions that artificial intelligence and computer learning or big data techniques can provide these mappings without needing to clearly define the base data elements. This is basing the correlations on ontologies, or relationships between data. In theory, this can be achieved. However, enormous amounts of data are necessary to ensure that the links between different message structures are correct. For common information available on most commercial exchanges, such as traders' names and addresses, this may be easy to establish. Less frequent information is less likely to be correctly understood. And again, each time there is a change in the message structure on the sending or receiving side, the computer learning will need to re-establish the connections after reaching a critical mass of data.
+
+=== Data exchange semantics as a solution
+
+The use of international standards for semantics may take a bit longer to initially put into place, but they offer the potential to ensure that any exchanged data can be understood by everyone in the same way – without resorting to correlation tables and bridges. As these are also usually backwards compatible, there are less problems in potential changes in messages.
+
+This standardization of the base information requires the development of harmonized names, definitions and data hierarchies (data exchange class diagrams). UN/CEFACT provides the tools to achieve this. Its Core Component Library is a semantic encyclopedia of all data that can potentially be exchanged in a transaction. This model provides the base semantic definitions, the hierarchy of the data in its business context and all relevant code lists. In addition, UN/CEFACT has developed Reference Data Models to manage the information more coherently, providing all the information in the context of a specific sector of activity such as transport logistics or supply chain.
+
+== Semantic standards in support of the World Trade Organization's Trade Facilitation Agreement (WTO TFA)
+
+"`Bureaucratic delays and '`red tape`' pose a burden for moving goods across borders for traders. Trade facilitation—the simplification, modernization and harmonization of export and import processes—has therefore emerged as an important issue for the world trading system. (…) The TFA contains provisions for expediting the movement, release and clearance of goods, including goods in transit. It also sets out measures for effective cooperation between customs and other appropriate authorities on trade facilitation and customs compliance issues. It further contains provisions for technical assistance and capacity building in this area.`" footnote:[_World Trade Organization Trade Facilitation Agreement_ (WT/L/940) 28 November 2014. Full text of the agreement available from: https://www.wto.org/english/tratop_e/tradfa_e/tradfa_e.htm (Accessed 10 January 2019)]
+
+The WTO TFA encourages countries in its Article 10.3.1 "`to use relevant international standards or parts thereof as a basis for their import, export, or transit formalities and procedures.`" This is applicable to all sorts of standards ranging from commodity certification and licensing standards (e.g. for machinery or animals) to documentary standards for declarations as well as processes such as putting in place Authorized Economic Operator programs. However, much of the WTO TFA refers to electronic exchanges of information and, in light of this, the use of standards will also refer to electronic data-exchange standards.
+
+In order to capitalize on all of the benefits of the WTO TFA, governments should encourage the electronic exchange of information. The time required for processing a transit declaration manually through a paper document will take several hours, if not days, whereas processing it electronically can take a matter of seconds. This is true of almost all border procedures. But in order to gain the benefits of electronic data exchanges, globally harmonized semantic standards must be adopted.
+
+The risk management systems of administrations will rely on clear, unambiguous information. For this reason, most government-run electronic systems will dictate the data to be submitted. This is often defined with national or regional legally mandated regulatory requirements in mind and these may or may not be based on international semantic standards. In contrast, the private sector will often define their data exchange requirements based on the business processes needed to support their trading (not necessarily regulations). This means that when traders are connecting to regulatory systems, they are forced to do a mapping from their trading data semantics to the regulatory data semantics of the government. As with the bridges described above, this can result in misinterpretations and mis-mappings that can be unintentionally (or possibly undetectably intentionally) detrimental to risk assessment and evaluations.
+
+In order to eliminate such misinterpretations and to facilitate legal trade while targeting illegal trade, ideally, both sides need to use the same semantic base. UN/CEFACT was established with such a mission in mind. The "`FACT`" part of UN/CEFACT comes from "`UN/EDIFACT`", which means the United Nations Electronic Data Interchange For Administration, Commerce and Transport. UN/CEFACT was established with both the public sector (administrations) and the private sector (commerce and transport) in mind. It also strives to work with other organizations in order to provide a semantic hub covering all data requirements in the supply chain and for all involved actors and organizations. footnote:[UN/CEFACT Prospective Directions strategy document (ECE/TRADE/C/CEFACT/2016/20/Rev.1) paragraph 7. Available at: http://www.unece.org/fileadmin/DAM/cefact/cf_plenary/2016_plenary/ECE_TRADE_C_CEFACT_2016_20E_Rev_1_prospective_directions.pdf (Accessed 10 January 2019)) United Nation Sustainable Development Goals available at: https://sustainabledevelopment.un.org/]
+
+The use of clear, semantic, data-exchange standards supports not only article 10.3 of the WTO TFA, but it can also help Member States to achieve several other articles in this agreement. Electronic messages are clearly indicated in Article 7.1.2 for Pre-arrival Processing, Article 7.2 for Electronic Payment, Article 10.2.1 for the Acceptance of Copies, Article 10.7.2.d for Common Border Procedures, Article 12.4 for Requests for Customs Cooperation, Article 12.6 on Response to such cooperation. The use of electronic messages is also implied in many other articles of the agreement.
+
+
+== Semantic standards in support of the United Nations Sustainable Development Goals
+
+"`The 17 Sustainable Development Goals (SDGs) are the world's best plan to build a better world for people and our planet by 2030. Adopted by all United Nations Member States in 2015, the SDGs are a call for action by all countries - poor, rich and middle-income - to promote prosperity while protecting the environment. They recognize that ending poverty must go hand-in-hand with strategies that build economic growth and address a range of social needs including education, health, equality and job opportunities, while tackling climate change and working to preserve our ocean and forests.`" footnote:[_UN/CEFACT Prospective Directions_ strategy document (ECE/TRADE/C/CEFACT/2016/20/Rev.1) paragraph 7. Available at: http://www.unece.org/fileadmin/DAM/cefact/cf_plenary/2016_plenary/ECE_TRADE_C_CEFACT_2016_20E_Rev_1_prospective_directions.pdf (Accessed 10 January 2019)) United Nation Sustainable Development Goals available at: https://sustainabledevelopment.un.org/]
+
+Similar to the WTO TFA, the use of electronic means of communication has the potential to facilitate a number of the targets of the SDGs. Target 17 seeks to foster global partnership and to enhance the means for implementation of the goals. It includes several references to information and communication technology and specifically indicates the implementation of the WTO TFA is an integral part of the SDGs in target 17.10.
+
+As described above, clear semantic data-exchange standards will be necessary to reap the full benefits of the SDGs. If different messaging standards are developed individually to cover different aspects of these goals, the results may not be interoperable between each other thereby creating new burdens for governments and trade as they establish correlation tables of mappings and invest in regular maintenance of these.
+
+UN/CEFACT proposes to develop, publish and maintain an encyclopedia of clear semantic standards to enable several targets of the SDGs. These include the following themes.
+
+=== Making semantic standards available free of charge
+
+Several targets of the SDGs foresee that technologies should be made available free of charge. For example, Target 1 on ending poverty seeks to also ensure that all men and women, particularly the poor and the vulnerable, have access to basic services and appropriate technologies. Target 5 foresees the use of enabling technology to promote the empowerment of women. Target 10 seeks to reduce inequalities. By publishing UN/CEFACT semantic standards free of charge and accessible to all, we indirectly support the empowerment and economic inclusion of all.
+
+=== Fostering growth
+
+Through the development of clear semantic standards for electronic business, UN/CEFACT works towards supporting technological improvements and innovation to generate more efficient, simple and harmonized processes that can foster growth in international trade and increased productivity throughout supply chains. This directly supports SDG target 8.2 on sustainable economic growth.
+	
+=== Reducing carbon footprint
+
+Sustainable management and reduction of waste is a key aspect of SDG target 12.5. By developing clear, semantic electronic communication standards, UN/CEFACT contributes to reducing the carbon footprint of cross-border trade by reducing the amount of paper necessary for the movement of goods. For example, the BAPLIE UN/EDIFACT message announces the location of each container onboard a container vessel and all the merchandise each contains – this message alone replaces about 1500 sheets of paper per vessel. UN/CEFACT further develops standards on traceability to confirm that production, transportation and distribution of traded goods are in line with high-level policy objectives of civil society values.
+
+UN/CEFACT also provides standards to define many of the information exchanges laid down by the Basel Convention on the Control of Transboundary Movements of Hazardous Waste and their Disposal. Competent authorities, exporters of waste, importers of waste and recovery or disposal facilities are involved in these information exchanges, all in support of SDG target 12.4.
+
+=== Specific semantic standards for agriculture/fishery
+
+The SDG Target 2 aims to end hunger and improve food security. UN/CEFACT develops electronic message standards to support trade in agricultural goods. Core to this are agricultural certifications such as the sanitary-phytosanitary certificate (or e-Cert), eQuality certificates (currently being finalized), animal passports, laboratory results, and crop declarations.
+
+The UN/CEFACT messages in this field also support SDG Target 3 on healthy lives, particularly to declare the quality of soil (eCrops) that contribute to declaring the presence of chemicals and contaminants in soil samples. UN/CEFACT has also developed clear semantic standards to recall contaminated goods (Rapid Alert System for Food and Feed, or RASFF), which have been widely used in the European Union in recent years to recall meats, eggs and other products - thus reducing health risks.
+
+Electronic messages are also key to SDG Target 14 on sustainable marine resources. The UN/CEFACT Fisheries Language for Universal Exchange (FLUX) standard helps to reduce the challenges of overfishing and illegal, unregulated and unreported fishing activities, supporting efforts to safeguard fish stocks and to reduce the threat to biodiversity. FLUX provides a harmonized message standard that allows fisheries management organizations to automatically access the electronic data from fishing vessels needed for stock management (vessel and trip identification, fishing operations or fishing data such as catch area, species and quantity, date and time). Twenty-three European Union countries are implementing the FLUX standard, representing 85,000 fishing vessels with an annual volume of 5 million tons of fish. These messages can also help to provide statistical information on fish catches.
+
+=== Sustainable tourism
+
+The use of clear semantic standards can also help support SDG Target 8 on sustainable tourism. Current UN/CEFACT standards in tourism assist smaller establishments and rural areas to access international markets through electronic data exchange. One such project involves small lodging houses of 100 guest rooms or less, helping them to send electronic business transactions. Another project is looking at experience programs and will soon be working on the base semantic processes and messages to be exchanged to facilitate sharing these offers, thus promoting local culture and products.
+
+=== Infrastructure
+
+UN/CEFACT develops electronic business standards that facilitate border crossing, national development and equitable access. These standards include maritime declarations, customs declarations, code lists, and commercial standards (invoicing, packing list, shipping instructions, procurement, etc.) which enable international trade development. This supports the SDG Target 9.1 to develop infrastructure to support economic development with a focus on affordable and equitable access to all.
+	
+=== Inclusive knowledge sharing
+
+Finally, many of the SDGs targets state that information and knowledge transfer should be a priority. Serving as the focal point for developing, publishing and maintaining global electronic business standards and trade facilitation recommendations, UN/CEFACT has to date developed over 480 standards and recommendations to achieve improved worldwide coordination and cooperation. It aims to support and facilitate national and international transactions through clear semantic standards and procedures. This directly supports SDG Target 17.8 to provide a technology bank for least developed countries and to enhance the use of enabling technologies.
+
+UN/CEFACT is a public-private partnership with members from governments and from the private sector. Most of the meetings are held via conference call, enabling many participants from developing countries to engage and effectively facilitating a North-South sharing of information and semantic standards. This supports SDG Target 17.6 on enhanced knowledge sharing in a neutral United Nations environment.
+
+
