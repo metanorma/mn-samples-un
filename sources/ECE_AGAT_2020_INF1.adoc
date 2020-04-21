@@ -1,0 +1,136 @@
+= Annotated provisional agenda
+:doctype: agenda
+:committee: Centre for Trade Facilitation and Electronic Business
+:status: published
+:copyright-year: 2019
+:session: 1
+:session-date: Geneva, 30 January 2020
+:item-number: 1 of the provisional agenda
+:agenda-id: ECE/AGAT/2020/INF.1
+:item-name: Advisory Group on Advanced Technologies
+:revdate: 30 January 2020
+:language: en
+:distribution: General
+:mn-document-class: un
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_AGAT_2020_INF1.adoc
+:local-cache-only:
+:data-uri-image:
+
+
+== Provisional agenda footnote:[For reasons of economy, delegates are requested to bring copies of all relevant documents to the session. There will be no documentation available in the conference room. Before the session, documents may be downloaded from the UNECE website (http://www.unece.org/uncefact/atag-1stsession-2020).], footnote:[All delegates are requested to complete the online registration form available on the UNECE website (http://www.unece.org/uncefact/atag-1stsession-2020). Upon arrival at the Palais des Nations, delegates should obtain an identification badge at the UNOG Security and Safety Section, located at the Pregny Gate (14, Av. de la Paix). In case of difficulty, please contact the secretariat by telephone (ext. 73254). For a map of the Palais des Nations and other useful information, see the website: https://www.unece.org/meetings/practical.html.]
+
+. Adoption of the agenda
+
+. Appointment of Chair and Vice-Chairs
+
+. Panel on Transformative Technologies in Trade and Logistics
+
+. Panel discussion on obstacles and challenges
+
+. Vision, Mission and Programme of Work
+
+. Future work
+
+. Other business
+
+. Adoption of decisions and the report of the first session
+
+
+== Annotations
+
+=== Opening
+
+The session will be opened by the Director of the Economic Cooperation and Trade Division of the United Nations Economic Commission for Europe (UNECE).
+
+=== Item 1. Adoption of the agenda
+
+The secretariat will present the draft agenda for adoption.
+
+_Documentation_:
+
+Informal document ECE/AGAT/2020/INF.1
+
+
+=== Item 2. Appointment of the Officers
+
+In line with its Mandate and Terms of Reference (ECE/TRADE/C/CEFACT/2019/22/Rev.1), the Advisory Group will appoint its Chair and eventually Vice Chair (s) in accordance with the Guidelines for the establishment and functioning of teams of specialists (ECE/EX/2/Rev.1).
+
+Candidates must be physically present and will be given an opportunity to present themselves. Official country delegates (one officially appointed delegate per country) who are physically present may participate in the election.
+
+_Documentation_:
+
+ECE/TRADE/C/CEFACT/2019/22/Rev.1 +
+ECE/EX/2/Rev.1
+
+=== Item 3. Panel on Transformative Technologies in Trade and Logistics
+
+Managers and high-level experts from the public and private sectors who are involved in technology implementation will make presentations on the potential of specific technologies in trade and logistics as well as presenting use cases where the implementation challenges will be highlighted.  The technologies which will be covered include: the Internet of Things, Big Data, Artificial Intelligence (AI) and Machine Learning, Blockchain and Distributed Ledger Technology (DLT) and Interoperability Tools such as Application Programming Interfaces (APIs).
+
+_Documentation_:
+
+ECE/TRADE/C/CEFACT/2019/8 +
+ECE/TRADE/C/CEFACT/2019/9 +
+ECE/TRADE/C/CEFACT/2019/10 +
+ECE/TRADE/C/CEFACT/2019/27 +
+ECE/TRADE/C/CEFACT/2019/INF.3 +
+ECE/TRADE/C/CEFACT/2018/9 +
+ECE/TRADE/C/CEFACT/2018/25 +
+http://www.unece.org/index.php?id=51234 +
+http://www.unece.org/index.php?id=51232
+
+=== Item 4. Panel discussion on obstacles and challenges
+
+Representatives from the public and private sectors as well as international organizations will discuss the principle challenges, implementations obstacles, and lessons learned from the implementation of new technologies.
+
+=== Item 5. Vision, Mission and Program of Work
+
+The draft vision and mission statement, summarizing the overall goals and methods by which to achieve them will be presented for discussion and the final version approved.
+
+The draft Programme of work of the Advisory Group on Advanced Technologies in Trade and Logistics for 2020-2021, which was prepared by the secretariat, will be presented to the Group for discussion and the final version approved.
+
+_Documentation:_	
+
+ECE/TRADE/C/CEFACT/2019/22/Rev.1 +
+ECE/AGAT/2020/INF.3 +
+ECE/AGAT/2020/INF.4
+
+=== Item 6. Future work
+
+The Group will discuss its future work, including the specific activities to be undertaken during the coming year.
+
+=== Item 7. Other business
+
+Experts will be invited to raise other issues not previously addressed during the session.
+
+=== Item 8. Adoption of decisions and the report of the first session
+
+Experts will be invited to adopt the report of the session.
+
+_Documentation_:
+
+ECE/AGAT/2020/INF.2
+
+*Closing*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
