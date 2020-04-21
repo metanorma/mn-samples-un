@@ -1,0 +1,95 @@
+= Mandate and Terms of Reference of the Advisory Group on Advanced Technologies in Trade and Logistics
+:doctype: terms-of-reference
+:committee: Centre for Trade Facilitation and Electronic Business
+:status: published
+:copyright-year: 2019
+:session: 25
+:session-date: Geneva, 8-9 April 2019
+:item-number: 8 of the provisional agenda
+:agenda-id: ECE/TRADE/C/CEFACT/2019/22/Rev.1
+:item-name: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) structure, mandate, terms of reference and procedures
+:revdate: 8 April 2019
+:language: en
+:distribution: General
+:mn-document-class: un
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_TRADE_C_CEFACT_2019_22_REV1.adoc
+:local-cache-only:
+:data-uri-image:
+
+
+[abstract]
+== Summary
+
+At the Hangzhou Forum of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) in October 2018, the establishment of an Advisory Group was proposed to advise and support the United Nations Economic Commission for Europe (UNECE) Secretariat and UN/CEFACT on advanced technologies in the international supply chain. The technologies in question include blockchain footnote:[In this paper, the term blockchain refers to/includes all Distributed Ledger Technologies (DLT).], Internet of Things (IoT), Artificial Intelligence (AI) and Application Programming Interfaces (API) - the most recent areas of rapid development in trade facilitation and electronic business.
+
+Document ECE/TRADE/C/CEFACT/2019/22/Rev.1 is submitted by the UN/CEFACT Bureau to the twenty-fifth session of the Plenary for decision.
+
+
+== Background
+
+Based on discussions in the eGovernment Domain and Blockchain Whitepaper Project Team meetings during the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Forum in October 2018, the establishment of an Advisory Group was proposed to the Bureau in order to advise and support the UNECE secretariat and UN/CEFACT on advanced technologies in trade facilitation and electronic business. The technologies in question include blockchain1, Internet of Things (IoT), and Artificial Intelligence (AI) - the most recent areas of rapid development in the international supply chain.
+
+== Objectives and activities
+
+The purpose of the Advisory Group is to advise on advanced technologies such as blockchain and IoT, as well as implementation challenges (such as regulatory obstacles). This includes the potential impact of these technologies on standards, services and everyday operations.
+
+To support UN/CEFACT in achieving this objective, the Advisory Group will:
+
+. Monitor the business needs related to these technologies and how they relate back to UN/CEFACT and its deliverables;
+
+. Support dialogue with key external stakeholders;
+
+. Provide advice and expertise on implementation requirements and challenges;
+
+. Identify new work items which will support the role of UN/CEFACT and its deliverables in the context of these technologies;
+
+. Preparing synopses of good practices on selected issues within the Group's mandate for discussion and endorsement by the Bureau; and
+
+. Provide support to senior managers on advanced technology issues, especially in the context of how these can be used with UN/CEFACT standards and UNECE recommendations.
+
+Under the guidance of the UNECE secretariat and within the framework of the UN/CEFACT "`Terms of Reference for Liaison with other Organizations`" (ECE/TRADE/C/CEFACT/2016-14), the Advisory Group may invite the participation of other organizations actively exploring the applications of this technology or their membership,  including the United Nations Office for Project Services (UNOPS), the World Food Programme (WFP), the United Nations Development Programme (UNDP), the World Bank, the International Monetary Fund (IMF), the Organization for Economic Cooperation and Development (OECD), the World Economic Forum (WEF), and other relevant standards development organizations.
+
+== Composition, its membership and participation in its meetings
+
+The selection of Advisory Group members will be in line with the document "`Guidelines for the establishment and functioning of Teams of Specialists`" (ECE.EX.2/Rev.1). The rules and principles of the following paragraphs will also be applied.
+
+The Advisory Group shall be composed of experts with the collective expertise to address the specific tasks defined for it. These should be drawn from
+
+. governmental institutions;
+
+. the business community;
+
+. civil society;
+
+. consumer organizations;
+
+. international organizations; and
+
+. academia.
+
+In order to be able to provide appropriate advice to UN/CEFACT and the UNECE secretariat, the membership of the Advisory Group should aim to include the following experts from the international supply chain:
+
+. Managers responsible for the implementation of such advanced technologies projects;
+
+. Senior government officials responsible for research and/or policies and regulations of such advanced technology implementations;
+
+. High-level academics and officials from non-governmental and other organizations (such as blockchain technology consortia and trade associations) who support work on blockchain and advanced technology implementations in trade logistics; and
+
+. Technical specialists.
+
+Participation in the Advisory Group will be on a voluntary basis. All members of the Advisory Group must register as experts of UN/CEFACT, in accordance with relevant procedures. All contributions to the work of the Advisory Group are in the context of the UN/CEFACT IPR Policy (ECE/TRADE/C/CEFACT/2010/20/Rev.2) and the Code of Conduct (ECE/TRADE/C/CEFACT/2010/18/Rev.1) and the overarching UN/CEFACT Mandate and Terms of Reference (ECE/TRADE/C/CEFACT/2017/15).
+
+The Advisory Group appoints its Chair in accordance with the Guidelines for the establishment and functioning of teams of specialists (UNECE ECE/EX/2/Rev.1).
+
+The Advisory Group will meet virtually at least once every two months and plan at least one face-to-face meeting per year.
+
+The UNECE secretariat provides necessary support to the Advisory Group within available resources.
+
+== Reporting
+
+The Advisory Group will report to the UN/CEFACT Plenary annually and will keep the UN/CEFACT Plenary Bureau informed of its activities.
+
+
+
+
