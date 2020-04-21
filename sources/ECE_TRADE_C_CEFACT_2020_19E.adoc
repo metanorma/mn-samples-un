@@ -1,0 +1,84 @@
+= Report of the Advisory Group Advanced Technologies in Trade and Logistics on its First Annual Meeting
+:doctype: meeting-report
+:docnumber: GE.20-02503(E)
+:committee: Centre for Trade Facilitation and Electronic Business
+:status: published
+:copyright-year: 2020
+:session: 26
+:session-date: Geneva, 4-5 May 2020
+:item-number: 8 of the provisional agenda
+:agenda-id: ECE/TRADE/C/CEFACT/2020/19
+:item-name: Advisory Group on Advanced Technologies in Trade and Logistics
+:revdate: 18 February 2020
+:language: en
+:distribution: General
+:mn-document-class: un
+:mn-output-extensions: xml,html,doc,rxl
+:docfile: ECE_TRADE_C_CEFACT_2020_19E.adoc
+:local-cache-only:
+:data-uri-image:
+
+== Introduction and opening
+
+The United Nations Economic Commission for Europe (UNECE) Advisory Group (AG) on Advanced Technologies in Trade and Logistics held its first session on 30 January 2020.
+
+The session was attended by 80 delegates and experts representing national governmental agencies, international organizations, non-governmental organizations, academia and the private sector.
+
+Experts from the following UNECE member States were present: Belgium, Estonia, Germany, Italy, Israel, the Netherlands, the Russian Federation, Slovenia, Tajikistan and the United Kingdom of Great Britain and Northern Ireland. Delegates from the following countries outside the UNECE region also participated: Brazil, India, the Lao People's Democratic Republic, Nigeria and Senegal.
+
+Representatives of the International Telecommunication Union (ITU), the United Nations Conference on Trade and Development (UNCTAD), the United Nations World Food Programme (WFP), the World Trade Organization (WTO), United Nations Volunteers and the World Economic Forum (WEF) participated in the session.
+
+The UNECE Executive Secretary welcomed participants and underscored the potential importance of this group providing guidance on new technologies. She reminded attendees of the importance of the 2030 Sustainable Development Agenda and the need to ensure that the work of this group assists governments and organizations to implement the Sustainable Development Goals, leaving no one behind. She further underscored the potential influence that such technologies have for fraudulent activities, and that this Group should keep responsible application at the forefront of their work.
+
+The Ambassador of the Permanent Mission of the Republic of Estonia to the United Nations welcomed the participants and expressed appreciation for the timely creation of this Advisory Group to deal specifically with the use of new technologies in Trade and Logistics. The Public Sector should take a role in implementing technologies such as Artificial Intelligence (AI), and Estonia has set up a task force to study such use. The Estonian Parliament will use AI for more faithful transcriptions of sessions. The Government of Estonia has stimulated joint projects, both public and private, through match-making events and through encouraging the use of AI in the private sector. Estonia aims to be a major test bed of AI. This implies rethinking some public structures such as education to prepare tomorrow's leaders and technicians. Governments can take a major role in using such technologies to improve the conditions of its citizens.
+
+The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Chair welcomed the experts to the Advisory Group and reminded them of the historic role of UN/CEFACT in working on standards and guidance in this area. Indeed, UN/CEFACT has, over several decades, linked trade facilitation to trade and government partnerships and helped to move goods across borders more effectively. The Chair invited the experts to familiarize themselves with the work of UN/CEFACT and encouraged them to join.
+
+The Secretariat presented the agenda for the meeting. It was approved as proposed (Decision 1).
+
+The Secretariat announced that it had received a candidature for the chairmanship of the Group from the Italian delegation and a candidature for Vice Chair from the Slovenian delegation. The Advisory Group appointed by acclamation Mr. Quintarelli as Chair and Ms. Dokuzov as Vice Chair (Decision 2). The newly appointed Chair presided over the rest of the meeting.
+
+The keynote speaker from the University of Geneva, in their opening, underscored the difficulty of explaining new technologies to the general public and regulators. The evolution of Artificial Intelligence is happening very quickly -- but in specific locations and specific sectors. This makes it very difficult to regulate them. The scope can also be very different for each potential solution; it is therefore necessary to imagine what the future will be with transformative technologies. How do we find a balance and not over-regulate? Who will benefit from these technologies (e.g. civil society, citizens, government agencies, technical companies) and should these actors have a role in their regulation? What role can intergovernmental agencies play? The speaker reminded attendees that some of the pitfalls include the changing nature of transformative technologies and emphasized that any regulations need to be future-proof in order to remain relevant. Learning and monitoring will play a major role in the future.
+
+== The role of technology in reimagining future supply chains
+
+Representatives from other United Nations organizations, international bodies and the public sector were invited to present practical use cases of new technologies positively impacting Trade and Logistics, and to explain the benefits, implementation obstacles and lessons learned. Implementation will be a critical factor in the successful leveraging of new technologies.
+
+Attendees were reminded of the current state of Industry 4.0. Technologies formerly considered cutting edge, which have now become standard use (such as the use of cloud technology). Today, countries like Switzerland are working more and more to improve connectivity, especially for IoT devices. Implementation requires synergies between the readiness of the user community, the reliability of the technologies, the availability of data/standards, and the enabling infrastructure. IoT uses and the connection that these can have with blockchain technology were briefly presented.
+
+Four generations of blockchain/Distributed Ledger Technology (DLT) were presented: the first being Bitcoin; the second being Ethereum and smart contracts; the third being EOS, IOTA, Hyperledger increasing the capacity and speed of the blockchain network; and the fourth being Tolar HashNET, Hedera Hashgraph. Several use cases of blockchain technology were presented, notably the European Blockchain Services Infrastructure (EBSI) for notarization, identity framework, and data sharing. Other applications were presented for bonds, bookkeeping and auditing.
+
+Bridging supply-chain complexity and providing traceability can be achieved through advanced technologies, but generally a link may be missing between the physical product and its digital representation and corresponding data. In certain cases, linking digital technologies to the bio markers of the product, based on DNA technology, allows for the tracking of a product throughout its lifecycle. A bio marker allows the final product to be traced back, though each phase of its evolution, to its origins. Such bio markers can be applied to gems, precious metals, and natural or man-made textiles.
+
+Regarding data quality and security of data, attendees were reminded that there are positive approaches (which strive to achieve organizational goals and improve performance) and negative approaches (whose goal is protection from fraudulent activities). Within information security, there are three pillars: authentication (identify the origin of the transaction and only genuine parties have access); confidentiality (of all or part of the data); and integrity (to ensure that no one can contest the data). One approach to address this is the traditional PKI approach. Another is a blockchain approach, which is excellent for integrity but not necessarily for identity and not for confidentiality. There are advantages and disadvantages in both approaches. Solutions will generally require a combination of these technologies.
+
+Questions were raised about how to help developing/transitioning countries use these new technologies and how to ensure that these technologies are supporting the implementation of the 2030 Sustainable Development Goals. This topic should be kept in mind for the future work of the Advisory Group.
+
+== How to handle digital information and technologies for value chains
+
+Artificial Intelligence can also be used for border surveillance. AI can be faster but not necessarily smarter; it is therefore necessary to teach AI basic concepts for it to function. AI can be applied to trade and logistics at the border to identify potential fraud or to optimize circulation flows.
+
+We are experiencing a tsunami of data and only 1-2 per cent is being analysed. There are many challenges including multiple standards, fragmentation of platforms, natural languages / computer languages, and long investment return times. A global approach to data can identify the distribution of stored data—where it is being stored allowing for the identification of potential risks.
+
+A thirty-year World Economic Forum study involving Nordic countries showed that the use of standards results in a roughly 40 per cent increase in GDP. Standards enable increased interoperability, improved quality, better access to global markets and support for innovation. The International Telecommunication Union (ITU) has developed several infrastructure standards which enable the use of new technologies and ensure interoperability across borders.
+
+Data is continually generated with everyday use of devices such as smart phones or vehicles. Before 2001, this data was typically discarded; but since then, it has been increasingly valued and marketed. Each region of the world has different preoccupations. In many African countries, the tracking of physical assets, especially for perishable products, is a major challenge; technology has been key in improving this kind of tracking.
+
+== Obstacles, challenges and lessons learned
+
+Service providers are offering applications to their user communities to enhance their operations. However, the multiplication of providers requires underlying standards so that the applications can communicate with each other. The UN/CEFACT project on Smart Containers has responded to this need, providing a clear standard that any entity can use or reference. It is important that such standards are adaptable, can be used by different users in different ways, and support harmonization between applications—allowing for connectivity and interoperability. The UN/CEFACT Core Component Library footnote:[The United Nations Core Component Library (CCL) is a library of business semantics in a data model which is harmonized, audited and published by UN/CEFACT. Available at: https://www.unece.org/cefact/codesfortrade/unccl/ccl_index.html]  and the UN/CEFACT Multi-Modal Transport Reference Data Model footnote:[The UN/CEFACT Multi-Modal Transport Reference Data Model (MMT-RDM) is a subset of the Buy/Ship/Pay Reference Data Model covering contracts for the supply of transport and related services. Available at: https://www.unece.org/uncefact/mainstandards.html] are key examples of this. The next evolution of this will be to develop standardized Application Programming Interfaces (APIs) to allow web programmers to easily use the standards.
+
+Blockchain technologies have been applied to solutions for liquefied natural gas (LNG) by using tokens to generate additional revenue and contribute to positive social impact. The supply chain of LNG has been relatively unchanged for many years. Blockchain technology can reveal the inefficiencies and the lack of transparency in these value chains. Looking forward, it could be useful to use APIs in these exchanges for key resources such as the UN/LOCODE footnote:[The United Nations Code for Trade and Transport Locations (UN/LOCODE) is a geographic coding scheme developed and maintained by the United Nations Economic Commission for Europe (UNECE). Available at: https://www.unece.org/cefact/locode/service/location].
+
+The World Food Program has been developing a blockchain solution to allow 70 agencies to coordinate their information exchange for a transport corridor between Djibouti and Ethiopia. The time spent in document approvals and clearance will be reduced and there will be an increase in accountability of fleet operations. The blockchain-powered platform for the humanitarian supply chain currently provides real-time insights that mitigate issues regarding traceability, visibility, compliance and fleet management. Information is easily accessible and traceable, as records on the blockchain cannot be erased, thus allowing all actors to effectively collaborate and increase performance. In 2019, a proof of concept digital platform was developed. In 2020, the platform will be further developed to include new features and functionalities.
+
+Border crossing in transport can often involve several hours or days in border queues, resulting in lost revenue. Implementing an API-based virtual queue allows drivers to plan their border crossing, book a time for the crossing, arrive at the designated time and cross the border rapidly. This Just-In-Time cross-border logistics approach allows for better resource management and administration.
+
+== Next steps for the Advisory Group
+
+The draft Programme of Work—detailing the scope, objectives, activities, work areas, guiding principles, governance, and funding for the AG—was discussed, amended and approved. The draft vision and mission statements, summarizing the overall goals and methods by which to achieve them, were discussed, slightly amended and approved (Decision 3).
+
+It was suggested that the themes of identity, interoperability, security and trustworthiness be identified as key areas of work for future reflection. There was also a suggestion to put out a call for ideas that could be circulated and used as a future work area.
+
+Delegates and participants were invited to adopt the decisions of the session (Decision 4).
+
