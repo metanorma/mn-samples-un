@@ -81,6 +81,7 @@ The scope of monitoring should be decided by a country according to its specific
 
 NOTE: When defining the scope of monitoring, Specific, Measureable, Achievable, Relevant and Time-bound (SMART) criteria should be adopted whenever appropriate.
 
+[%unnumbered]
 |===
 h|Specific | The areas for monitoring need to be clear and unambiguous.
 h|Measureable | A country needs to review its resources and capacity for the monitoring exercise. If the monitoring exercise is carried out for the first time, the country may be focused on a small number of strategically important procedures, products or trade routes for the monitoring exercise. Over time, with enhanced national capacity and experiences, more products and trade routes can be included for monitoring.
@@ -88,7 +89,7 @@ h|Relevant  | The areas of monitoring need to be strategically important and rel
 h|Time-bound | The time-frame and target dates for the monitoring exercises need to be clear to all stakeholders.
 |===
 
-The country may consider processes, products and/or trade routes and corridors when defining the scope of monitoring (as elaborated in sections <<scope-process>> through <<trade-routes-corridors>>, below).
+The country may consider processes, products and/or trade routes and corridors when defining the scope of monitoring (as elaborated in <<scope-process>> through <<trade-routes-corridors>>, below).
 
 [[scope-process]]
 ==== Process
@@ -102,7 +103,7 @@ image::figure1.png[]
 When selecting products for monitoring, and whenever possible, one or more of the following factors should be taken into consideration:
 
 * The products should be strategically important for the country or the region;
-• The products should be relevant for small and medium-sized enterprises (SMEs), particularly in the agricultural sector;
+* The products should be relevant for small and medium-sized enterprises (SMEs), particularly in the agricultural sector;
 * The products should contribute significantly to the creation of employment;
 * The product should have a high frequency of shipments;
 * The product should have a high economic value to the country or region;
@@ -139,6 +140,7 @@ Business Process Analysis was initially designed to document and evaluate an imp
 
 The Business Process Analysis Plus (BPA+) approach is built upon the BPA concept and supplemented by other methods such as Time-Cost-Distance (TCD), Corridor Performance Measurement and Monitoring (CPMM) and Time Release Studies (TRS).
 
+[%unnumbered]
 image::figure2a.png[]
 
 TCD/CPMM and TRS, which focus on a subset of procedures covered by BPA (See the Figure above) and provide alternative data collection methods, could be used to verify and supplement the data and outputs from the standard BPA. BPA data is typically based on interviews with key informants, which are verified through stakeholder consultation(s), while TCD/CPMM is often based on the accumulation of quantitative information provided by drivers moving a single shipment along a selected route. TRS is based on data collection forms filled by Customs officers, customs brokers or electronic time stamps (when available) for a sample of shipments/customs declarations.
@@ -238,7 +240,7 @@ ADB's CAREC CPMM covers trade and transport facilitation performance in selected
 [[annex2]]
 [appendix]
 == An example of top- and middle-tier indicators under a TTFMM
-=== General
+
 A country may consider developing the following indicators to monitor trade and transport facilitation. Each indicator can be associated with exports and/or imports. For each indicator, a comparison with historical data, if available, can be useful for assessing whether performance has improved or deteriorated.
 
 === Top tier indicators
@@ -262,7 +264,7 @@ h| Export h| Import
 2+h| 1.3 Border crossing indicators
 h| Export h| Import
 | Average time for completion of *export procedures for border crossing* |   Average time for completion of *import procedures for border crossing*
-2+| *Change (%) compared with historical data:* for each indicator mentioned in this table, a comparison with historical data—if available—is recommended to assess whether performance has improved or deteriorated.
+2+h| *Change (%) compared with historical data:* for each indicator mentioned in this table, a comparison with historical data—if available—is recommended to assess whether performance has improved or deteriorated.
 |===
 
 === Middle tier indicators
