@@ -1,6 +1,6 @@
 = White Paper Overview of Blockchain for Trade
 :subtitle: An Introduction to Blockchain Use in Trade Facilitation
-:doctype: plenary
+:doctype: plenary-attachment
 :docnumber: GE.19-00825(E)
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :status: published

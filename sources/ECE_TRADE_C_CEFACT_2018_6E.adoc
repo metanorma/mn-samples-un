@@ -1,6 +1,6 @@
 = Paperless Trade White Paper
 :subtitle: How Does It Impact the Trade System?
-:doctype: plenary
+:doctype: plenary-attachment
 :docnumber: GE.18-02016(E)
 :committee: United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT)
 :status: published
