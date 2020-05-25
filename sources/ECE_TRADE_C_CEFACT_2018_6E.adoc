@@ -18,6 +18,7 @@
 :docfile: ECE_TRADE_C_CEFACT_2018_6E.adoc
 :local-cache-only:
 :data-uri-image:
+:do-not-number-subheadings:
 
 [abstract]
 == Summary
