@@ -77,8 +77,14 @@ Due to growing concerns on the industry footprint, sustainability practices are 
 In terms of social and ethical risks for employees’, key concerns are described in <<fig-social-risks>>.
 
 [[fig-social-risks]]
-.Environmental and Social/Ethical Risks in Sustainability Approaches. Source: UNECE 2018
+.Environmental and Social/Ethical Risks in Sustainability Approaches.
 image::social-ethical-risks.png[]
+
+[type="source"]
+[NOTE]
+====
+UNECE 2018
+====
 
 Regarding environmental risks, sustainability approaches mainly investigate levels of energy and water consumption, use of chemicals, production waste treatment and recycling, and CO2 emissions in production processes. Increasing attention is also paid to circular approaches in terms of reuse, recycling and green R&D. However, there is less attention to impacts in the upstream part of the value chain, such as the environmental footprint of raw material production. When it comes to working towards compliance with sustainability claims, 51% of surveyed companies mentioned they have voluntary certification/s on sustainability performances footnote:[For raw materials: GOTS, FSC, GRS, OEKO TEX, Tessile e Salute are the most mentioned; for products: OEKO TEX, GOTS, USI 140001-S001-18001, Tessile e Salute, Serico, FSC, Detox are the most mentioned; for internal production: ISO 14001, OEKO TEX, Standard 100, GOTS, INDITEX, Tessile e Salute, FSC, Detox are the most mentioned.]. Also, it is worth mentioning that companies are becoming increasingly aware of the relevance of their sustainability approaches to achieving the SDGs (38% of respondents).
 
@@ -94,7 +100,7 @@ Improving traceability and transparency are key means to investigate and collect
 But “How can transparency and traceability of the value chains help advance sustainability in the garment and footwear sector?” This is the first research question addressed in this paper. In fact, key actors in the industry have identified traceability and transparency as crucial enablers for change towards more responsible production and consumption patterns, and as the first core priority for immediate implementation (CEO Agenda 2018, BCG and GFA 2018). It allows connection between producers and firms, firms and brands and retailers, and provides a rigorous way of collecting information related to operations and products along the value chain. <<table-benefits-traceability>> reports the results of the Survey conducted for this study, which highlights the business sector views on the key benefits of traceability in garment and footwear value chains. According to respondents, traceability helps companies to build trust with consumers, along with stronger relationships and more solid networks with clients and suppliers. It also helps identify opportunities for efficient and sustainable management of resources, as well as risks for health, the environment and labor rights. Presenting the information in a standardized form, supports common understanding, accessibility, clarity and comparison, and fosters credible communication towards consumers and the public.
 
 [[table-benefits-traceability]]
-.The benefits of traceability. Source: UNECE 2018, GS1 2018, Kumar et Al. 2017.
+.The benefits of traceability.
 [cols="2*"]
 |===
 |*Consumers’ trust*
@@ -110,6 +116,11 @@ But “How can transparency and traceability of the value chains help advance su
 |More accurate and complete information exchange helps improve communication with business partners along the value chain.
 |===
 
+[type="source"]
+[NOTE]
+====
+UNECE 2018, GS1 2018, Kumar et Al. 2017.
+====
 
 To address this research questions, the Study has investigated research papers and has conducted face to face interviews with multiple stakeholders. They highlight that traceability and transparency of the value chain are important pre-conditions for sustainability and are key for identifying and monitoring risks and impacts, sustaining the reliability of claims and companies’ accountability, reducing public pressures and for making relevant information available to final consumers.
 
@@ -117,17 +128,28 @@ Finally, the Study have found that actions to advance transparency and traceabil
 
 
 [[fig-value-chain-traceability]]
-.Traceability of the value chain in the garment and footwear sector. Source: UNECE 2018
+.Traceability of the value chain in the garment and footwear sector.
 image::value-chain-traceability.png[]
 
+[type="source"]
+[NOTE]
+====
+UNECE 2018
+====
 
 == Challenges and opportunities to achieving value chain traceability and transparency
 
 Tracking and tracing the value chain is a challenging task because of the organizational and technological complexities for the industry (Kumar at al 2017). The Survey has enquired among respondents on the actual share of companies tracking and tracing their value chain. The results point out that only 34% of companies has a traceability approach in place, of which half has visibility up to Tier 2 (material manufacturing or finished materials production) only (See <<fig-garment-foot-traceability>>).
 
 [[fig-garment-foot-traceability]]
-.Traceability of the value chain in the garment and footwear sector. Source: UNECE 2018 [In the left graph, other refers to Chemical Suppliers]
+.Traceability of the value chain in the garment and footwear sector.
 image::garment-foot-traceability.png[]
+
+[type="source"]
+[NOTE]
+====
+UNECE 2018 [In the left graph, other refers to Chemical Suppliers]
+====
 
 In the Survey, respondents view key challenges as mainly in relation to:
 

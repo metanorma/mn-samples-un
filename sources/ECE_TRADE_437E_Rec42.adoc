@@ -96,8 +96,14 @@ The country may consider processes, products and/or trade routes and corridors w
 Countries, whenever appropriate, are encouraged to adopt a whole-of-supply-chain approach for the scope of their monitoring exercises to ensure that the solutions identified for enhancing trade and transport facilitation are encompassing and comprehensive. To this end, the Buy-Ship-Pay model{blank}footnote:[This model is included in UNECE Recommendation n°18 Facilitation Measures Related to International Trade Procedures, available at http://www.unece.org/tradewelcome/un-centre-for-trade- facilitation-and-e-business-uncefact/outputs/cefactrecommendationsrec-index/list-of-trade-facilitation-recommendations-n-16-to-20.html (accessed 17 January 2017).] (as shown in <<Figure1>>) should be considered by the country when setting up the scope of monitoring. The scope of monitoring could cover the whole- of-supply-chain process (i.e. all of Buy-Ship-Pay) or, in some cases, the scope might be confined to selected processes in the Buy-Ship-Pay model, according to the priorities of the country.
 
 [[Figure1]]
-.UNECE Recommendation n°18 illustrates a simplified view of the international supply chain in the Buy-Ship-Pay model. The model identifies the key commercial, logistical, regulatory and payment procedures involved in the international supply chain. Source: http://tfig.unece.org/contents/buy-ship-pay-model.htm.
+.UNECE Recommendation n°18 illustrates a simplified view of the international supply chain in the Buy-Ship-Pay model. The model identifies the key commercial, logistical, regulatory and payment procedures involved in the international supply chain.
 image::figure1.png[]
+
+[type="source"]
+[NOTE]
+====
+ http://tfig.unece.org/contents/buy-ship-pay-model.htm.
+====
 
 ==== Products
 When selecting products for monitoring, and whenever possible, one or more of the following factors should be taken into consideration:
@@ -145,9 +151,14 @@ image::figure2a.png[]
 
 TCD/CPMM and TRS, which focus on a subset of procedures covered by BPA (See the Figure above) and provide alternative data collection methods, could be used to verify and supplement the data and outputs from the standard BPA. BPA data is typically based on interviews with key informants, which are verified through stakeholder consultation(s), while TCD/CPMM is often based on the accumulation of quantitative information provided by drivers moving a single shipment along a selected route. TRS is based on data collection forms filled by Customs officers, customs brokers or electronic time stamps (when available) for a sample of shipments/customs declarations.
 
-Another difference between BPA and the other two methods (TRS and TCD/CPMM) is that BPA not only provides indicators, but also provides a ‘standard' way of analyzing indicators, trade procedures, identifying bottlenecks and diagnosing trade barriers—while the other two methods mainly provide indicators.
+Another difference between BPA and the other two methods (TRS and TCD/CPMM) is that BPA not only provides indicators, but also provides a '`standard`' way of analyzing indicators, trade procedures, identifying bottlenecks and diagnosing trade barriers—while the other two methods mainly provide indicators.
 
-Source: The box is derived from an ESCAP-ADB publication entitled _Towards a National Integrated and Sustainable Trade and Transport Facilitation Monitoring Mechanism: BPA+_ (2014). Available as of 14 December 2016 at: <http://www.unescap.org/resources/towards-national-integrated-and-sustainable-trade-and-transport-facilitation-monitoring>.
+[type="source"]
+[NOTE]
+======
+The box is derived from an ESCAP-ADB publication entitled _Towards a National Integrated and Sustainable Trade and Transport Facilitation Monitoring Mechanism: BPA+_ (2014). Available as of 14 December 2016 at: <http://www.unescap.org/resources/towards-national-integrated-and-sustainable-trade-and-transport-facilitation-monitoring>.
+======
+
 ====
 
 
