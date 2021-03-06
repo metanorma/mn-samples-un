@@ -1,8 +1,5 @@
 ---
 metanorma:
-  deploy:
-    email: "travis-ci@metanorma.org"
-relaton:
   collection:
     name: UNECE Recommendations in Metanorma
     organization: The United Nations Economic Commission for Europe (UNECE)
