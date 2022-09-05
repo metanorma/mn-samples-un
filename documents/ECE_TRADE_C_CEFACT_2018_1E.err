@@ -1,0 +1,85 @@
+/__w/mn-samples-un/mn-samples-un/site/documents/ECE_TRADE_C_CEFACT_2018_1E.err errors
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000064): Table should have title
+	<table id="_282f4df6-24fb-767e-3566-81a066ef5c47" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Draft agenda</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/1</td>
+(XML Line 000078): Table should have title
+	<table id="_a7d255a4-817f-8a5c-f548-d181f95a5e75" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Consolidated United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) mandate and terms of reference</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2017/15</td>
+(XML Line 000094): Table should have title
+	<table id="_82f1cb48-0d03-1e75-7005-e454cae293a5" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Matters arising since the twenty-third session</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/3</td>
+(XML Line 000117): Table should have title
+	<table id="_5d5f946c-45d4-2d33-720a-b27e09c09009" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Report of Rapporteur for Africa</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/4</td>
+(XML Line 000181): Table should have title
+	<table id="_59e06788-dbba-c5cc-bd7f-af02aea45226" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">White Paper on Paperless Trade</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/6</td>
+(XML Line 000210): Table should have title
+	<table id="_f683ad17-bba0-63e9-febb-b381fea84143" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Executive Guide on eInvoicing / Cross Industry Invoice</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/12</td>
+(XML Line 000252): Table should have title
+	<table id="_d8a8b916-5c68-101c-b41e-26320a5ad2b9" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Representation Procedure Guidelines</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/19</td>
+(XML Line 000268): Table should have title
+	<table id="_145ffbc9-b2bd-6c01-e204-6df90421672a" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Meeting Report of the UN/LOCODE Advisory Group of December 2017</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/20</td>
+(XML Line 000287): Table should have title
+	<table id="_2fa0e038-ab70-563a-c860-744527bf9d12" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Meeting Report of the Team of Specialists on Sustainable Fisheries of January 2018</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/21</td>
+(XML Line 000311): Table should have title
+	<table id="_d82951b1-ae31-1a5a-ed56-4f2f5878c428" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Transparency in textile value chains in relation to the environmental, social and human health impacts of parts, components and production processes</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/23</td>
+(XML Line 000342): Table should have title
+	<table id="_875ffe77-db14-115e-ea66-246ab22ec8a0" unnumbered="true"><thead><tr><th valign="top" align="left"><em>Document title</em></th>
+	<th valign="top" align="left"><em>Document symbol</em></th>
+	<th valign="top" align="left"/></tr></thead>
+	<tbody><tr><td valign="top" align="left">Draft report of the twenty-fourth session</td>
+	<td valign="top" align="left">ECE/TRADE/C/CEFACT/2018/2</td>
+(XML Line 000357): Table should have title
+	<table id="_27dfe506-7e53-53ec-e76b-2e7974aa262b" unnumbered="true"><tbody><tr><th valign="middle" align="center"><em>Date and time</em></th>
+	<th valign="middle" align="center"><em>Agenda item</em></th>
+	<th valign="middle" align="center"><em>Introduced by</em></th>
+	</tr><tr><td colspan="3" valign="middle" align="center"><strong>Monday, 30 April</strong></td>
+	</tr><tr><td valign="top" align="left">10.00 – 10.15</td>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000013:239): character content of element "distribution" invalid; must be equal to "general", "limited", "provisional" or "restricted"
+(XML Line 000013:273): element "date" not allowed here; expected the element end-tag or element "agenda-id", "collaborator", "item-footnote", "item-name", "item-number", "session-date" or "subitem-name"
+(XML Line 000013:309): character content of element "date" invalid; must be a string matching the regular expression "([\+\-]?\d{4})((-?)((0[1-9]|1[0-2])((-?)([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6]))))?"
+(XML Line 000013:313): element "id" not allowed here; expected the element end-tag or element "agenda-id", "collaborator", "item-footnote", "item-name", "item-number", "session-date" or "subitem-name"
