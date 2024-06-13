@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<un-standard xmlns="https://www.metanorma.org/ns/un" type="semantic" version="0.12.1" schema-version="v1.3.0">
+<un-standard xmlns="https://www.metanorma.org/ns/un" type="semantic" version="0.12.10" schema-version="v1.3.2">
 <bibdata type="standard">
 <title type="main" language="en" format="text/plain">Annotated provisional agenda</title>
 <contributor><role type="author"/><organization>

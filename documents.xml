@@ -1,6 +1,8 @@
 <relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>UNECE Recommendations in Metanorma</title><contributor><role type='author'/><organization><name>The United Nations Economic Commission for Europe (UNECE)</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.8">
   <title type="main" format="text/plain" language="en">Annotated provisional agenda</title>
   <uri type="xml">documents/ECE_AGAT_2020_INF1.xml</uri>
+  <uri type="doc">documents/ECE_AGAT_2020_INF1.doc</uri>
+  <uri type="html">documents/ECE_AGAT_2020_INF1.html</uri>
   <uri type="rxl">documents/ECE_AGAT_2020_INF1.rxl</uri>
   <contributor>
     <role type="author"/>
@@ -40,7 +42,7 @@
   <uri type="doc">documents/ECE_TRADE_437E_Rec42.doc</uri>
   <uri type="html">documents/ECE_TRADE_437E_Rec42.html</uri>
   <uri type="rxl">documents/ECE_TRADE_437E_Rec42.rxl</uri>
-  <docidentifier>42</docidentifier>
+  <docidentifier primary="true">42</docidentifier>
   <docnumber>42</docnumber>
   <contributor>
     <role type="author"/>
@@ -80,8 +82,10 @@
   <title type="main" format="text/plain" language="en">Annotated provisional agenda for the twenty-fourth session</title>
   <title type="subtitle" format="text/plain" language="en">To be held at the Palais des Nations, Geneva, starting at 10.00 on Monday, 30 April 2018,</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2018_1E.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2018_1E.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2018_1E.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2018_1E.rxl</uri>
-  <docidentifier>GE.18-01763(E)</docidentifier>
+  <docidentifier primary="true">GE.18-01763(E)</docidentifier>
   <docnumber>GE.18-01763(E)</docnumber>
   <contributor>
     <role type="author"/>
@@ -119,8 +123,10 @@
   <title type="main" format="text/plain" language="en">Paperless Trade White Paper</title>
   <title type="subtitle" format="text/plain" language="en">How Does It Impact the Trade System?</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2018_6E.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2018_6E.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2018_6E.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2018_6E.rxl</uri>
-  <docidentifier>GE.18-02016(E)</docidentifier>
+  <docidentifier primary="true">GE.18-02016(E)</docidentifier>
   <docnumber>GE.18-02016(E)</docnumber>
   <contributor>
     <role type="author"/>
@@ -165,8 +171,10 @@
   <title type="main" format="text/plain" language="en">White Paper Overview of Blockchain for Trade</title>
   <title type="subtitle" format="text/plain" language="en">An Introduction to Blockchain Use in Trade Facilitation</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2019_09.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2019_09.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2019_09.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2019_09.rxl</uri>
-  <docidentifier>GE.19-00825(E)</docidentifier>
+  <docidentifier primary="true">GE.19-00825(E)</docidentifier>
   <docnumber>GE.19-00825(E)</docnumber>
   <contributor>
     <role type="author"/>
@@ -206,6 +214,8 @@
 <relation type='partOf'><bibdata type="standard" schema-version="v1.2.8">
   <title type="main" format="text/plain" language="en">Mandate and Terms of Reference of the Advisory Group on Advanced Technologies in Trade and Logistics</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2019_22_REV1.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2019_22_REV1.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2019_22_REV1.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2019_22_REV1.rxl</uri>
   <contributor>
     <role type="author"/>
@@ -246,8 +256,10 @@
 <relation type='partOf'><bibdata type="standard" schema-version="v1.2.8">
   <title type="main" format="text/plain" language="en">Briefing note on sustainable textile value chains in the garment and footwear domain for SDG12</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2019_26.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2019_26.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2019_26.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2019_26.rxl</uri>
-  <docidentifier>GE.19-04574(E)</docidentifier>
+  <docidentifier primary="true">GE.19-04574(E)</docidentifier>
   <docnumber>GE.19-04574(E)</docnumber>
   <contributor>
     <role type="author"/>
@@ -287,6 +299,8 @@
 <relation type='partOf'><bibdata type="standard" schema-version="v1.2.8">
   <title type="main" format="text/plain" language="en">Briefing note on the importance of Semantics within Trade Facilitation and Electronic Business for SDG 17</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2019_27.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2019_27.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2019_27.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2019_27.rxl</uri>
   <contributor>
     <role type="author"/>
@@ -326,8 +340,10 @@
 <relation type='partOf'><bibdata type="standard" schema-version="v1.2.8">
   <title type="main" format="text/plain" language="en">Programme of Work of the Advisory Group on Advanced Technologies in Trade and Logistics</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2020_18E.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2020_18E.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2020_18E.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2020_18E.rxl</uri>
-  <docidentifier>GE.20-02502(E)</docidentifier>
+  <docidentifier primary="true">GE.20-02502(E)</docidentifier>
   <docnumber>GE.20-02502(E)</docnumber>
   <contributor>
     <role type="author"/>
@@ -367,8 +383,10 @@
 <relation type='partOf'><bibdata type="standard" schema-version="v1.2.8">
   <title type="main" format="text/plain" language="en">Report of the Advisory Group Advanced Technologies in Trade and Logistics on its First Annual Meeting</title>
   <uri type="xml">documents/ECE_TRADE_C_CEFACT_2020_19E.xml</uri>
+  <uri type="doc">documents/ECE_TRADE_C_CEFACT_2020_19E.doc</uri>
+  <uri type="html">documents/ECE_TRADE_C_CEFACT_2020_19E.html</uri>
   <uri type="rxl">documents/ECE_TRADE_C_CEFACT_2020_19E.rxl</uri>
-  <docidentifier>GE.20-02503(E)</docidentifier>
+  <docidentifier primary="true">GE.20-02503(E)</docidentifier>
   <docnumber>GE.20-02503(E)</docnumber>
   <contributor>
     <role type="author"/>
