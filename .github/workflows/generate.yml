@@ -31,6 +31,18 @@ jobs:
       - name: Setup Metanorma toolchain
         uses: actions-mn/setup@main
 
+      - name: Bundle the canonical line (flavor gems the toolchain lacks)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Prefer the bundle's metanorma
+        shell: bash
+        run: |
+          bundle binstubs metanorma-cli --force >/dev/null 2>&1 || true
+          echo "$PWD/bin" >> "$GITHUB_PATH"
+
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@main
         with:
