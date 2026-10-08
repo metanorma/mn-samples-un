@@ -15,7 +15,7 @@ gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", bran
 gem "metanorma-un", github: "metanorma/metanorma-un", branch: "main"
 gem "debug"
 
-gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
+gem "lutaml-model", "= 0.8.97"
 gem "moxml", github: "lutaml/moxml", branch: "main"
 gem "leptris", "1.9.317"
 
