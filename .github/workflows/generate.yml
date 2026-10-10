@@ -43,9 +43,13 @@ jobs:
           bundle binstubs metanorma-cli --force >/dev/null 2>&1 || true
           echo "$PWD/bin" >> "$GITHUB_PATH"
 
-      - name: Metanorma generate site
-        uses: actions-mn/build-and-publish@main
+      - name: Metanorma generate site (bundle)
+        shell: bash
+        run: |
+          bundle exec metanorma site generate . -c metanorma.yml
+      - name: Upload site artifact
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          agree-to-terms: true
-          destination: artifact
-          artifact-name: ${{ github.event.repository.name }}-${{ runner.os }}
+          name: ${{ github.event.repository.name }}-${{ runner.os }}
+          path: _site
