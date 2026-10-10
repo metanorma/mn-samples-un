@@ -24,7 +24,7 @@ gem "debug"
 
 gem "lutaml-model", "= 0.8.97"
 gem "moxml", github: "lutaml/moxml", branch: "main"
-gem "leptris", "1.9.317"
+gem "leptris", "1.9.331.0"
 
 gem "relaton", "= 3.0.0.pre.alpha.11"
 gem "relaton-render", "= 3.0.0.pre.alpha.19"
