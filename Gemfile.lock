@@ -1279,7 +1279,6 @@ DEPENDENCIES
   html2doc!
   isodoc!
   isodoc-i18n!
-  leptris (= 1.9.331.0)
   lutaml-model (= 0.8.97)
   metanorma!
   metanorma-bipm!
