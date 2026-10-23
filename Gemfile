@@ -21,9 +21,9 @@ gem "metanorma-bipm", github: "metanorma/metanorma-bipm", branch: "main"
 gem "metanorma-iec", github: "metanorma/metanorma-iec", branch: "main"
 gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
 gem "debug"
+gem "sassc-embedded"
 
-gem "lutaml-model", "= 0.8.97"
-gem "moxml", github: "lutaml/moxml", branch: "main"
+gem "moxml", "0.5.153"
 
 gem "relaton", "= 3.0.0.pre.alpha.11"
 gem "relaton-render", "= 3.0.0.pre.alpha.19"
