@@ -26,7 +26,7 @@ gem "metanorma-standoc", "3.5.1.pre.alpha.1" # wave candidate
 gem "metanorma-document", "0.5.2.pre.alpha.1" # wave candidate
 gem "metanorma", "2.5.6.pre.alpha.1" # wave candidate
 gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "main"
-gem "metanorma-un", "0.12.20.pre.alpha.1" # wave candidate
+gem "metanorma-un", "0.12.20.pre.alpha.2" # wave candidate
 gem "metanorma-ogc", "2.10.1.pre.alpha.1" # wave candidate
 gem "metanorma-itu", "2.9.3.pre.alpha.1" # wave candidate
 gem "metanorma-ieee", "1.7.1.pre.alpha.1" # wave candidate
@@ -35,7 +35,6 @@ gem "metanorma-bipm", "2.9.1.pre.alpha.1" # wave candidate
 gem "metanorma-iec", "2.9.1.pre.alpha.1" # wave candidate
 gem "metanorma-jis", "1.2.1.pre.alpha.1" # wave candidate
 gem "debug"
-gem "sassc-embedded"
 
 gem "lutaml-model", "= 0.8.97"
 gem "moxml", github: "lutaml/moxml", branch: "main"
