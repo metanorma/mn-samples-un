@@ -12,6 +12,7 @@ gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", 
 gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
 gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
 gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "main"
+gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main"
 gem "metanorma-un", github: "metanorma/metanorma-un", branch: "main"
 gem "metanorma-ogc", github: "metanorma/metanorma-ogc", branch: "main"
 gem "metanorma-itu", github: "metanorma/metanorma-itu", branch: "main"
