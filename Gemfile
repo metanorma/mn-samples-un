@@ -35,6 +35,7 @@ gem "metanorma-bipm", "2.9.1.pre.alpha.1" # wave candidate
 gem "metanorma-iec", "2.9.1.pre.alpha.1" # wave candidate
 gem "metanorma-jis", "1.2.1.pre.alpha.1" # wave candidate
 gem "debug"
+gem "sassc-embedded"
 
 gem "lutaml-model", "= 0.8.97"
 gem "moxml", github: "lutaml/moxml", branch: "main"
