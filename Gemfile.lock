@@ -152,6 +152,16 @@ GIT
       pubid
 
 GIT
+  remote: https://github.com/metanorma/metanorma-ietf.git
+  revision: 9d4dccfdba4d087904659c8987590e158f330770
+  branch: main
+  specs:
+    metanorma-ietf (3.7.11)
+      metanorma-ietf-data
+      metanorma-standoc (~> 3.5.0)
+      relaton-render
+
+GIT
   remote: https://github.com/metanorma/metanorma-iho.git
   revision: 182ef1edb99774cbd16afa295dd87f4ff4858abd
   branch: main
@@ -800,10 +810,6 @@ GEM
       metanorma-generic (~> 3.5.0)
     metanorma-generic (3.5.0)
       metanorma-standoc (~> 3.5.0)
-    metanorma-ietf (3.7.11)
-      metanorma-ietf-data
-      metanorma-standoc (~> 3.5.0)
-      relaton-render
     metanorma-ietf-data (0.2.0)
     metanorma-mirror (1.0.0)
       lutaml-model (~> 0.8)
@@ -1334,6 +1340,7 @@ DEPENDENCIES
   metanorma-document!
   metanorma-iec!
   metanorma-ieee!
+  metanorma-ietf!
   metanorma-iho!
   metanorma-iso!
   metanorma-itu!
