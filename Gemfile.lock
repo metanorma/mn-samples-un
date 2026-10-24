@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/lutaml/moxml.git
-  revision: b7825839a802a04cbeffb1dac4081ef1d6e1604e
-  branch: main
-  specs:
-    moxml (0.5.158)
-
-GIT
   remote: https://github.com/metanorma/html2doc
   revision: 812db4d20dc770f343e212f27cd5c8b7c2667e09
   branch: main
@@ -762,6 +755,7 @@ GEM
       relaton-render (~> 3.0.0.pre.alpha)
     mn2pdf (2.72)
     mnconvert (1.89.0)
+    moxml (0.5.153)
     multi_json (1.21.2)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.8)
@@ -1229,7 +1223,7 @@ DEPENDENCIES
   metanorma-un (= 0.12.20.pre.alpha.2)
   metanorma-utils!
   mn-requirements (= 0.5.14.pre.alpha.1)
-  moxml!
+  moxml (= 0.5.153)
   pubid!
   relaton (= 3.0.0.pre.alpha.11)
   relaton-bib (= 2.2.0.pre.alpha.1)
