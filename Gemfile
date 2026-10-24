@@ -22,7 +22,6 @@ gem "metanorma-bipm", github: "metanorma/metanorma-bipm", branch: "main"
 gem "metanorma-iec", github: "metanorma/metanorma-iec", branch: "main"
 gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
 gem "debug"
-gem "sassc-embedded"
 
 gem "moxml", "0.5.153"
 
