@@ -1300,7 +1300,7 @@ DEPENDENCIES
   metanorma-utils!
   moxml (= 0.5.153)
   pubid (~> 2.0)
-  relaton (= 3.0.0)
+  relaton (~> 3.0)
   relaton-bib (= 2.2.0.pre.alpha.1)
   relaton-render (= 3.0.0)
 
