@@ -25,7 +25,6 @@ gem "debug"
 
 gem "moxml", "0.5.153"
 
-gem "relaton", "~> 3.1.1" # monogem line; relaton-bib retired
 gem "relaton-render", "= 3.0.0"
 gem "pubid", "~> 2.0" # 2.0.0 released; the git source now carries the 2.1 pre line
 
