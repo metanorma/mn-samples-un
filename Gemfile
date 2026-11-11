@@ -25,9 +25,8 @@ gem "debug"
 
 gem "moxml", "0.5.153"
 
-gem "relaton", "~> 3.0" # 3.0.1 carries the COW prune fix (relaton#392)
+gem "relaton", "~> 3.1.1" # monogem line; relaton-bib retired
 gem "relaton-render", "= 3.0.0"
-gem "relaton-bib", "2.2.0.pre.alpha.1"
 gem "pubid", "~> 2.0" # 2.0.0 released; the git source now carries the 2.1 pre line
 
 gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main"
