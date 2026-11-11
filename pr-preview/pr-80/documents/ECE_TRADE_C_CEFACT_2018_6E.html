@@ -1,0 +1,2253 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Times New Roman", serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New", monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Times New Roman", serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Times New Roman", serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+
+dl dt {
+  grid-column-start: 1;
+}
+
+dl dd {
+  grid-column-start: 2;
+}
+
+dl:has(dt .stem) {
+  grid-template-columns: fit-content(8em) auto;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+a.TableFootnoteRef, a.FootnoteRef, a.footnote-number,
+sup a, a:has(> sup) {
+  vertical-align: baseline;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+/*
+    1. HTML & Body
+*/
+/* http://www.un.org/styleguide/ color */
+/* http://www.99colors.net/name/united-nations-blue */
+/* http://www.un.org/styleguide/ label text */
+/* http://www.un.org/styleguide/ brand-bar */
+/* http://www.un.org/styleguide/ p */
+/* RT: I made this up */
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #333;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body {
+  font-weight: 400;
+}
+
+main {
+  margin: 0 3em 0 6em;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/*
+    2. Responsive navigation layout
+*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: #333;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #1661ad;
+  box-shadow: inset -5px 0px 10px -5px #1661ad !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: #333;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: #333;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+  color: white;
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: linear-gradient(280deg, #00ADEF, #5b92e5);
+  box-shadow: inset -5px 0px 10px -5px #00ADEF !important;
+}
+#toc .toc-active a,
+#toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: white;
+  background: none;
+  box-shadow: none;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: white;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 30px;
+    background-color: #f2f2f2;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #00ADEF;
+    color: white !important;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    z-index: 103;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    margin: 0;
+    padding: 0;
+  }
+}
+.figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure > img, .figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table div.figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+.document-stage-band > :first-child {
+  font-weight: 300;
+}
+
+div.document-stage-band,
+div.document-type-band {
+  background-color: #9abd48;
+}
+
+p.document-type,
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+
+#governance-band p.document-type {
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+#standard-band p {
+  height: 270px;
+}
+
+#proposal-band p {
+  height: 150px;
+}
+
+#standard-band,
+#published-band {
+  background-color: #9abd48;
+}
+
+#standard,
+#published {
+  border-bottom: solid 3px #9abd48;
+}
+
+#governance,
+#policy-and-procedures {
+  border-bottom: solid 3px #750697;
+}
+
+#governance-band,
+#policy-and-procedures-band {
+  background-color: #750697;
+}
+
+#guide {
+  border-bottom: solid 3px #48a0e7;
+}
+
+#guide-band {
+  background-color: #48a0e7;
+}
+
+.coverpage-maturity {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+#working-draft,
+#proposal {
+  border-bottom: solid 3px #f7803c;
+}
+
+#working-draft-band,
+#proposal-band {
+  background-color: #f7803c;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd;
+}
+
+#committee-draft-band {
+  background-color: #fd06fd;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#draft-standard-band {
+  background-color: #fdf906;
+}
+
+#standard {
+  border-bottom: solid 3px #9abd48;
+}
+
+#standard-band {
+  background-color: #9abd48;
+}
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13;
+}
+
+#obsolete-band {
+  background-color: #7e0d13;
+}
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h2Annex,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Times New Roman", serif;
+  color: #00ADEF;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+h1,
+h2,
+h3, .h1, .h2, .h3 {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+
+h1, .h1 {
+  font-size: 33px;
+  font-weight: 500;
+  margin: 0.67em 0;
+  letter-spacing: -0.02em;
+  color: #4D4D4D;
+}
+
+h2, .h2 {
+  font-size: 27px;
+  color: #4D4D4D;
+}
+
+h3, .h3 {
+  font-size: 24px;
+  margin-top: 26px;
+  color: #000;
+}
+
+h4, .h4 {
+  font-size: 18.2px;
+  margin-bottom: 2px;
+  color: #4D4D4D;
+  letter-spacing: 0.03em;
+}
+
+h5, .h5 {
+  font-size: 16.25px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+h6, .h6 {
+  font-size: 13px;
+  color: #4D4D4D;
+  letter-spacing: 0.05em;
+}
+
+/*  h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-top: 2em;
+  }
+
+  h1#content {
+      margin-top: 2em;
+  }
+
+  h2 {
+    margin-top: 1.3em;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
+  h3 {
+    margin-top: 1.1em;
+    font-size: 1.1em;
+    font-weight: 100;
+  }*/
+.TermNum {
+  font-weight: 100;
+}
+
+.TermNum, .Terms, .AltTerms {
+  color: #00ADEF;
+}
+
+h2.TermNum {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+p.AltTerms {
+  /*
+    font-style: italic;
+     */
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/*
+    3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #00ADEF;
+}
+
+a:hover {
+  color: white;
+  background: #00ADEF;
+  box-shadow: 3px 0 0 #00ADEF, -3px 0 0 #00ADEF;
+}
+
+*::selection {
+  background: #00ADEF;
+  color: white;
+}
+
+*::-moz-selection {
+  background: #00ADEF;
+  color: white;
+}
+
+/*
+    3.3 Lists
+*/
+ul,
+ol {
+  margin-left: 1.2em;
+}
+
+ul > li p:first-child {
+  display: inline;
+}
+
+ul > li:first-child {
+  margin-top: 1em;
+}
+
+ul ul > li:first-child {
+  margin-top: 0;
+}
+
+ol ul > li:first-child {
+  margin-top: 0;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list li {
+  list-style-type: none;
+}
+
+#toc li::before {
+  content: " ";
+  display: none;
+}
+
+main ul > li {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin: 2em 0;
+}
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio,
+p.NormRef {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+/*
+    3.6 Source Code + figures
+*/
+.figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure,
+pre,
+.pseudocode {
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  margin: 1em 0;
+  padding: 1.2em;
+}
+.Note p {
+  margin: 0;
+}
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  margin: 1em 0;
+  padding: 1.2em;
+}
+.Admonition p {
+  margin: 0;
+}
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2.7em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid #000;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400;
+}
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f2f2f2;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f2f2f2;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  margin-top: 5em;
+  text-align: left;
+}
+
+.contact-info a,
+.contact-info a:hover {
+  color: #00ADEF;
+}
+
+.contact-info p,
+.contact-info a {
+  font-weight: 400;
+}
+
+.contact-info #boilerplate-feedback-name {
+  padding-left: 1px;
+  color: #4D4D4D;
+  font-size: 18.2px;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: 0.03em;
+  border-bottom: #00ADEF solid 3px;
+  padding-bottom: 7px;
+  margin-bottom: 9px;
+}
+
+.contact-info #boilerplate-feedback-address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+/*
+    Paragraphs
+*/
+p {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86;
+}
+
+.wrapper-top {
+  background: linear-gradient(85deg, #00ADEF, #5b92e5);
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #00ADEF;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: "Times New Roman", serif;
+}
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase;
+}
+
+.WordSection11 {
+  padding: 0 2em 0 3em;
+  text-align: center;
+}
+
+.title-footnote {
+  text-align: left;
+}
+
+.info-section {
+  padding: 0 2em;
+}
+
+.prefatory-section {
+  padding: 0 3em 0 6em;
+}
+
+.zzSTDTitle1,
+.MsoCommentText {
+  display: none;
+}
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em;
+}
+
+.coverpage-logo span,
+.coverpage-tc-name span {
+  font-family: "Times New Roman", serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+/*
+  4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.coverpage-title .title-second {
+  display: none;
+}
+
+.coverpage-stage-block {
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase;
+}
+
+/*
+  4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px;
+}
+
+.coverpage-warning .title {
+  font-family: "Times New Roman", serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+/*
+  4.4 Copyright
+*/
+.boilerplate-copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.boilerplate-copyright p {
+  text-align: center;
+}
+
+#boilerplate-ECEhdr {
+  border: solid;
+}
+
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+#myBtn {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  opacity: 1;
+}
+@media print {
+  #myBtn {
+    display: none;
+  }
+}
+#myBtn {
+  text-transform: uppercase;
+}
+#myBtn a.anchorjs-link:hover {
+  background: none;
+  color: #00ADEF;
+  box-shadow: none;
+}
+
+@page {
+  margin: 2cm 1cm;
+}
+@media print {
+  .document-info,
+  nav,
+  .copyright {
+    page-break-before: always;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+  .note,
+  .figure,
+  pre,
+  .pseudocode,
+  table {
+    page-break-inside: avoid;
+  }
+  .info-section {
+    display: none;
+  }
+  .coverpage {
+    height: 23cm;
+  }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+  }
+  .wrapper-top-bottom {
+    margin-top: -5px;
+  }
+  .container {
+    padding-left: 0;
+  }
+  #toc .toc-active a {
+    color: #4d7ea5;
+  }
+  #toc .toc-active,
+  #toc li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc li:hover a {
+    color: #000;
+  }
+  h1.content {
+    line-height: 2.5em;
+    margin-top: 2em;
+  }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  h2, .h2 {
+    font-size: 1.2em;
+  }
+  h3, .h3 {
+    font-size: 1em;
+  }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    margin: 2em 0 1em;
+    padding: 5px;
+  }
+  .Note p {
+    padding: 0 5px;
+  }
+  .Admonition {
+    background-color: #ffcccc;
+    color: #47430c;
+    margin: 2em 0 1em;
+    padding: 5px;
+  }
+  .Admonition p {
+    padding: 0 5px;
+  }
+  nav {
+    line-height: 1;
+  }
+  .wrapper-top-bottom {
+    display: none;
+  }
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>Paperless Trade White Paper</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Space+Mono:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container"><div class="title-section"><div class="document-stage-band" id="published-band">
+    <p class="document-stage">Published</p>
+</div>
+
+<div class="document-type-band" id="plenary-attachment-band">
+    <p class="document-type">UNECE Plenary Attachment</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-logo">
+    <span>UNECE 2018</span>
+  </div>
+  <div class="coverpage-tc-name">
+    <span></span>
+  </div>
+  <div class="coverpage-doc-identity">
+    <div class="doc-number">
+      <p>Twenty-fourth session</p>
+      <p>Geneva, 30 April – 1 May 2018</p>
+
+
+<p>GE.18-02016(E)
+
+
+</p>
+    </div>
+
+
+
+
+
+    <div class="coverpage-title">
+      <span class="title-first">Paperless Trade White Paper </span>
+      <!--<span class="title-second">How Does It Impact the Trade System?</span>-->
+    </div>
+  </div>
+  <div class="wrapper-top-bottom"></div>
+  </div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="plenary-attachment">UNECE Plenary Attachment</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="published"></span></p>
+
+
+<p><span class="coverpage-maturity">English only</span></p>
+
+</div>
+
+
+
+
+
+        
+
+
+<div class="info-section">
+<div class="copyright">
+  <p class="year">
+    © 2018 United Nations.
+  </p>
+
+  <div class="message">
+  <div class="boilerplate-license">
+
+<div id="_363711d5-65d9-fa9e-f4c2-384483c117c9"><p id="_e5535fff-375f-1a43-21ed-156b839efa11">None of the materials provided on this web site may be used, reproduced or transmitted, in whole or in part, in any form or by any means, electronic or mechanical, including photocopying, recording or the use of any information storage and retrieval system, except as provided for in the Terms and Conditions of Use of United Nations Web Sites, without permission in writing from the publisher.</p>
+
+<p id="_20d42d50-ce3b-fd48-375e-28552e241869">News-related material can be used as long as the appropriate credit is given and the United Nations is advised.</p>
+
+<p id="_4ac1f8f7-66fd-c4a1-3d8b-920cf517333c">To request such permission or for further enquires, please visit: <a href="https://shop.un.org/rights-permissions">United Nations Publications: Rights and Permissions.</a></p>
+</div>
+</div>
+  </div>
+
+<div class="contact-info">
+  <div class="boilerplate-feedback">
+
+<p id="boilerplate-feedback-name">UN Economic Commission for Europe: Information Service</p>
+
+<p id="boilerplate-feedback-address">Palais des Nations<br /> CH-1211 Geneva 10<br /> Switzerland<br /> <br /> <a href="tel:+41(0)229171234">+41 (0) 22 917 12 34 (switchboard)</a><br /></p>
+
+<p id="_b99ea419-a183-e8ed-d0c1-e46596211637"><a href="mailto:unece_info@un.org">unece_info@un.org<br /> ++[]</a></p>
+</div>
+</div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </div>
+
+
+</div>
+</header></div><br /><div class="prefatory-section">
+
+<nav>
+  <div id="toc"><ul><li class="h2"><a href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec">      
+  
+  Note
+</a></li>
+<li class="h1"><a href="#_a61215e8-f892-7aba-429f-089fea6b7c25">      
+  
+  Summary
+</a></li>
+<li class="h1"><a href="#_733dc62f-984b-5cee-63be-37dda5f17f8a">      
+  
+  1<span class="fmt-clause-delim">.</span>  Introduction: What is Paperless Trading?
+</a></li>
+<li class="h1"><a href="#_b12db17d-92fb-3341-38af-151f02447dd2">      
+  
+  I<span class="fmt-clause-delim">.</span>  How Does Paperless Trading Work?
+</a></li>
+<li class="h2"><a href="#_0ee7097e-a803-385e-a319-33267d668ac1">      
+  
+  2<span class="fmt-clause-delim">.</span>  Benefits for Traders
+</a></li>
+<li class="h2"><a href="#_83b22a87-846e-d029-6763-3361ff48f15f">      
+  
+  3<span class="fmt-clause-delim">.</span>  Benefits for Governments
+</a></li>
+<li class="h1"><a href="#_02db62d8-3a06-0c67-e277-75297ef790cd">      
+  
+  4<span class="fmt-clause-delim">.</span>  Paperless Trade Challenges
+</a></li>
+<li class="h1"><a href="#_238f38f8-305b-3f26-c283-9ebf34f34546">      
+  
+  5<span class="fmt-clause-delim">.</span>  Technical Standards for Paperless Trading: A brief history
+</a></li>
+<li class="h1"><a href="#_724e60b4-46d0-dc49-0bf7-39abde1f4ae5">      
+  
+  6<span class="fmt-clause-delim">.</span>  Key Principles for Paperless Trading
+</a></li>
+<li class="h1"><a href="#_2df45f68-69d9-9fdd-d793-0e1afe1283ef">      
+  
+  7<span class="fmt-clause-delim">.</span>  Global Governance of Paperless Trade
+</a></li>
+<li class="h1"><a href="#_3d586f3d-1aa9-258c-4ac5-bdd91d3fa030">      
+  
+  8<span class="fmt-clause-delim">.</span>  Technical Considerations Looking Ahead
+</a></li>
+<li class="h1"><a href="#_e5606889-6b57-38fd-7766-e1f74a26c256">      
+  
+  9<span class="fmt-clause-delim">.</span>  Options for Further Trade Governance
+</a></li>
+<li class="h1"><a href="#annex-a">      Annex I  Selection of UN/CEFACT Technical Standards</a></li>
+<li class="h1"><a href="#annex-b">      Annex II  Case Studies of Paperless Trade Implementation</a></li>
+<li class="h2"><a href="#_d0594c40-c60b-bda3-73cc-81133d014e9d">      
+  
+  1<span class="fmt-clause-delim">.</span>  e-SPS: Netherlands and China.
+</a></li>
+<li class="h2"><a href="#_89d4fcb9-5017-7618-cdc7-861fd19cbbaa">      
+  
+  2<span class="fmt-clause-delim">.</span>  Paperless Air Cargo (IATA Cargo-XML): Jamaica
+</a></li>
+<li class="h2"><a href="#_59990096-3bd1-c8b8-8bef-7248f4bf9605">      
+  
+  3<span class="fmt-clause-delim">.</span>  e-Invoicing for Public Administration: Italy
+</a></li>
+<li class="h2"><a href="#_6ddfb830-b8a9-eaf4-ec78-beee2df5a28f">      
+  
+  4<span class="fmt-clause-delim">.</span>  Data Pipelines and Reference Data Models: EU
+</a></li>
+<li class="h2"><a href="#_467e943c-111f-14d5-f3d8-6dd77f12985d">      
+  
+  5<span class="fmt-clause-delim">.</span>  UN/LOCODE: China
+</a></li>
+<li class="h2"><a href="#_24ae8cce-eb39-b966-e2a4-45994b75f83c">      
+  
+  6<span class="fmt-clause-delim">.</span>  Electronic Single Window: Canada
+</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority"><div class="boilerplate-copyright">
+
+<div id="_70922d8f-7f91-cc71-8327-4759e2cf34d3"><p id="boilerplate-ECEhdr">ECE/TRADE/437</p>
+
+<p id="_dc0f0843-d901-1d88-ff45-524ae5cd6086">Copyright © United Nations 2018<br /> All rights reserved worldwide<br /> United Nations publication issued by the Economic Commission for Europe</p>
+</div>
+</div>
+
+
+
+<div class="boilerplate-legal">
+
+<div id="_ba1048d8-5920-3def-f1e1-ed4e7de3f0c8"><div id="_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec"><h2 class="IntroTitle" id="_fde1ab44-04e3-4772-8713-26ec20990f32"><a class="anchor" href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec"></a><a class="header" href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec">Note</a></h2>
+
+<p id="_04924f7b-e1bc-df70-d59b-e3fbe6f40359">The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.</p>
+</div>
+</div>
+</div>
+
+
+</div><br /><div id="_a61215e8-f892-7aba-429f-089fea6b7c25"><h1 class="AbstractTitle" id="_0e59e97e-191f-477f-ae0e-784d3e0410b9"><a class="anchor" href="#_a61215e8-f892-7aba-429f-089fea6b7c25"></a><a class="header" href="#_a61215e8-f892-7aba-429f-089fea6b7c25">Summary</a></h1><p id="_7d8ec026-230f-bd9b-db06-b816e8296e54">In 2017, the World Economic Forum approached UN/CEFACT in order to create a guide on Paperless Trade which might help countries to understand and implement specific provisions of the World Trade Organization’s Trade Facilitation Agreement, specifically article 10 on Formalities connected with importation and exportation (10.2, 10.3 and 10.4) as well as article 7 on Release and clearance of goods (7.1 and 7.2).</p><p id="_88bdc96a-e40a-c5cf-c213-8b409a3a72c4">This White Paper provides a brief history on standardization of electronic business processes, especially within UN/CEFACT; the basics, benefits and challenges in electronic business processes; the governance of paperless trade; and future evolutions.</p><p id="_8015ae14-a57e-3d50-2893-183f03154e6f">This document has been published by the World Economic Forum in October 2017 under the reference 261017, case 00036073.</p><p id="_a1aa212e-f295-93fe-a18c-d4bcebbb0d3f">This document is submitted to the twenty-fourth UN/CEFACT Plenary for noting.</p></div><div id="_733dc62f-984b-5cee-63be-37dda5f17f8a"><h1 id="_e7f4118a-a499-4959-a911-7c559e1f4b7b"><a class="anchor" href="#_733dc62f-984b-5cee-63be-37dda5f17f8a"></a><a class="header" href="#_733dc62f-984b-5cee-63be-37dda5f17f8a">1<span class="fmt-clause-delim">.</span>  Introduction: What is Paperless Trading?</a></h1><p id="_8e18b1e9-1931-2e7c-70f1-5b30944b081d">When goods and services cross borders in international trade, information needs to be passed between relevant parties, whether private companies or public bodies, including suppliers, logistics providers, customs, regulatory agencies, sellers and buyers. Paperless trade refers to the digitization of these information flows, including making available and enabling the exchange of trade-related data and documents electronically. Less formally, one can think of this as cross-border trade transactions using electronic data in lieu of paper-based documents.</p><p id="_6dd1ebcb-6b1a-8a62-019c-a557f4e9233f">Transforming what was traditionally a paper-based documentation system into an electronic format can speed up trade and ease the cost of doing business in today’s interconnected world. Bottlenecks in supply chain management and regulatory documentation can be particularly tricky for smaller businesses or e-traders with less experience and resources. Paperless trading, therefore, serves as a promising means to deal with the logistical challenges of e-commerce and, in particular, small shipments across borders. Overall, it is quickly becoming an essential component of governmental efforts to improve the efficiency of customs controls and trade administration processes, and of ensuring trade competitiveness in a rapidly digitizing world.</p><p id="_3f332443-4720-a6a2-1050-d8eb2a3229fc">How exactly is a trade transaction rendered paperless? Digitized exchange can be done in several ways. One way is simply to take a visual snapshot of a paper document – either a scanned or a PDF version. Another possibility is an internet web portal where individual data elements can be keyed in – this is known as data-trader interface (DTI). Paperless transactions can also be conducted using fully electronic messages – known as electronic data interchange (EDI), with formats including UN/EDIFACT, XML, JSON and other web services. Typically, these systems would provide an application-programming interface (API) to facilitate interaction with the database.</p><p id="_f0c1041a-a3f3-a9b1-41a9-041b7b0b5409">At first glance, the task of moving from paper-based to paperless administration of trade may seem relatively straightforward. However, because of the need to coordinate electronically across borders, the impetus for international cooperation rises once trade is rendered paperless. Governments use a variety of arrangements, including United Nations (UN) agencies and standards-setting organizations, as well as trade agreements, to establish the governance structures necessary for paperless trading. This white paper provides an overview of these efforts, which take place across a wide variety of disparate institutions, some of which lie outside the traditional institutions associated with trade governance.</p><p id="_79ec749b-2eb8-7cb9-4c68-17f134d6eae7">The paper is written especially with trade policy-makers in mind to assist their considerations on how best to align trade rules with current and expected future trends in paperless trading. The paper is also intended to provide other stakeholders with a better understanding of existing efforts and possible future developments at the intersection of paperless trading and international trade administration to guide their inputs for trade policy.</p><p id="_439cb4f2-f9fb-b6d4-3afc-21ad020993db">Because of the wide variety of issues associated with paperless trading, it is important to establish boundaries in the scope of what is considered in this paper. Though scanned/PDF files can present benefits, this white paper concentrates primarily on transactions conducted through electronic messages. Electronic messages afford even greater opportunities for tapping into the benefits of paperless trading thanks to the potential reuse of data, the elimination of the need to re-key data into a computer at each supply chain checkpoint, and the reduction in potential human error. Note that aspects of this paper may apply to DTI and APIs as well.</p><p id="_04e771d1-17ca-2b7f-3a90-dad88386356c">The paper is also specifically focused on paperless trade as defined by the technical international trade community. This encompasses electronic forms of trade administration documents that are business-to-government (B2G) as well as business-to-business (B2B) electronic exchange of information within international trade context. The term “paperless trade”, however, can be used by other communities in a broader sense to refer to the electronic exchange of data in a purely national commercial and regulatory context. For example, banks may refer to paperless trade as applied to trade finance processes – which may also have an international component. Further, different stakeholders may diverge on where the line may be drawn on what is considered paperless trade as applied to trade administration documents versus the broader digital commercial universe. The potential for different starting points on paperless trade should be kept in mind when engaging in dialogue on the topic.</p><p id="_97766c2f-822e-2c9a-ca0d-a17a59bdf11c">The paper is a part of a series run by the World Economic Forum and the World Trade Organization (WTO) focused on e-commerce policy best practices. The inclusion of paperless trade in the series is from both the perspective of the digitalization of trade processes as well as the specific benefits this may have for small businesses using electronic platforms to engage in global trade.</p></div><div id="_b12db17d-92fb-3341-38af-151f02447dd2"><h1 id="_7ea50b0a-011c-440c-939c-a7ccaf81eb04"><a class="anchor" href="#_b12db17d-92fb-3341-38af-151f02447dd2"></a><a class="header" href="#_b12db17d-92fb-3341-38af-151f02447dd2">I<span class="fmt-clause-delim">.</span>  How Does Paperless Trading Work?</a></h1><p id="_ae594843-f7a0-3c69-b2a9-0b8d7667a7fe">While many may be familiar with the concept of paperless trading, the mechanics of how exactly paperless trading works is one that most individuals involved with trade, whether from business or government, will have given little thought. Like many other elements of our digital world, it is simply a technical development that is taken for granted. However, a basic overview of how it works in practice and the benefits may help inform debate on the need for cross-border cooperation on technical issues.</p><p id="_81e16f45-58ab-1091-d38f-c4cd2fb1d0df">For parties to exchange and reuse fully electronic messages, all information needs to be clearly defined and unambiguous, both from a semantic and syntactical perspective. Trading partners wanting to exchange data will need to agree on the meaning of each individual data element to ensure that they all understand the information in the same way. This is equally true for governments and any other parties that may use or transmit this data. If the exchange is limited to two parties, a bilateral data dictionary is sufficient. As soon as there are multiple parties, however, or if the information may be reused in other contexts, a standardized data dictionary is useful.</p><p id="_e1adefc0-2a44-3652-08ac-03ba4ebd5393">When a commercial order is received, a system configured to use EDI messages can prepare all the necessary documents (or messages) to enable processing – such as packing list, delivery note, invoice and customs declaration. The system can also potentially manage reorders for stock replenishment and link to other entities to order transport, request certificates or arrange other services.</p><p id="_375c753d-a74b-33a2-180c-f2d53be09a00">Code lists are another important part of moving from paper to electronic messages. Any information that can be codified should be codified to avoid confusion. For example, in English alone, packaging material that is palletized can be described as slab, board, honeycomb slate and so on, before even taking into account differences between languages. Humans might understand that each of these means palletized or stacked on pallet transport structures, but a computer, unless it has been programmed to recognize all the variations, will not necessarily understand that these are the synonymous terms. However, if “palletized” is indicated using a code, there is no ambiguity.</p><p id="_e4afbcc8-1fa7-3410-5a65-37ab435930e8">The technical challenges of facilitating paperless trade have been addressed by governments and supply chain actors in various forums and formats. UN agencies have played a key role in developing international standards for the electronic representation of information required for trade documentation – helping to boost connectivity and interoperability. The United Nations Economic Commission for Europe (UNECE) founded the Working Party on Facilitation of International Trade (WP.4) as early as 1961 to “`facilitate international trade and transport by promoting rationalization of trade procedures and the effective use for this purpose of electronic or other automatic data processing and transmission.`”<a class="FootnoteRef" href="#fn:_08bc5a4f-c6a7-da3a-e0a1-b573006451f3" id="fnref:1"><sup>1</sup></a></p><div id="_0ee7097e-a803-385e-a319-33267d668ac1"><h2 id="_4cdbb7bc-f57f-4776-b889-60f9d8eb6bd0"><a class="anchor" href="#_0ee7097e-a803-385e-a319-33267d668ac1"></a><a class="header" href="#_0ee7097e-a803-385e-a319-33267d668ac1">2<span class="fmt-clause-delim">.</span>  Benefits for Traders</a></h2>
+
+<p id="_a68e278d-fdfd-b83f-e32d-32ab9b5b4ee5">Over the past two decades, global trade has been increasingly defined by complex international production networks. Modern commerce is no longer an exchange between two parties but rather an extended collaboration between critical interdependent partners executed over vast geographic expanses, time zones and borders. The degree to which partners in a B2B context are proficient and make use of the network defines their success, hinged on the ability to process information using the internet and messaging protocols. The rise and spread of the internet, and with it the ability to send electronic files, radically transformed business information-sharing models – often allowing a number of authorized trading partners to stay updated simultaneously thereby keeping the entire network in sync. Paperless trade systems streamline the flow of information in global supply chains by simplifying the exchange of necessary documents or contractual elements – whether B2B or B2G – that accompany inputs crossing borders multiple times.</p>
+
+<p id="_a085d7d5-6f33-2247-7e45-f173502e4495">As such, paperless systems can generate savings for traders through faster movement of goods as well as greater efficiency at border agencies where the exchange involves trade administration documents. Data exchanged includes purchasing orders, inventory reports, and digital sanitary and phytosanitary (SPS) certificates, among others. Paperless trade can also help businesses meet regulatory compliance obligations more efficiently and at a lower cost – whether the concept is applied in a domestic or international context.</p>
+
+<p id="_8502f3ad-7715-89a6-82ee-5cb21d0facdd">In some countries operating manual systems, official processes are also accompanied by steps added over time, resulting in systems littered with exceptions and complexity – for example, differing from point of entry to another. Dematerializing trade administration processes can help to create a system that is more difficult to modify informally.</p>
+
+<p id="_85025c73-672b-d36d-00b4-9ef2f05c3cf9">Reductions in trade costs and efficiency via paperless trade can be particularly helpful for small and medium-sized enterprises (SMEs) using e-commerce platforms to access international markets.<a class="FootnoteRef" href="#fn:_a3f31973-1157-cbb0-9c40-e31569314528" id="fnref:2"><sup>2, </sup></a> E-traders may have more limited resources to manage additional trade documentation, or doing so for relatively low value parcels may be uneconomical. For example, one survey found that where EDI files were not accepted in some countries, each parcel needed to be declared individually (contents, dimensions and weight).<a class="FootnoteRef" href="#fn:_1abdf6c6-b9e1-64c8-beb1-398629731a1f" id="fnref:3"><sup>3, </sup></a> Delivery delays due to waiting times at the border can be damaging for e-traders relying on good customer reviews to build trust.<a class="FootnoteRef" href="#fn:_9b916610-0e85-6c50-0cca-d26463e439ee" id="fnref:4"><sup>4</sup></a></p>
+
+<p id="_caf74393-ffe2-8edb-97ee-b535390ca9b2">As electronic messages typically move much faster than physical merchandise, implementing paperless trade systems has also driven major innovations in international supply chains, such as “just-in-time” delivery. Using this approach, companies can hold as little stock as possible, ordering merchandise when it needs to be sold or used. Modern supply chains must equally adapt to ever-shortening production lifecycles, consumer tastes and rapid technological developments. Without electronic messages in the supply chain, these developments would be difficult.</p>
+
+<p id="_3183addd-ecf2-1f88-61e1-b6a78a2aa362">Further, paperless trade systems have facilitated the emergence of “third-party logistics” (3PL) players that offer elements of distribution and fulfilment for clients. These play a vital role in the planning and execution of global trade. Some commercial solutions – such as customs APIs – offered by several logistics services providers can particularly help e-traders navigate customs clearance by enabling the integration of shipping and regulatory processes into their business systems and websites. Some logistics providers also offer landed cost calculators for e-traders to display the full cost of the product – including customs duties, shipping and transport – upfront to potential buyers and mitigate potential conflicts.<a class="FootnoteRef" href="#fn:_5f502d75-1794-3dcc-fe09-b4451bb1545c" id="fnref:5"><sup>5</sup></a> More broadly, the operational side of trade today hinges on the inclusion of third-party specialists covering freight forwarders, quality-assurance teams, customs brokers and transport carriers for ocean, air and road – many of which deploy dematerialized processes in a B2B context.</p>
+</div><div id="_83b22a87-846e-d029-6763-3361ff48f15f"><h2 id="_46a39ac3-de65-4dcb-99ac-cdf163d99294"><a class="anchor" href="#_83b22a87-846e-d029-6763-3361ff48f15f"></a><a class="header" href="#_83b22a87-846e-d029-6763-3361ff48f15f">3<span class="fmt-clause-delim">.</span>  Benefits for Governments</a></h2>
+
+<p id="_4e1466f8-5115-66fa-bbf0-d1695d9c1cbd">By enabling real-time information on the location and status of a shipment, paperless trade can improve transparency and traceability. As supply chains become more complex, traceability has been sought by consumers, business and governments across all manner of products, to ensure labour, environmental and other standards. While traceability can be achieved through paper-based systems, digital systems are timelier and can reduce fraud. On the latter, paperless trade can help to tackle illegal and counterfeit trade or trade-based money-laundering by increasing the visibility on exported goods and easily exposing trades that make no commercial sense. Paperless trade can also help governments more efficiently to address growing security concerns and the need to ensure there are no potential threats hidden in commercial packages. Electronic data exchange, where two governments have agreed to do so, can enable a better tracking of the value of goods declared – in some manual systems, exporters might over-declare to maximize tax recovery, while an importer might under-declare to pay less import duties. Recent evolutions in technology, such as blockchain, could provide benefits in ensuring the integrity of data.</p>
+
+<p id="_11168699-e39c-83bf-229e-6e026b1ef52c">Paperless trade can also play a key role in cross-border regulatory cooperation. For example, standardized electronic data messaging language maintained by UN agencies can enable countries to exchange electronic SPS certificates for agriculture products or communicate laboratory results in the agri-food industry. The International Plan Protection Convention (IPPC) multilateral treaty under the UN Food and Agriculture Organization (FAO) is developing a globally harmonized approach for electronic phytosanitary certificates exchange – used to check the quality of food products – that will use UN e- business standards.<a class="FootnoteRef" href="#fn:_0f1c50ff-d382-f036-b9ea-6b0c54ad9959" id="fnref:6"><sup>6, </sup></a> Another UN standard on electronic exchange of fishery data – including fishing locations, species and quantity caught and so on – could improve sustainable fisheries management and trade.<a class="FootnoteRef" href="#fn:_ae00fd88-fa65-2aa2-ad81-860755d7c7f9" id="fnref:7"><sup>7</sup></a></p>
+
+<p id="_24488871-4cba-417d-402f-df552b089243">Many countries are developing single windows that serve as one simple point of entry for submitting regulatory documents and other supporting evidence when merchandise is imported or exported. Almost all single windows implemented today are electronic systems with a web-based interface. As such, running an electronic single window usually requires the ability to process electronic message exchanges. The World Trade Organization (WTO) Trade Facilitation Agreement (Article 10.4) includes an endeavour to maintain or establish a single window using information technology to the extent possible and practicable. According to the United Nations Economic Commission for Europe (UNECE) Recommendation 33,<a class="FootnoteRef" href="#fn:_b6b4a956-b1a0-92a9-bd74-046d3d75daa8" id="fnref:8"><sup>8</sup></a> a single window is a facility that allows parties involved in trade and transport to lodge standardized information and documents with a single entry point to fulfil all import, export and transit-related regulatory requirements. If information is electronic, individual data elements should only be submitted once.</p>
+
+<p id="_8dfaefab-33ea-9902-083f-54fb285994ca">Implementing paperless trade and electronic single-window systems can contribute to improving a country’s international commercial-enabling environment, encouraging more business activity, in turn driving economic growth and development. In Senegal, for instance, the implementation of the electronic single window reduced the border pre- clearance and clearance processing time by 90%, from an average of two weeks to just one day. The cost of border processes has decreased by 60%, while the streamlined system has allowed the border agencies to reassign staff to other priority areas.<a class="FootnoteRef" href="#fn:_1ac76dcc-23c9-eb34-511b-2030bf3ab6de" id="fnref:9"><sup>9, </sup></a> In Costa Rica, the Inter-American Development Bank finds that the implementation of the electronic single window increased exports by 2% a year from 2007-2013. Looking at the cost-benefit analysis, an approximate $1.7 million invested in the system translated into a twentyfold gain in terms of increased exports and reductions in public administration costs.<a class="FootnoteRef" href="#fn:_52ec80e1-523d-551a-603f-18679a2adceb" id="fnref:10"><sup>10, </sup></a> This is equal to a rate of return of roughly $16 for every dollar paid. Peru also established a Single Window for Foreign Trade in 2010, which improves coordination by connecting eight government institutions that issue export and import permits, as well as shipping-related entities.<a class="FootnoteRef" href="#fn:_d6369af0-9d36-2709-f70b-ad5a2111530b" id="fnref:11"><sup>11</sup></a></p>
+</div></div><div id="_02db62d8-3a06-0c67-e277-75297ef790cd"><h1 id="_b4d34d6b-628f-4a48-9aac-9e18a3f6a1df"><a class="anchor" href="#_02db62d8-3a06-0c67-e277-75297ef790cd"></a><a class="header" href="#_02db62d8-3a06-0c67-e277-75297ef790cd">4<span class="fmt-clause-delim">.</span>  Paperless Trade Challenges</a></h1><p id="_ab3a96f6-8472-a6b6-933d-e4aee12cadcf">Paperless trade is not without challenges. The set-up and operation of paperless trade measures, supporting regulation and electronic single windows, is not yet a given across all countries. The UN has conducted a survey of 120 countries, across a range of 38 measures related to trade facilitation and paperless trading. From a subset of factors relevant to all survey countries, it was then able to derive an average implementation score; a score of 100% reflects full implementation across all factors. The average implementation rate of trade facilitation and paperless trade measures from the most recent 2017 survey 61%.<a class="FootnoteRef" href="#fn:_3e651a80-a2b2-4190-c44f-0673a56df87c" id="fnref:12"><sup>12, </sup></a> This figure reflects steady improvement over the past two years but also highlights the degree to which most countries have yet to implement the full range of possible measures.<a class="FootnoteRef" href="#fn:_bbb7862d-dab7-f2ae-f62f-c59209281916" id="fnref:13"><sup>13</sup></a></p><p id="_6b91c168-8f87-1a08-8515-b552f5c506c4">Even more alarming is the fact that only about 34% of countries have implemented measures related to the cross-border exchange of electronic data and documents.<a class="FootnoteRef" href="#fn:_abddf573-f4e7-b6c4-1872-7d0d2ed0a9e8" id="fnref:14"><sup>14</sup></a> Results from the OECD-WTO Sixth Global Aid for Trade Review show that while most IT border systems in developed and emerging economies can be used for EDI-based exchange, this is still under implementation in many low-income economies. Countries with less clear legislation, weaker infrastructure and lower IT capacity can face hurdles in implementing paperless systems.</p><p id="_5efc25eb-cb1d-8419-c7c7-6fcd539956eb">Furthermore, only about 40% of all upper-middle income countries have single windows in place, while the figure is 20% for lower-middle income countries and less than 10% in low-income countries.<a class="FootnoteRef" href="#fn:_2b74a5a6-d3ea-88c3-a782-f05e437f1af7" id="fnref:15"><sup>15, </sup></a> The OECD finds that progress on implementing single windows is often linked to the quality of cooperation and information exchange among various government agencies, customs departments and border control posts.<a class="FootnoteRef" href="#fn:_cdc06e9a-1f7a-5d20-2714-4a2faefd5f20" id="fnref:16"><sup>16</sup></a> Single-window implementation may pose a bigger challenge for countries more reliant on imports due to complexity. Some systems may also not satisfy the five-point definition of a “single window” – whether because there is not a governmental mandate resulting in multiple systems or there is not a clear single entry point. Where single windows do not distribute information to all relevant regulatory bodies, traders may still need to submit information several times.</p><p id="_b1af93b7-4d69-ca96-dc97-9050c2a6c6ff">Paperless trading is also reliant on domestic rules on the legal validity of electronic documents, electronic signatures, where these are applied, and other data-regulation requirements. Further, if paperless trade is to be effective in the international trade- enabling context, governments must accept data at customs and within regulatory agencies without also requiring original paper documentation. In other words, a paperless system that still requires the submission of paper-based documents at some point in the trading chain destroys much of the value of the digital tools for traders.</p><p id="_c6518a27-3174-fa68-99f8-804c8bf50618">Finally, capacity building may be needed to boost paperless trade use. SMEs and e-traders may lack access to the internet, encounter slow connections, or pay high usage rates. Even with access, they may not have the digital skills to use new IT systems or services or be able to maximize the advantage of going paperless.<a class="FootnoteRef" href="#fn:_326fcae8-2124-18b7-5355-3040d87a2205" id="fnref:17"><sup>17</sup></a></p></div><div id="_238f38f8-305b-3f26-c283-9ebf34f34546"><h1 id="_91a4beb3-3e70-4df7-8dc0-38b2ae053883"><a class="anchor" href="#_238f38f8-305b-3f26-c283-9ebf34f34546"></a><a class="header" href="#_238f38f8-305b-3f26-c283-9ebf34f34546">5<span class="fmt-clause-delim">.</span>  Technical Standards for Paperless Trading: A brief history</a></h1><p id="_edb4ecad-7ddf-b3e4-c3d0-751b685da91d">As is true of any system with complex technical arrangements that require cross- border cooperation, international standards have emerged for different facets of paperless trade. This section provides a quick overview of these standards, including their historical evolution.</p><div id="_5aa271b8-e37c-0c04-f939-8c12e4f18a16" class="Admonition AdmonitionImportant"><p class="AdmonitionTitle AdmonitionImportant" style="text-align:center;">Box 1 — The United Nations Centre for Trade Facilitation and e-Business</p>
+
+<p id="_953556c8-83b2-c9e9-b12d-d40f8bf1b133">The United Nations Centre for Trade Facilitation and e-Business (UN/CEFACT) is an intergovernmental body of the UNECE. It develops policy recommendations and standards based on public and private sector collaboration. Work on these deliverables requires the support of at least three UN Members. Completed projects are presented to the UN/CEFACT Plenary – which any UN Member can join – for approval. In this way, all countries can participate in the standardization process. All results are available free of charge.</p>
+
+<p id="_75568f4e-8c9f-40a1-aadb-bb32aeae9ee5">UN/CEFACT aims to be a semantic hub for data elements. It maintains a Core Component Library (CCL) that serves as an encyclopedia of data elements and includes inputs from other organizations with electronic business standards; this is outlined in a multilateral MoU between UNECE and the International Standards Organization (ISO), International Telecommunications Union (ITU) and International Electrotechnical Commission (IEC). A long-term objective is to harmonize various data elements and render the base semantics compatible between different standards bodies. Other bodies such as the World Customs Organization (WCO) have aligned their data requirements with past CCL libraries as demonstrated in a case study in <a href="#annex-b">Annex II</a>.</p>
+</div><p id="_812bc3a8-e6fa-c72d-5093-bdc9a0e2bd4f">International technical standards play an important role in trade governance, in large part due to the WTO Agreement on Technical Barriers in Trade (TBT Agreement) and similar language in free trade agreements (FTAs)/regional trade agreements (RTAs). WTO Members are required to base their technical regulations for trade in goods on international standards or to explain why deviation is necessary. Awareness of the existing international standards, and the institutions through which these standards are established, is important for trade policy-making. This is especially the case if paperless trading systems at the border will be integrated with domestic regulatory systems concerning the distribution and sale of goods behind the border.</p><p id="_7a1ad049-4082-9445-dfb5-f32acd8bf6b3">Disparate institutions at the multilateral and regional levels are involved in the creation of these international technical standards. Because of the division of responsibilities within government bureaucracies, some trade policy-makers will not necessarily be aware of the work of other officials within their own government in establishing these technical standards, despite the fact that the creation of such standards will inevitably impact traders. The discussion below is also intended to flag for trade policy-makers the various forums through which international technical standards governing paperless trading are being shaped, so that they can better coordinate their policy-making objectives on paperless trade within their government.</p><p id="_cafebfa8-3623-9a90-e815-184cb181ce86">Efforts to improve cross-border exchange of trade information date back more than 50 years. The UN Layout Key was developed in the 1960s to standardize the representation of information on trade documents. It was quickly accompanied by a data dictionary so all parties would consistently understand the same thing. The birth of the UN Trade Data Element Directory, or UN/TDED, was the first essential step towards electronic messages.</p><p id="_b2403eff-31e4-78ef-fb15-eef9f747b69d">As mentioned above, code lists are another important feature of paperless trade, allowing for better mutual understanding of content as textual information may be incomplete, misleading or uninterpretable. UN/CEFACT maintains a number of code lists that can be downloaded free of charge and are often used by other standard-setting bodies to increase interoperability. Further information on UN/CEFACT code lists is included in <a href="#annex-a">Annex I</a>.</p><p id="_6521326e-5fd2-df16-503b-64235cde4960">The availability of a data dictionary and the use of code lists combined with an exponential growth in the use of computers led to the creation of standardized messages for data exchange. The UN Electronic Data Interchange for Administration, Commerce and Transport (UN/EDIFACT) was one pioneer in this area – effectively replacing some paper documents from the mid-1980s onwards. Similar initiatives took place regionally.</p><p id="_d2747c18-1042-ea24-c1b9-5664bcff7a78">UN/EDIFACT is a syntax or message exchange language that is centrally maintained by UN/CEFACT. Some messages are developed by other organizations and then submitted to UN/CEFACT to be harmonized and entered into the official directories. The messages are identified by a six-character name, such as INVOIC for invoice or CUSDEC for a customs declaration, and the information is organized into groupings, similar to those found on paper documents including importer information, product details, payment conditions, and so on. Each grouping has a strict format – such as length and type of information – much of which was inherited from paper documents. Further information on the technical functioning of UN/EDIFACT messages is detailed in <a href="#annex-a">Annex I</a>.</p><p id="_be7e6c06-1b95-3a3d-ac23-6e2f4064d30d">UN/EDIFACT was the dominant messaging syntax throughout the 1990s and remains likely the most widely used single standard for data exchange – especially since it is freely available and is regularly updated. While official statistics are hard to come by, sectoral estimates, such as those by the maritime industry, indicate that about 8,000 EDIFACT messages are exchanged per day.</p><p id="_3fbb5a4c-de07-0de0-4261-f4150a898d73">Even so, over the past two decades an increasing number of exchanges use XML. This EDI syntax provides higher flexibility in the structure, length and format, often making it more attractive. However, there is no single, centrally maintained XML version – there could potentially be as many XML languages as business partners. Other technical disadvantages include larger data files. UN/CEFACT does offer a standardized XML, as do some International Organization of Standards (ISO) committees, the World Customs Organization (WCO), the International Air Transport Association (IATA) and others. The UN/CEFACT approach to XML has been to start standardizing the processes and then the data related to each process is to contain before creating XML messages. Further information on XML languages is contained in <a href="#annex-a">Annex I</a>.</p><p id="_329b47f6-95fa-13a9-87d6-a8daca97d6f8">The use of electronic invoices merits particular attention. The European Union has decided that all public institutions must accept and may require electronic invoices, as part of a wider drive to decrease the use of paper. Two standards should be used to ensure interoperability, one of which is the UN/CEFACT Cross Industry Invoice (CII). All public institutions – from elementary schools to garbage collection, from town halls to ministries – will be obliged to accept the CII as one of the official standards for the submission of electronic invoices.<a class="FootnoteRef" href="#fn:_a48c6f3b-adce-121a-1d55-fa08fae73e75" id="fnref:18"><sup>18</sup></a> Other countries are also seriously studying implementation of the CII.</p><p id="_6c929e72-5f4f-f1da-2a00-a9e07294bffd">The CII is accompanied by a series of messages, beginning with the term cross- industry, which aim to cover a range of domain needs from agriculture to automotive and industrial services. Cross-industry messages cover invoice, ordering, catalogue, quotation, delivery, remittance and so on. These have today been consolidated into a Supply Chain Reference Data Model that enables a process-driven approach instead of a document- driven approach to supply chain information exchanges.</p></div><div id="_724e60b4-46d0-dc49-0bf7-39abde1f4ae5"><h1 id="_f42804ef-fbe5-4682-988c-d998bd7d51d5"><a class="anchor" href="#_724e60b4-46d0-dc49-0bf7-39abde1f4ae5"></a><a class="header" href="#_724e60b4-46d0-dc49-0bf7-39abde1f4ae5">6<span class="fmt-clause-delim">.</span>  Key Principles for Paperless Trading</a></h1><p id="_065b9dc6-34a0-3624-efb8-47a54c2e84b0">From all of the above, it is hardly surprising that paperless trade is often seen as a tech-driven process. But this is only partially true; implementation requires, first and foremost, a high-level political consensus, policy frameworks, supporting laws and legislation and an institutional set-up. A policy framework may define targets and implementing strategies and detail the necessary allocation of resources, while enabling legal structures includes laws and statutes, implementing decrees and regulations and contractual provisions – such as for the terms of use or the provision of electronic single windows or e-Port Community Systems.</p><p id="_ad1c74f2-1487-47cd-2f36-22815f380555">Efforts towards uniform supporting legislation came a decade after the initiation of technical standards for paperless trade, largely through the United Nations Commission for International Trade Law (UNCITRAL), which developed model laws relevant to electronic transactions, e-commerce and e-signatures.<a class="FootnoteRef" href="#fn:_6501b8f8-6449-b1e8-b194-f324b774f490" id="fnref:19"><sup>19</sup></a> These model laws include several key governance principles.</p><p id="_7387b338-f468-e87d-f6d7-38982772e5e5">The first is the principle of non-discrimination between the use of electronic communications and paper when submitting documents such as those required by regulatory agencies. Laws that allow the submission of electronic information are essential for launching an effective paperless trade system.</p><p id="_b9260acf-d19a-72e3-f98f-5659055bae72">Second, the principle of functional equivalence implies that paper-based functions may be replicated by electronic communications or procedures, which may or may not be mirror images of paper-based procedures but fulfil the same legal functions.</p><p id="_6478acb3-b08e-65c8-8a4e-41967de9278e">Third, applying the principle of technological neutrality implies ensuring that legislation does not favour specific technologies. In a rapidly changing digital and technology environment, paperless trade policy frameworks must be open to future developments. Detailed provisions on technical requirements can be contained in implementing regulations that are easier to adapt as needed.</p><p id="_a1f1fe3c-0f9a-1bd5-0a29-b672e68a46c1">These principles have been carried forward in some trade and regional integration contexts. Part of the legal framework for electronic contracting is also based on standard contracts and rules such as the Incoterms and the Uniform Customs and Practice for Documentary Credits of the International Chamber of Commerce.<a class="FootnoteRef" href="#fn:_a31d7389-bcff-6592-b1a1-2ab010db3a45" id="fnref:20"><sup>20</sup></a> Paperless trade policy frameworks can also relate to issues on data authentication and security as well as data protection and retention, including data archiving and sharing.</p></div><div id="_2df45f68-69d9-9fdd-d793-0e1afe1283ef"><h1 id="_d0dfee3b-c97c-496b-af08-cdcbce6ea8ce"><a class="anchor" href="#_2df45f68-69d9-9fdd-d793-0e1afe1283ef"></a><a class="header" href="#_2df45f68-69d9-9fdd-d793-0e1afe1283ef">7<span class="fmt-clause-delim">.</span>  Global Governance of Paperless Trade</a></h1><p id="_e1f7422a-4fd2-9f19-5e1e-d2714a825e33">At present, a number of efforts exist to advance interoperable paperless trade policy frameworks through a variety of approaches. These include recommendations from UN agencies, trade deals and regional integration initiatives. Importantly, these ongoing efforts exist across institutions and are not necessarily coordinated.</p><p id="_b2c8329e-403a-5a0c-2a6b-2833e7370daf">One approach has been to focus on shaping non-obligatory norms, or suggested recommendations, for governments to follow. UN/CEFACT plays a key role in developing trade facilitation recommendations targeting high-level policy-makers that typically touch on specific aspects of paperless trade. For example, Recommendation 12 applies to facilitating maritime transport documentation through a principle of an electronic sea waybill to replace the paper-based bill of lading. Recommendation 14 provides guidance on electronic authentication for trade documents.</p><p id="_6c44b281-7589-0a07-08ce-f0564f292fb6">Another approach has been to develop treaty provisions. The WTO TFA, a multilateral deal that entered into force in February 2017, contains a number of provisions potentially relevant to paperless trade. These refer to the electronic exchange of data and documents, the electronic submission of trade related documents, e-payment systems, electronic single window systems and international standards for paperless trade. Some specific references are detailed in <a href="#table1">Table 1</a> (below), although others could also be considered.</p><p id="_64a52cc6-f99b-6fa9-e50e-65af9d883f0f">While covering aspects related to paperless trade, the textual language of the TFA leaves much room for WTO Members to shape their own systems and legal frameworks. The TFA is also crafted to take into account individual country situations and capacities. To benefit from the special and differential treatment provisions found in the agreement, WTO Members must categorize and notify their ability to fulfil each provision and may signal the need for support for implementation. Estimates suggest that full implementation of the TFA – which includes but goes beyond paperless trade administration provisions – could reduce trade costs by an average of 14.3% and boost global trade by up to $1 trillion a year.<a class="FootnoteRef" href="#fn:_c35c0e33-baf4-ad08-77e3-a0346fc7427e" id="fnref:21"><sup>21</sup></a></p><table id="table1" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><caption>Table 1 — WTO TFA provisions relevant to paperless trade</caption><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Article</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Provision</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Article 7.1</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">“Each Member shall, as appropriate, provide for advance lodging of documents in electronic format for pre-arrival processing of such documents.”</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Article 7.2</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">“Each Member shall, to the extent practicable, adopt or maintain procedures allowing the option of electronic payment for duties, taxes, fees, and charges collected by customs incurred upon importation and exportation.”</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Article 10.2</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">“Each Member shall, where appropriate, endeavour to accept paper or electronic copies of supporting documents required for import, export, or transit.`”</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Article 10.3</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Encourages Members to “use relevant international standards or parts thereof as a basis for their import, export, or transit formalities and procedures” which in theory would apply to standards relevant for e- commerce as well.</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Article 10.4</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">“Members shall endeavor to establish or maintain a single window, enabling traders to submit documentation and/or data requirements for importation, exportation, or transit of goods through a single entry point to the participating authorities or agencies.” The article further stipulates that “Members shall, to the extent possible and practicable, use information technology to support the single window.”</td></tr></tbody></table><p id="_83e05ca7-fb71-0c89-8774-c844eb6ab9db">Besides these texts, paperless trade provisions commonly feature in FTAs. Indeed, the first e-commerce provision found in any trade deal addresses paperless trade, specifying that parties should have in place an electronic environment supporting electronic business application between their customs administrations and trading community.<a class="FootnoteRef" href="#fn:_f0294bf7-cb03-ffc8-e10b-5e82bb92b04d" id="fnref:22"><sup>22, </sup></a> One study found that more than half of the trade agreements in play since 2005 address paperless trade in some shape or form.<a class="FootnoteRef" href="#fn:_59e15230-3ae5-3a6b-08de-df4289f437a8" id="fnref:23"><sup>23, </sup></a> Specifically, in a recent study of regional trade agreements, the WTO notes that paperless trade administration provisions are found in the e-commerce chapter of 47 RTAs (or 32 RTAs if provisions referring to e- government are excluded) and in the customs procedures or trade facilitation chapters of 39 RTAs. In addition, related provisions on electronic procurement can be found in the government procurement chapter of 25 RTAs. Overall, paperless trade provisions are the sixth most common type found in RTA e-commerce chapters.<a class="FootnoteRef" href="#fn:_d82b2c19-2c9e-74fb-423a-7c314178b40f" id="fnref:24"><sup>24</sup></a></p><p id="_6bccffa5-714d-b46e-63e0-a3844403774a">The focus area and coverage of these provisions, however, can vary greatly. Specific articles on paperless trading often take the form of soft, rather than hard binding commitments where negotiators use language such as “shall endeavour”. The provision is usually accompanied by a definition of trade administration documents.<a class="FootnoteRef" href="#fn:_5f7d4071-a6d2-c420-8b29-71b88d248920" id="fnref:25"><sup>25</sup></a> Paperless trading provisions frequently require that a government make publicly available electronic versions of all trade administration documents – sometimes specifying a time-delineated implementation goal. These also typically require the government to accept trade administration documents submitted electronically as the legal equivalent of the paper version of such document.</p><p id="_18f97d89-f804-5cb9-3798-dc9e3bbf8ba6">Select FTAs require parties to work towards the implementation of initiatives that support paperless trading – such as electronic single windows. An FTA between Chile and Australia, for example, refers to the development of a single window with cross- referencing between the e-commerce and customs chapters. Several FTAs see parties pledge to use international standards or methods when developing paperless trade systems, which can be a good way to ensure interoperability.</p><p id="_9c97be3f-8a0f-d33c-3fc2-7597c3056cd4">Some countries have inserted provisions on cooperation in relation to paperless trading. This can take the form of sharing experiences on regulations, laws and programmes on e-commerce and e-government – with the latter a proxy for paperless trading – or regulatory dialogue. A limited number of agreements require parties to cooperate bilaterally and in international forums to enhance the acceptance of electronic versions of trade administration documents. The Japan-Singapore FTA commits parties to encourage cooperation between relevant private entities engaged in paperless trading and establishes a joint committee on paperless trade geared towards reviewing implementation issues.</p><p id="_2ebc56d0-ea12-74f1-67a0-6db82106c0b3">The minority of FTAs in which the language of the standalone “paperless trading” provision is drafted as a binding obligation almost all concern an FTA with Australia or New Zealand. These include the Australia-China FTA, Australia-Malaysia FTA, Australia- Singapore FTA, Australia-Thailand FTA and New Zealand-Thailand FTA. Each of these agreements allows limited exceptions if there is a “domestic or international legal requirement to the contrary” or if paperless trading would “reduce the effectiveness of the trade administration process”.</p><p id="_e1571586-7055-35ae-3fce-a94b76b998b9">Among recent FTAs, the Trans-Pacific Partnership (TPP) had the broadest comprehensive coverage in terms of elements related to paperless trading. It included acceptance of electronic copies; e-submission of trade-related documents such as SPS certification; electronic customs systems; e-certification and e-signature, including mutual recognition; and international standards. Besides the TPP, other FTAs with a broad scope of coverage include the US-Republic of Korea FTA and several other recent Korean FTAs (such as those with China and Viet Nam).</p><p id="_03c36731-f4d4-7ecd-9b24-dd1c2840ff9b">In general, the breadth of paperless trading elements is broadest for FTAs negotiated in the Asia-Pacific, reflecting the region’s leadership in this area. While the EU has focused on building paperless trading systems for its members, FTAs negotiated by the European Commission tend not to put as much emphasis on paperless trading as compared to those negotiated by the US, Australia, Republic of Korea, or others. The EU agreement with Colombia and Peru includes the commitment to endeavour to make trade management documents available electronically and to accept electronic documents as the legal equivalent of paper. The agreement with Korea includes cooperation on implementing paperless trading.</p><p id="_f69247de-b0fa-1d05-3f89-b10cc12b7300">The UN Economic and Social Commission for the Asia-Pacific (UNESCAP) adopted a Framework Agreement on Facilitation of Cross-Border Paperless Trade in May 2016 to advance regional coherence. The treaty is designed to provide new tools and a digital complement for implementing the TFA and facilitating cross-border commerce. Among other things, it will help to promote general principles to enable the exchange and mutual recognition of trade-related data and documents in electronic form. Some estimates suggest full implementation could boost Asia-Pacific exports by as much as $257 billion annually, while the time taken to export could fall by 44%. Cost savings across all trade in the Asia-Pacific region could be worth $7 billion annually.<a class="FootnoteRef" href="#fn:_99f3d99c-e4f6-8d67-2667-c35a91a0bab1" id="fnref:26"><sup>26</sup></a> The UNESCAP Framework Agreement includes specific provisions to consider requests from least developed and landlocked developing countries for technical assistance to develop paperless trade capacities.</p></div><div id="_3d586f3d-1aa9-258c-4ac5-bdd91d3fa030"><h1 id="_52d9e1d7-c725-40da-87e2-16a9155006b6"><a class="anchor" href="#_3d586f3d-1aa9-258c-4ac5-bdd91d3fa030"></a><a class="header" href="#_3d586f3d-1aa9-258c-4ac5-bdd91d3fa030">8<span class="fmt-clause-delim">.</span>  Technical Considerations Looking Ahead</a></h1><p id="_4779e566-3040-b049-83e5-910b2634f4f9">On the one hand, the constant evolution of technology requires avoiding regulation that locks in one particular solution. On the other hand, the introduction of new technologies or standards into trade processes will create disruptions for actors in the supply chain, so transition plans will be essential.</p><p id="_13e8022b-bc25-f361-4b71-3a7537dcb6b6">To date, it is worth noting that electronic messages have been treated as a direct alternative to paper documents, with paperless trade effectively taking a “document-driven” approach with the information in electronic messages being organized in line with corresponding documents, such as invoice, bill of lading, customs declaration and so on. However, this does not optimize the information being gathered. Most documents are part of a chain of information exchanges and a good deal of information tends to be repeated at each step whether on the paper document or an electronic equivalent.</p><p id="_7fefe821-7c00-54bb-66f0-3946a5a9da4d">A process-driven approach to the chain of information exchanges would instead consider each exchange within the context of other exchanges related to the same process. Each electronic message in the chain only needs to contain new information, rather than repeating redundant information. The approach implies rethinking how information is exchanged. It also corresponds more closely to the one-time data entry called for in single windows, as defined in UNECE Recommendation 33, and is closer to concepts behind blockchain technology. UN/CEFACT has produced Reference Data Models that support this approach.</p><p id="_f8ce3a3c-e0fb-43b6-d042-731df79e2259">Finally, as has been made clear by now, technical standards are a key part of paperless trade. However, it is important to keep in mind the individual agendas of organizations that push their standards, or that disparage another standard. Many IT companies will make a living off complicated data exchange so it may not be in their interest to have an interoperable system. This is sometimes the case for certain governments or government administrations as well. Nevertheless, as more and more trade and international business processes move online, ensuring interoperability and interconnectivity between systems would help to maximize the benefits of the digital economy. This is as much a strategic regulatory choice as it is a business case.</p></div><div id="_e5606889-6b57-38fd-7766-e1f74a26c256"><h1 id="_24d871d1-800e-4856-ba7f-bbb7195b86b3"><a class="anchor" href="#_e5606889-6b57-38fd-7766-e1f74a26c256"></a><a class="header" href="#_e5606889-6b57-38fd-7766-e1f74a26c256">9<span class="fmt-clause-delim">.</span>  Options for Further Trade Governance</a></h1><p id="_82f90bbb-3043-9f29-f9a3-574acd465fc1">Several WTO Members have raised the possibility of discussing paperless trade at the WTO, in some instances in connection with implementing the TFA. This includes suggestions for WTO members to accept electronic trade administration documents and grant these the same legal status as paper versions; and facilitating access to, use of and data exchange with the single window of a member’s authorities for international trade by cross-border e-commerce transaction platforms and traders.</p><p id="_2b621863-79c7-00a5-3e21-bdc0fd82fbf7">One question raised by the examination above is whether WTO members would be willing to accept any treaty language that takes the form of binding, rather than soft, commitments. To date, most RTAs have not used such language – with a few exceptions in the Asia-Pacific region – except on cooperation and information exchange provisions. What type of principles or cooperative approach could the WTO take? What could be learned from the TFA in terms of graduated levels of commitment and binding?</p><p id="_0fb0f018-5528-25b7-ec2c-927400c055e0">Certainly, activity is happening outside the WTO, as evidenced by UNECE’s 50-year commitment on the topic. As well as growing prevalence in FTAs, regional initiatives to promote interoperable paperless trading systems are also proceeding, including the UNESCAP paperless trade governance framework. As another example, the Asian Pacific Economic Cooperation (APEC) economies’ 1998 Blueprint for Action on Electronic Commerce included a pledge on reducing the requirement for paper documents for customs or other cross-border trade administration by 2005 for developed economies and by 2010 for developing economies, or as soon as possible thereafter. APEC ministers have recognized the potential of paperless trading on several occasions since and have voluntarily outlined individual action plans on paperless trading from 2002 onward.<a class="FootnoteRef" href="#fn:_4dbbf6d5-9787-34a8-f6ea-1ccd561abd81" id="fnref:27"><sup>27</sup></a></p><p id="_1d5ac1bd-0295-0a82-c537-03e37883bc26">Some countries are also exploring innovative bilateral projects to address new trends. For example, Australia and New Zealand are putting in place an e-commerce “green lane” trial to allow for more seamless movement of low-risk goods through the international mail stream between the two countries. The move is driven by recognition of the increasing volume of low-value e-commerce items in the mail stream. The aim is to pre-screen and pre-clear e-commerce goods using data, enabling faster border clearance, improving efficiency of processes, and directing organizational resources towards high-risk goods. The trial is consistent with a WCO-UPU global model for data exchange between customs and posts, agreed in 2012. The trial will use the WCO-UPU Data Model message formats to support the implementation of Electronic Advance Data (EAD) between post and customs, enabled by the UPU CDS.POST IT platform. To ensure the quality of data, e- traders will be encouraged to provide item-level data electronically.</p><p id="_8bba224b-7a27-b382-6c32-5ae3350c316f">In light of the above, trade officials, customs authorities, regulators and non- governmental stakeholders wishing to advance paperless trade could consider the following questions to establish intervention points:</p><div class="ul_wrap"><ul id="_e8362f43-4cf6-3795-ce68-3b5e62facc22"><li id="_85e9788f-6710-1998-942c-3e839aa3c38a"><p id="_a845a138-e79b-380a-5379-cadc57f108e7">To what extent do your regulatory authorities and other officials already accept electronic submissions of trade-related documents? Is this possible, for example, for certificates of origin, SPS certificates, etc., or only for standard trade documentation?</p>
+</li>
+<li id="_bfde0e4d-33ff-7a96-9183-55dfddec4793"><p id="_b511c7f4-c8c0-3275-0ecc-d2cb5595d577">Do you treat electronic versions of trade documentation as equivalent to the paper version? If not, why not? What are the areas where paper documentation is still required?</p>
+</li>
+<li id="_beed6a52-da54-5b46-a6e5-e024c2278fdd"><p id="_58d8505f-8cc9-6ea8-5fa2-3eda4913a85e">To what extent does your government already permit electronic payment of duties, taxes and other charges associated with import or export?</p>
+</li>
+<li id="_7614237f-850c-cf9c-e4c2-5ac0daf87ef0"><p id="_8aee112c-838f-6cc2-7db4-50397dede0eb">Are your systems aligned with international standards? Which standards? Where are they not aligned? What is the rationale given for why not?</p>
+</li>
+<li id="_4d1a2f60-08bd-d3c7-6fd3-bc0be5dcc130"><p id="_945b370a-8aae-56e9-bc6a-37fa0810a032">If paperless systems do not exist currently, what are the limitations preventing their implementation? Are there any near-term plans to build out more paperless trading systems?</p>
+</li>
+<li id="_cf8298db-d040-fb24-4943-cbefea880583"><p id="_7ba5b8e1-4638-16f3-6c28-ad24ee604603">How costly will it be to move towards electronic systems for trade documentation? What types of cost savings might you recoup over time? Is it likely that you will be able to procure the funds to do so?</p>
+</li>
+<li id="_2c6bcf22-f8ff-158d-e67f-7b1924ce2823"><p id="_97a7d7d2-a19e-d375-0666-4d57303706bf">Besides cost, what political roadblocks might be encountered in transitioning away from paper for trade documentation and records?</p>
+</li>
+<li id="_dfb39600-26a0-6949-0e53-ca5f72bf32eb"><p id="_83c6a611-54bd-deab-c5b1-91464f73f272">Are there regional initiatives already under way or ones that could develop in the near future?</p>
+</li>
+<li id="_82c095a6-2024-d853-3e8d-c3129ed46512"><p id="_bdc0c976-ae81-c996-4967-c8c8a819063e">Which business constituencies will be most affected by the switch to paperless systems?</p>
+</li>
+<li id="_e89d4c56-ba1e-1fc5-e556-ee251dd93546"><p id="_1eb483d6-6cfd-cc93-30ec-7d3d9a124ed3">What types of capacity building programmes will be required to maximize the benefits of paperless trading for SMEs? Is the government equipped to provide this capacity building, or is there another actor that can do so?</p>
+</li>
+</ul></div><p id="_d9a90d61-4db4-4a52-cac7-628704940744">Capacity building programmes are a key element to ensure that the benefits of paperless trade are widely available and taken advantage of. Thailand’s Electronic Transactions Development Agency (ETDA) and Office for SME Promotion (OSMEP), for example, have developed a training programme for SMEs to use the national and ASEAN Single Window. An ASEAN Connectivity through Trade and Investment (ACTI) project also hosts working group meetings to boost SME knowledge on the ASW and cargo clearance challenges and expectations. The Republic of Korea’s uTradeHub helps to facilitate a full range of international trade processes from certification and licensing, to customs, logistics and cross-border transaction. SMEs can use the system to conduct negotiations with potential buyers and sellers, address logistics, customs procedures and e- payments.<a class="FootnoteRef" href="#fn:_27a02054-5876-4d41-853f-f67b1c1983bf" id="fnref:28"><sup>28</sup></a></p><p id="_a4ad3437-c1f8-bdd2-336a-1ee2ec7fb733">Experts also recommend using workshops and consultations with SMEs to discuss the digitalization of trade processes – including taking stock of what trade information is already processed electronically; what blockages exist to SMEs participating in the electronic exchange of documents; and what human resource capacity building and/or other facilities would be needed to enable SMEs to benefit from electronic procedures, such as mobile applications.<a class="FootnoteRef" href="#fn:_27a02054-5876-4d41-853f-f67b1c1983bf"><sup>28</sup></a></p><p id="_169ad7a6-e301-f3de-f69a-553ee98e676d">An outstanding question across the policy, technical and business community lies in the application and spread of new advanced technologies. Are businesses in developing countries equipped with the infrastructure and enabling environment to stay connected to international production networks? Will these technologies add costs or make processes easier and cheaper? If applied in a B2G context, how to ensure interoperability and capacity building? International production networks dependent on advances in technology have helped to drive global growth over the past several decades. A world with increased connectivity, digitization and smart technology could accelerate this still further, providing the right frameworks are in place.</p></div><br /><div id="annex-a" class="Section3"><h1 class="Annex" id="_e51465a8-f8ff-4df0-8664-0d22b52bd8ac"><a class="anchor" href="#annex-a"></a><a class="header" href="#annex-a"><b>Annex I</b><br /><br /><b>Selection of UN/CEFACT Technical Standards</b></a></h1><p style="display:none;" class="variant-title-toc">Annex I  Selection of UN/CEFACT Technical Standards</p><p id="_70417bd7-fa96-6cf7-7485-4f1eaa5475f4">UN/EDIFACT messages cover all aspects of the international supply chain. For example, in the transport sector, UN/EDIFACT covers both contractual messages such as forwarding and consolidation (IFCSUM), booking (IFTMBF), consignment advice (IFTMCA), multimodal status report (IFTSTA), and operational messages such as bay plan/stowage plan (BAPLIE), vessel call (CALINF), and container gate-in/gate-out (CODECO). These messages allow traders to book transport, receive updates on the status of their delivery, declare where containers are on a ship, declare when a ship is to call at a port, communicate when a container arrives or leaves a customs-controlled area, just to give some examples.</p><p id="_97732a75-a6be-46ff-3439-c0fc067383c0">Customs messages in UN/EDIFACT are well known around the world by their six- digit abbreviations CUSCAR (cargo reports), CUSDEC (customs declarations), CUSREP (customs response), PAXLST (passenger list) and, more recently, GOVCBR (government cross-border regulatory message). These messages are developed by the World Customs Organization but standardized and maintained by UN/CEFACT.</p><p id="_f3f69fb9-e89b-d8a0-4eea-1cc2d6692297">The supply chain sector also widely uses UN/EDIFACT messages for information such as purchase orders (ORDERS), despatch advices (DESADV), sales forecasts (SLSFCT), and inventory reports (INVRPT). Financial services use a good number of UN/EDIFACT messages such as invoice (INVOIC), remittance advice (REMADV), and quotations (QUOTES). There are also UN/EDIFACT messages in accounting and audit, architecture and construction (in particular for project management), health and insurance, statistics, social security, employment, education and travel/tourism. Being standardized internationally, these all can be used at both cross-border level and national level.</p><p id="_3f839a87-8830-e591-e8d5-781c3e467b71">XML is a longer form of data message and so requires more storage space as well as bandwidth for transmission. The segments in XML can have human readable names (known as “tags”) instead of being limited to three characters and the format of the data is less rigid since it is largely disassociated from the paper format. The UN/CEFACT approach to XML focuses on the semantics (data definitions and content) instead of just the outline of the messages themselves. Each UN/CEFACT XML deliverable includes: a Business Requirement Specification (BRS) describing the choreography of events within a process; a Requirements Specification Mapping (RSM) defining the data requirements and all relevant entries in the UN/CEFACT Core Component Library (an encyclopaedia of all data elements); and a resulting XML message (or a series of XML messages, as the case may be).</p><p id="_e55868ee-60cb-cecf-4fff-b0d04751390c">UN/CEFACT also has three main types of code lists. The first are recommendation code lists which are published as trade-facilitation recommendations (typically the main recommendation describes the code list and its use, and the actual code list is in an annex to facilitate its updating). These cover codes such as packaging, units of measurement, modes of transport and identification of ships, among others. UN/LOCODE is also a recommendation code list and aims to identify all locations linked to international trade; it is essential for the clear identification of locations in the maritime and other transport industries as well as customs. The second are code lists that are maintained within UN/EDIFACT; there are many more of these including, among others, types of documents, types of contracts, types of dates, party function and business function. These two types of code lists are essential in electronic messaging.</p><p id="_a736ef6e-7ebc-6321-58d2-3d0a5cf02019">The final type is jointly published. These are often recommendation code lists, such as country and currency (jointly published by UN/CEFACT and ISO) and INCOTERMS (jointly published by UN/CEFACT and the International Chamber of Commerce). In all three cases, UN/CEFACT sees its work on codes as important in order to allow the free use of essential lists, as UN/CEFACT publishes all of its code lists free of charge, which is not the case for many other organizations.</p></div><br /><div id="annex-b" class="Section3"><h1 class="Annex" id="_a7246348-dcd6-4861-931e-94aa68ccb8e9"><a class="anchor" href="#annex-b"></a><a class="header" href="#annex-b"><b>Annex II</b><br /><br /><b>Case Studies of Paperless Trade Implementation</b></a></h1><p style="display:none;" class="variant-title-toc">Annex II  Case Studies of Paperless Trade Implementation</p><div id="_d0594c40-c60b-bda3-73cc-81133d014e9d"><h2 id="_cf764cd0-14e2-470b-97d3-1f704d458e49"><a class="anchor" href="#_d0594c40-c60b-bda3-73cc-81133d014e9d"></a><a class="header" href="#_d0594c40-c60b-bda3-73cc-81133d014e9d">1<span class="fmt-clause-delim">.</span>  e-SPS: Netherlands and China.</a></h2>
+
+<p id="_ad3bd20b-1eab-0f01-2874-af1f4d47c24f">International trade in agricultural products is an important economic activity. Many agri-food products require sanitary or phytosanitary (SPS) government certificates to clear customs. These SPS certificates serve as an official communication from the competent authority of the exporting country to the competent authority of the importing country that the cargo meets minimum sanitary requirements. Paper certificates can be costly, are logistically complicated and difficult to protect against fraud. Electronic certificates are also much more accurate than paper certificates. Electronic certificates will lower the number of interceptions and reduce time in ports. Countries are increasingly shifting to electronic customs and port clearance systems to enable better risk management. As a result, relevant regulatory bodies – including IPPC, OIE and CODEX – have recognized electronic certification as an alternative to paper certificates.</p>
+
+<p id="_a4faa68b-a6d6-f40e-20ee-e6724a0cab29">The Netherlands and China launched a five-year project in 2010 to pilot the practical implementation of electronic SPS certificates. The project used a step-wise, confidence- building approach, with the two parties initially exchanging information on standards and technology, then subsequently using certificates both in electronic and paper form, and finally moving to a fully digitized system.</p>
+
+<p id="_1d0aa757-d433-bd58-0814-5f34bcaa864a">The project used a UN/CEFACT standard XML message developed for electronic SPS certificates. Questions arose, however, around ensuring the authenticity of the document. Paper certificates are in most cases produced on security paper and signed and stamped to provide a proof of integrity and authentication. As a result, each electronic message containing the SPS certificate was accompanied by an electronic signature using the XMLDSig standard of the W3C. The management of the electronic signature was based on the FIPS 140-2 (National Institute of Standards and Technology of the USA) standard terms of technology and procedures. The shift also required legal frameworks that recognized the electronic signature.</p>
+</div><div id="_89d4fcb9-5017-7618-cdc7-861fd19cbbaa"><h2 id="_eb0b032d-cf48-4a24-989b-038a8a386a7d"><a class="anchor" href="#_89d4fcb9-5017-7618-cdc7-861fd19cbbaa"></a><a class="header" href="#_89d4fcb9-5017-7618-cdc7-861fd19cbbaa">2<span class="fmt-clause-delim">.</span>  Paperless Air Cargo (IATA Cargo-XML): Jamaica</a></h2>
+
+<p id="_7b57ad38-1b70-470b-42b6-c045d6faa816">The International Air Transport Association (IATA) has developed the Cargo-XML Messaging standards using the UN/CEFACT core component library. These Cargo-XML messaging standards are used by the airlines for end-to-end cargo business, fulfil customs’ advance cargo information (ACI) and filing requirements and provide compliance with regulators’ security requirements. The use of core components from the UN/CEFACT data library (CCL) makes the IATA Cargo-XML standards multi-modal and compatible for cross-border movements allowing interoperability between various systems and stakeholders. For example, the IATA Cargo-XML standard is compatible with the WCO Data Model, since both are based on UN/CEFACT core components.</p>
+
+<p id="_dbb50ae8-903d-d989-a7f9-3b92cf271426">The United Nations Conference on Trade and Development (UNCTAD) has fully integrated IATA Cargo-XML standards into its automated customs management system ASYCUDA World that is used by about 90 countries for their customs procedures. The new data standard improves data quality and simplifies communications across the supply chain facilitating trade growth, helping with cargo security, modernizing customs operations and fostering participation in global commerce through advance electronic data submission for air cargo shipments. It also facilitates customs risk assessments for air cargo shipments and improves compliance with security regulations.</p>
+
+<p id="_86b386ab-6bd5-057f-fceb-a3527db6f9a8">Jamaica was the first country to implement IATA Cargo-XML standards using the UNCTAD ASYCUDA World system for its advance cargo information filing. Carriers flying into Jamaica are required to provide advance information for air waybill, house waybill and flight manifest to Jamaica customs prior to flight arrival using respective IATA Cargo-XML standards. The project is helping to set a foundation for paperless trade; modernizing customs operations; driving better trade efficiency and competitiveness; enhancing security; boosting compliance by carriers with regulatory requirements; and reducing paper waste. Together, these benefits help to lower trade costs, with savings passed on to business and consumers.</p>
+
+<p id="_4768c599-a0a0-928c-6180-9b415b882183">The rollout of the IATA Cargo-XML standards in Jamaica was based on several key steps. This included strategic alignment between Jamaican customs, UNCTAD and IATA through regular dialogue to develop a business and IT strategy. The dialogue resulted in the recognition of the WCO SAFE Framework (standards to secure and facilitate global trade) and IATA standard messages, legislative amendments and a roadmap for implementation. There was also a need for resource and implementation planning. Customs and IATA agreed on the implementation approach, as well as filing schedule, amendment and cancellation rules. Customs obtained the necessary documentation (e.g. IATA Cargo-XML Toolkit) and related IATA support. The overall solution initially ran as a pilot. IATA engaged relevant stakeholders to start filing data. UNCTAD and Jamaican customs fine- tuned the solution in accordance with the pilot findings. Jamaican customs, UNCTAD and IATA also developed user guidance and industry communication material such as the filing standards, timelines, responsible parties and compliance conditions, including final enforcement date. IATA is now pursuing a similar approach with other countries for ACI implementation.</p>
+</div><div id="_59990096-3bd1-c8b8-8bef-7248f4bf9605"><h2 id="_645bb9be-6b91-4d84-b941-cd1afdcbea75"><a class="anchor" href="#_59990096-3bd1-c8b8-8bef-7248f4bf9605"></a><a class="header" href="#_59990096-3bd1-c8b8-8bef-7248f4bf9605">3<span class="fmt-clause-delim">.</span>  e-Invoicing for Public Administration: Italy</a></h2>
+
+<p id="_ab40daca-ec01-7b56-5825-5a8b71bc379c">Starting in June 2014, e-invoicing became mandatory in Italy for public administration bodies, including ministries, tax agencies and national social security – an obligation extended in 2015 to all other government bodies. The Italian banking system consequently developed a model that enables the transmission and issuing of e-invoices. Currently, e-invoice standards in use are proprietary, as defined by the Italian government by specific tags. In the near future, however, the government will be obliged to also support international standards, among which is the UN/CEFACT cross-industry invoice format that has been included in the official EU directive list.</p>
+</div><div id="_6ddfb830-b8a9-eaf4-ec78-beee2df5a28f"><h2 id="_ddba019c-0f5b-4a0a-8c34-7def421755cd"><a class="anchor" href="#_6ddfb830-b8a9-eaf4-ec78-beee2df5a28f"></a><a class="header" href="#_6ddfb830-b8a9-eaf4-ec78-beee2df5a28f">4<span class="fmt-clause-delim">.</span>  Data Pipelines and Reference Data Models: EU</a></h2>
+
+<p id="_af4c96e0-cb49-f360-63cf-0d7ca21445f2">Some EU projects have been working on the concept of “data pipelines”, led by UK and Dutch customs. A data pipeline aims to capture data at its source and manage information along the supply chain, with each actor adding just the information pertinent to their operations.</p>
+
+<p id="_b482bd29-76e3-e21b-a21b-38af1d1da705">Several UK IT software providers have adopted this approach to offer added services to their clients. The pipeline, which was originally meant to provide more accuracy in the data sent to government authorities, is also being used to improve supply- chain transparency. Large retail companies execute hundreds of orders and receive many goods containers daily. Until now, opening a container was much like opening a present – uncertain of what would be inside. The pipeline approach allows several larger retailers to directly link the goods ordered to the container and have better visibility of when it will arrive. The data captured at source also allows importers to verify shipments before they actually leave the supplier, helping to avoid errors in supply and packing.</p>
+
+<p id="_6b0ad79a-c5b4-0b61-daee-152a4ca93120">Shipping lines also benefit from the data-pipeline approach. Information can be lost between the steps of traditional paper-driven processes. This may affect the bay plan, such as temperature requirements or actual weights. Putting a heavy container on the upper decks of a ship may cause it to capsize and putting goods that require special attention because of temperature on lower decks may cause these to catch fire and cause disasters. The pipeline approach has already enabled several cases to be identified and avoided.</p>
+
+<p id="_ffc74c19-1719-5481-462f-a98f3257856a">Data pipelines are largely process-driven. UN/CEFACT has developed a pipeline standard based on the experience of these EU projects. In parallel, the UN/CEFACT Core Component Library (CCL) – an encyclopaedia of all data required for international transactions – has been organized into Reference Data Models that provide only information relevant to a specific area of activity such as logistics or supply chains. As the entire CCL contains information pertinent to all cross-border activity, such as logistics, finance, agriculture, tourism and so on, finding information for a single domain can be difficult with the added information from others. These Reference Data Models, combined with the pipeline approach, enable an event-driven process, communicating snippets of information instead of entire documents. An event-driven process is essential for full Single Window implementation or the eventual application of blockchain technologies to paperless trade.</p>
+</div><div id="_467e943c-111f-14d5-f3d8-6dd77f12985d"><h2 id="_f367fb50-4c7f-44e5-b5bd-deb954ce069e"><a class="anchor" href="#_467e943c-111f-14d5-f3d8-6dd77f12985d"></a><a class="header" href="#_467e943c-111f-14d5-f3d8-6dd77f12985d">5<span class="fmt-clause-delim">.</span>  UN/LOCODE: China</a></h2>
+
+<p id="_63853e2f-d135-624f-b625-7aaa32895ece">As underlined in this paper, the use of internationally recognized code lists is essential for mutual understanding of the data that is being exchanged. One such example is UN/LOCODE.</p>
+
+<p id="_92262ada-1216-e411-a080-6f5d2eeb2938">UN/LOCODE – initially short for the United Nations Code for Ports and other Locations, and later renamed the United Nations Code for Trade and Transport Locations – is specified in UNECE Recommendation 16 as a five-character code to identify locations in a unique and unambiguous way. It provides a coded representation for the names of ports, airports, inland clearance depots, inland freight terminals, and other transport-related locations and trade-related locations that are used for the movement of goods.</p>
+
+<p id="_55d7f30b-8781-8750-6a9f-1472e92b4fd9">UN/LOCODE is used extensively throughout the world by the international trade community. Since a first release in 1981, entries have increased from 8,000 to over 100,000 today, including locations in 249 countries, territories and special areas. It is mandatory to use UN/LOCODE for customs declarations and clearance in many countries. Some examples of standards and organizations that have adopted the use of UN/LOCODE are EDIFACT, the Convention on International Trade in Endangered Species of Wild Flora and Fauna (CITES), the International Maritime Organization, and the WCO.</p>
+
+<p id="_765d9f95-df6a-4ac9-2e79-ec820b673282">Since being adopted as a Chinese national standard (GB/T/15514) and obligatory for certain regulatory documents in China, UN/LOCODE has played an important role in facilitating international trade. For example, before Ruago port – a city in Jiangsu province on the eastern coast of China – was assigned with UN/LOCODE, exporters could only deliver goods to Shanghai to then be transported the rest of the journey by highway. For one importer of stone materials, this cost of about around 4,000 renminbi per container – acting as a significant cost draft. After a UN/LOCODE was assigned to Ruago port in 2014, the importer saved about 1.2 billion renminbi annually as the containers are delivered directly.</p>
+</div><div id="_24ae8cce-eb39-b966-e2a4-45994b75f83c"><h2 id="_42b436c0-7bb5-4f79-8323-1b9bf750d4b0"><a class="anchor" href="#_24ae8cce-eb39-b966-e2a4-45994b75f83c"></a><a class="header" href="#_24ae8cce-eb39-b966-e2a4-45994b75f83c">6<span class="fmt-clause-delim">.</span>  Electronic Single Window: Canada</a></h2>
+
+<p id="_e1c0d814-e4cf-33ee-54b0-2337b1e4b1f2">In 2011 the Canadian Prime Minister Stephen Harper and US President Barack Obama announced a new initiative – Beyond the Border: A Shared Vision for Perimeter Security and Economic Competitiveness – pledging to develop common border practices, and streamlining customs processing and regulatory compliance. A joint action plan identified full implementation of an electronic single window as one of 32 joint priorities. Both Canada and the US were to convert to electronic form data requirements of all government departments and agencies participating in the initiative by 2013, as well as for border-related decision processes for at least the top four priority departments.</p>
+
+<p id="_83c75221-294a-e54f-3bdf-1cce09305c96">As the lead agency, the Canada Border Services Agency (CBSA) developed its Single Window in accordance with the UN/CEFACT Recommendation 33 (on establishing a Single Window); Recommendation 34 (on trade data simplification and standardization); and Recommendation 36 (on Single Window interoperability). CBSA also ensured that representatives from all relevant public and private sector agencies were involved from initiation through to implementation. Oversight, review and contribution were also made by stakeholders, including participating government departments and agencies (PGA), trade chain partners (importers, carriers, brokers and freight-forwarders) and international partnerships (UN/CEFACT, US Customs and Border Protection, the WTO, the WCO, and APEC).</p>
+
+<p id="_68990d73-cabf-c99d-0fa6-27d9d8a7b10c">The CBSA began with specific PGA needs assessments to assess the challenges associated with the cross-border movement of commercial goods. Input from policy experts helped to verify data definitions and established the necessity of the information to fulfil the mandate of the particular PGA and its associated programme(s) – resulting in the reduction of 1,800 required data elements to 80. The CBSA also worked with the PGAs to ensure that the proper legal authorities were in place to collect, share and store the data.</p>
+
+<p id="_ef718738-fc00-bc0d-fec5-c44e0bcf0530">The CBSA chose to develop a Single Automated System (a single, centrally maintained submission system with which all authorities and traders have to interface) in accordance with industry Project Management Lifecycle principles and standards, designed to streamline the electronic collection and dissemination of commercial import data between the Government of Canada and the import community. Its creation established a solution for the commercial import process that balances the needs of government departments and agencies with today’s globally competitive business environment through the development of the Integrated Import Declaration (IID) and the Document Imaging Functionality (DIF).</p>
+
+<p id="_ee925e99-b82f-2d7b-6ba3-6f942782551d">Three Risk Assessment Information Sharing Models were developed and could be customized to suit the needs of the specific PGAs and their programme:</p>
+
+<div class="ul_wrap"><ul id="_be25c284-1bf4-9f02-ec7e-c2b158e6b5e5"><li id="_a6b72d3f-567f-308a-7852-e06c780c867b"><p id="_934e07bc-44d6-bb88-82af-945777bd3cb6">Model 1: PGAs review the IID data and provide an active recommendation to the CBSA</p>
+</li>
+<li id="_153e0b96-41a8-1b86-45e6-18c49a526305"><p id="_3446fa8a-beda-abe6-25a1-2a54612e3024">Model 2: PGAs do not provide an active recommendation to the CBSA –instead the information on the IID is validated electronically by the PGA; and the CBSA maintains a list of PGA rules via a Business Management Rules System</p>
+</li>
+<li id="_fbcb5e8a-ff44-e62d-2175-ca7a70974a71"><p id="_12211bb0-3e5e-ccb1-20a9-b936054a8b26">Model 3: Enhanced Pathfinder Delivery – provides participants with commercial trade data, currently collected by the CBSA, through the use of data extract files</p>
+</li>
+</ul></div>
+
+<p id="_b2d233d1-ec8b-1ed1-b4d9-3e911f042a04">With more timely, complete and accurate information provided by importers and brokers via the Single Window, the CBSA is in a better position to make release decisions. Automated functions such as business rule validation and the use of the DIF allows the agency to efficiently allocate border service officers. The PGAs, in turn, are able to perform more effective risk assessments when making recommendations to the CBSA. Additionally, PGAs are able to participate in real-time admissibility determinations along with the CBSA because of the advanced trade data and other technical means.</p>
+
+<p id="_15b2b659-9579-c2fe-7c26-2401fb98f580">As of March 2017 10 PGAs and their 38 associated programmes were using the IID. Canada continues to ensure interoperability through continued collaboration with US customs. Efforts are also made to continue work with relevant business as well as ensuring ongoing alignment with international recommendations and standards through continued partnership with UN/CEFACT and in the ongoing development and implementation of the WCO Data Model.</p>
+</div></div><aside id="fn:_08bc5a4f-c6a7-da3a-e0a1-b573006451f3" class="footnote"><p id="_50c8aafe-5cc4-f163-ba1b-498c155b45d1"><a class="FootnoteRef" href="#fn:_08bc5a4f-c6a7-da3a-e0a1-b573006451f3"><sup>1</sup></a>Terms of Reference of the Facilitation of International Trade Procedures: <a href="http://www.unece.org/trade/facil/wp4_tor.htm">http://www.unece.org/trade/facil/wp4_tor.htm</a> (link as of 09/2017)</p>
+<a href="#fnref:1">↩</a></aside><aside id="fn:_a3f31973-1157-cbb0-9c40-e31569314528" class="footnote"><p id="_f0e3658a-9347-672f-e897-39ef5618600e"><a class="FootnoteRef" href="#fn:_a3f31973-1157-cbb0-9c40-e31569314528"><sup>2</sup></a><a href="http://artnet.unescap.org/pub/WP146.pdf">http://artnet.unescap.org/pub/WP146.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:2">↩</a></aside><aside id="fn:_1abdf6c6-b9e1-64c8-beb1-398629731a1f" class="footnote"><p id="_a4f82abf-61b7-1e5e-4f54-a114d37417de"><a class="FootnoteRef" href="#fn:_1abdf6c6-b9e1-64c8-beb1-398629731a1f"><sup>3</sup></a><a href="https://www.wto.org/english/tratop_e/serv_e/wkshop_june13_e/ecom_national_board_e.pdf">https://www.wto.org/english/tratop_e/serv_e/wkshop_june13_e/ecom_national_board_e.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:3">↩</a></aside><aside id="fn:_9b916610-0e85-6c50-0cca-d26463e439ee" class="footnote"><p id="_95cc34bd-db9d-8a3e-e1b0-6bfc7b730051"><a class="FootnoteRef" href="#fn:_9b916610-0e85-6c50-0cca-d26463e439ee"><sup>4</sup></a><a href="https://www.intracen.org/uploadedFiles/intracenorg/Content/Publications/Bringing%20SMEs%20onto%20the%20e-Commerce%20Highway_final_250516_Low-res.pdf">https://www.intracen.org/uploadedFiles/intracenorg/Content/Publications/Bringing%20SMEs%20onto%20the%20e-Commerce%20Highway_final_250516_Low-res.pdf</a></p>
+<a href="#fnref:4">↩</a></aside><aside id="fn:_5f502d75-1794-3dcc-fe09-b4451bb1545c" class="footnote"><p id="_22f92286-f2c2-d56c-b4c7-1d82a5bc6e65"><a class="FootnoteRef" href="#fn:_5f502d75-1794-3dcc-fe09-b4451bb1545c"><sup>5</sup></a><a href="https://www.clarity-ventures.com/ecommerce/-all-features/cutting-edge-logistics-integrations/customs-and-duties-integration">https://www.clarity-ventures.com/ecommerce/-all-features/cutting-edge-logistics-integrations/customs-and-duties-integration</a> (link as of 09/2017)</p>
+<a href="#fnref:5">↩</a></aside><aside id="fn:_0f1c50ff-d382-f036-b9ea-6b0c54ad9959" class="footnote"><p id="_5b3af27e-2188-ecf9-e686-a0c382845804"><a class="FootnoteRef" href="#fn:_0f1c50ff-d382-f036-b9ea-6b0c54ad9959"><sup>6</sup></a>As developed by the United Nations Centre for Trade Facilitation and e-Business (UN/CEFACT). See more here: <a href="https://www.ippc.int/en/ephyto/">https://www.ippc.int/en/ephyto/</a> (link as of 09/2017)</p>
+<a href="#fnref:6">↩</a></aside><aside id="fn:_ae00fd88-fa65-2aa2-ad81-860755d7c7f9" class="footnote"><p id="_cfd8768c-766e-afa9-0501-6d91e0b4cc6e"><a class="FootnoteRef" href="#fn:_ae00fd88-fa65-2aa2-ad81-860755d7c7f9"><sup>7</sup></a>UN/CEFACT’s Fisheries Language Universal Exchange (FLUX) standard enables record and exchange of harmonized electronic data from fishing vessels to other parties. This could be one tool in help fisheries management traceability efforts in the supply chain in order to help reduce the incidence of illegal fishing and trade. <a href="https://www.unece.org/info/media/news/trade/2017/unece-showcases-its-contribution-to-">https://www.unece.org/info/media/news/trade/2017/unece-showcases-its-contribution-to-</a> halt-overfishing-at-un-ocean-conference-in-new-york/doc.html (link as of 09/2017)</p>
+<a href="#fnref:7">↩</a></aside><aside id="fn:_b6b4a956-b1a0-92a9-bd74-046d3d75daa8" class="footnote"><p id="_bee1d943-6c06-b5d4-f0a6-cdc4b1499275"><a class="FootnoteRef" href="#fn:_b6b4a956-b1a0-92a9-bd74-046d3d75daa8"><sup>8</sup></a>The first international description and recommendation on Single Window, “Recommendation and Guidelines on establishing a Single Window to enhance the efficient exchange of information between trade and government Recommendation 33” UNECE 2005, see page 3, point 2: <a href="http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec33/rec33_trd352e.pdf">http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec33/rec33_trd352e.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:8">↩</a></aside><aside id="fn:_1ac76dcc-23c9-eb34-511b-2030bf3ab6de" class="footnote"><p id="_c5b4ff85-75f9-e02c-68c7-d78e92fd9505"><a class="FootnoteRef" href="#fn:_1ac76dcc-23c9-eb34-511b-2030bf3ab6de"><sup>9</sup></a>African Alliance for E-Commerce and World Bank. AACE Single Window Peer Review: Senegal. 2014.</p>
+<a href="#fnref:9">↩</a></aside><aside id="fn:_52ec80e1-523d-551a-603f-18679a2adceb" class="footnote"><p id="_aff3cede-d5a2-7f9e-ae1e-a3dcceaf2810"><a class="FootnoteRef" href="#fn:_52ec80e1-523d-551a-603f-18679a2adceb"><sup>10</sup></a>Volpe Martincus, Christian. <i>Out of the border labyrinth: an assessment of trade facilitation initiatives in Latin America and the Caribbean.</i> Inter-American Development Bank. 2016. P. 200</p>
+<a href="#fnref:10">↩</a></aside><aside id="fn:_d6369af0-9d36-2709-f70b-ad5a2111530b" class="footnote"><p id="_207280ee-056b-2cc2-7ebe-8d16c6382b58"><a class="FootnoteRef" href="#fn:_d6369af0-9d36-2709-f70b-ad5a2111530b"><sup>11</sup></a><a href="http://www.intracen.org/publication/SME-Competitiveness-Outlook-Meeting-the-Standard-for-Trade/">http://www.intracen.org/publication/SME-Competitiveness-Outlook-Meeting-the-Standard-for-Trade/</a> (link as of 09/2017)</p>
+<a href="#fnref:11">↩</a></aside><aside id="fn:_3e651a80-a2b2-4190-c44f-0673a56df87c" class="footnote"><p id="_b2109c3e-b774-966b-c82d-4c999ac47a5e"><a class="FootnoteRef" href="#fn:_3e651a80-a2b2-4190-c44f-0673a56df87c"><sup>12</sup></a><a href="http://www.unescap.org/news/good-progress-made-implementing-wto-trade-facilitation-agreement-still-long-road-paperless-and">http://www.unescap.org/news/good-progress-made-implementing-wto-trade-facilitation-agreement-still-long-road-paperless-and</a> (link as of 09/2017)</p>
+<a href="#fnref:12">↩</a></aside><aside id="fn:_bbb7862d-dab7-f2ae-f62f-c59209281916" class="footnote"><p id="_cdefe70f-f999-f879-a29a-35636bbc4c89"><a class="FootnoteRef" href="#fn:_bbb7862d-dab7-f2ae-f62f-c59209281916"><sup>13</sup></a>Note that the average implementation rate in 2015 was 53%. See <a href="https://unnext.unescap.org/content/global-survey-trade-facilitation-and-paperless-trade-implementation-2015">https://unnext.unescap.org/content/global-survey-trade-facilitation-and-paperless-trade-implementation-2015</a> (link as of 09/2017).</p>
+<a href="#fnref:13">↩</a></aside><aside id="fn:_abddf573-f4e7-b6c4-1872-7d0d2ed0a9e8" class="footnote"><p id="_c3ec6f07-2e60-645e-b049-d724a0e9f218"><a class="FootnoteRef" href="#fn:_abddf573-f4e7-b6c4-1872-7d0d2ed0a9e8"><sup>14</sup></a>See supra note 11.</p>
+<a href="#fnref:14">↩</a></aside><aside id="fn:_2b74a5a6-d3ea-88c3-a782-f05e437f1af7" class="footnote"><p id="_d9279443-0fe8-ab6b-c086-19de3a23262b"><a class="FootnoteRef" href="#fn:_2b74a5a6-d3ea-88c3-a782-f05e437f1af7"><sup>15</sup></a><a href="https://www.wto.org/english/res_e/booksp_e/aid4trade17_e.pdf">https://www.wto.org/english/res_e/booksp_e/aid4trade17_e.pdf</a></p>
+<a href="#fnref:15">↩</a></aside><aside id="fn:_cdc06e9a-1f7a-5d20-2714-4a2faefd5f20" class="footnote"><p id="_238ec58f-a840-7685-7c60-f37cb23530bf"><a class="FootnoteRef" href="#fn:_cdc06e9a-1f7a-5d20-2714-4a2faefd5f20"><sup>16</sup></a>Ibid.</p>
+<a href="#fnref:16">↩</a></aside><aside id="fn:_326fcae8-2124-18b7-5355-3040d87a2205" class="footnote"><p id="_1794a582-deda-7407-cf83-3ef1ad776cef"><a class="FootnoteRef" href="#fn:_326fcae8-2124-18b7-5355-3040d87a2205"><sup>17</sup></a><a href="http://www.intracen.org/publication/Bringing-SMEs-onto-the-e-Commerce-Highway/">http://www.intracen.org/publication/Bringing-SMEs-onto-the-e-Commerce-Highway/</a> (link as of 09/2017)</p>
+<a href="#fnref:17">↩</a></aside><aside id="fn:_a48c6f3b-adce-121a-1d55-fa08fae73e75" class="footnote"><p id="_5e8cb34a-ac7e-a312-9754-be8459913c96"><a class="FootnoteRef" href="#fn:_a48c6f3b-adce-121a-1d55-fa08fae73e75"><sup>18</sup></a>See case study in <a href="#annex-b">Annex II</a></p>
+<a href="#fnref:18">↩</a></aside><aside id="fn:_6501b8f8-6449-b1e8-b194-f324b774f490" class="footnote"><p id="_7ae60b86-4261-d835-a633-6dbe94087d82"><a class="FootnoteRef" href="#fn:_6501b8f8-6449-b1e8-b194-f324b774f490"><sup>19</sup></a>For further information on electronic transactions and e-signatures, see “Making Deals in Cyberspace: What’s the Problem,” World Economic Forum, October 2017.</p>
+<a href="#fnref:19">↩</a></aside><aside id="fn:_a31d7389-bcff-6592-b1a1-2ab010db3a45" class="footnote"><p id="_f3def7a8-e05d-24f2-5604-d133ca61e9da"><a class="FootnoteRef" href="#fn:_a31d7389-bcff-6592-b1a1-2ab010db3a45"><sup>20</sup></a>UN/CEFACT provides a code list for Incoterms in Recommendation No. 5.</p>
+<a href="#fnref:20">↩</a></aside><aside id="fn:_c35c0e33-baf4-ad08-77e3-a0346fc7427e" class="footnote"><p id="_39b4c2ac-738c-33cb-6ee8-cfc3ff4e214f"><a class="FootnoteRef" href="#fn:_c35c0e33-baf4-ad08-77e3-a0346fc7427e"><sup>21</sup></a><a href="https://www.wto.org/english/res_e/booksp_e/world_trade_report15_e.pdf">https://www.wto.org/english/res_e/booksp_e/world_trade_report15_e.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:21">↩</a></aside><aside id="fn:_f0294bf7-cb03-ffc8-e10b-5e82bb92b04d" class="footnote"><p id="_edfd8ccd-2529-d88f-bcf4-226b0b5e19e6"><a class="FootnoteRef" href="#fn:_f0294bf7-cb03-ffc8-e10b-5e82bb92b04d"><sup>22</sup></a>2001 RTA between New Zealand and Singapore, as referenced in <a href="https://www.wto.org/english/res_e/reser_e/ersd201711_e.pdf">https://www.wto.org/english/res_e/reser_e/ersd201711_e.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:22">↩</a></aside><aside id="fn:_59e15230-3ae5-3a6b-08de-df4289f437a8" class="footnote"><p id="_6c57f9da-0397-14c5-1f7d-f855445964ad"><a class="FootnoteRef" href="#fn:_59e15230-3ae5-3a6b-08de-df4289f437a8"><sup>23</sup></a>Duval, Yann and Kong Mengjing. Digital Trade Facilitation: Paperless Trade in Regional Trade Agreements. ADBI Working Paper Series, June 2017. Available at <a href="https://www.adb.org/sites/default/files/publication/321851/adbi-wp747.pdf">https://www.adb.org/sites/default/files/publication/321851/adbi-wp747.pdf</a> (link as of 09/2017) Note that this study uses a broader definition of paperless trading than the WTO study referenced below.</p>
+<a href="#fnref:23">↩</a></aside><aside id="fn:_d82b2c19-2c9e-74fb-423a-7c314178b40f" class="footnote"><p id="_579b1f62-83e8-351a-1513-46b74d11ea23"><a class="FootnoteRef" href="#fn:_d82b2c19-2c9e-74fb-423a-7c314178b40f"><sup>24</sup></a><a href="https://www.wto.org/english/res_e/reser_e/ersd201711_e.pdf">https://www.wto.org/english/res_e/reser_e/ersd201711_e.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:24">↩</a></aside><aside id="fn:_5f7d4071-a6d2-c420-8b29-71b88d248920" class="footnote"><p id="_f3b8ce49-454e-3c04-1696-7fd680d6d586"><a class="FootnoteRef" href="#fn:_5f7d4071-a6d2-c420-8b29-71b88d248920"><sup>25</sup></a>WTO research notes that this typically refers to forms issued or controlled by the government of a party, which must be completed by or for an importer or exporter in relation to the import of export of goods. The FTA between Japan and Switzerland is the only agreement notified to the WTO that extends the definition to forms that a party issues or controls that must be completed by a services supplier. For more, see: <a href="https://www.wto.org/english/res_e/reser_e/ersd201711_e.pdf">https://www.wto.org/english/res_e/reser_e/ersd201711_e.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:25">↩</a></aside><aside id="fn:_99f3d99c-e4f6-8d67-2667-c35a91a0bab1" class="footnote"><p id="_d6956a8a-07c3-3fa0-39d4-f7495981fcc0"><a class="FootnoteRef" href="#fn:_99f3d99c-e4f6-8d67-2667-c35a91a0bab1"><sup>26</sup></a>“New UN treaty to facilitate paperless trade in Asia and the Pacific to support Trade Facilitation Agreement implementation.” Trade Facilitation Agreement Facility, 1 October 2016. Available at <a href="http://www.tfafacility.org/new-un-treaty-facilitate-paperless-trade-asia-and-pacific-support-trade-">http://www.tfafacility.org/new-un-treaty-facilitate-paperless-trade-asia-and-pacific-support-trade-</a> facilitation-agreement (link as of 09/2017)</p>
+<a href="#fnref:26">↩</a></aside><aside id="fn:_4dbbf6d5-9787-34a8-f6ea-1ccd561abd81" class="footnote"><p id="_56005c35-c4aa-af77-a8d3-2ff38da9b8a8"><a class="FootnoteRef" href="#fn:_4dbbf6d5-9787-34a8-f6ea-1ccd561abd81"><sup>27</sup></a><a href="https://www.apec.org/Meeting-Papers/Leaders-Declarations/1998/1998_aelm/apec_blueprint_for.aspx">https://www.apec.org/Meeting-Papers/Leaders-Declarations/1998/1998_aelm/apec_blueprint_for.aspx</a> (link as of 09/2017)</p>
+<a href="#fnref:27">↩</a></aside><aside id="fn:_27a02054-5876-4d41-853f-f67b1c1983bf" class="footnote"><p id="_332d6d31-218d-fe90-b980-480fb76d8568"><a class="FootnoteRef" href="#fn:_27a02054-5876-4d41-853f-f67b1c1983bf"><sup>28</sup></a><a href="http://www.intracen.org/uploadedFiles/intracenorg/Content/Publications/makingwto.pdf">http://www.intracen.org/uploadedFiles/intracenorg/Content/Publications/makingwto.pdf</a> (link as of 09/2017)</p>
+<a href="#fnref:28">↩</a></aside></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      if(!jqNav.length || !jqToggle.length) {
+        return;
+      }
+
+      const navWidthExpanded = jqNav.outerWidth();
+      const bodyPaddingLeftExpanded =
+        parseFloat(jqBody.css('paddingLeft')) > 0 ?
+          jqBody.css('paddingLeft') : navWidthExpanded + 'px';
+      const expandedToggleLeft = navWidthExpanded + 'px';
+      let bandWidth = 0;
+
+      $('.document-stage-band:visible, .document-type-band:visible')
+        .each(function() {
+          const bounds = this.getBoundingClientRect();
+          bandWidth = Math.max(bandWidth, bounds.right);
+        });
+
+      const toggleWidth = jqToggle.outerWidth();
+      const collapsedToggleLeft = bandWidth + 'px';
+      const collapsedBodyPaddingLeft = bandWidth + toggleWidth + 'px';
+      jqToggle.css({
+        'left': jqNav.is(':visible') ? expandedToggleLeft : collapsedToggleLeft,
+        'top': '0px'
+      });
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const navLeft = isNavVisible ? '-' + navWidthExpanded + 'px' : '0px';
+        const bodyPaddingLeft =
+          isNavVisible ? collapsedBodyPaddingLeft : bodyPaddingLeftExpanded;
+        const toggleLeft =
+          isNavVisible ? collapsedToggleLeft : expandedToggleLeft;
+
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+        jqToggle.stop(true, true);
+
+        if(!isNavVisible) {
+          jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'paddingLeft': bodyPaddingLeft}, animationSpeed);
+        jqToggle.animate({'left': toggleLeft}, animationSpeed);
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div ></div>", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body></html>

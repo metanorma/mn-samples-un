@@ -1,0 +1,2283 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Times New Roman", serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New", monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Times New Roman", serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Times New Roman", serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+
+dl dt {
+  grid-column-start: 1;
+}
+
+dl dd {
+  grid-column-start: 2;
+}
+
+dl:has(dt .stem) {
+  grid-template-columns: fit-content(8em) auto;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+a.TableFootnoteRef, a.FootnoteRef, a.footnote-number,
+sup a, a:has(> sup) {
+  vertical-align: baseline;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+/*
+    1. HTML & Body
+*/
+/* http://www.un.org/styleguide/ color */
+/* http://www.99colors.net/name/united-nations-blue */
+/* http://www.un.org/styleguide/ label text */
+/* http://www.un.org/styleguide/ brand-bar */
+/* http://www.un.org/styleguide/ p */
+/* RT: I made this up */
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #333;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body {
+  font-weight: 400;
+}
+
+main {
+  margin: 0 3em 0 6em;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/*
+    2. Responsive navigation layout
+*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: #333;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #1661ad;
+  box-shadow: inset -5px 0px 10px -5px #1661ad !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: #333;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: #333;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+  color: white;
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: linear-gradient(280deg, #00ADEF, #5b92e5);
+  box-shadow: inset -5px 0px 10px -5px #00ADEF !important;
+}
+#toc .toc-active a,
+#toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: white;
+  background: none;
+  box-shadow: none;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: white;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 30px;
+    background-color: #f2f2f2;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #00ADEF;
+    color: white !important;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    z-index: 103;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    margin: 0;
+    padding: 0;
+  }
+}
+.figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure > img, .figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table div.figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+.document-stage-band > :first-child {
+  font-weight: 300;
+}
+
+div.document-stage-band,
+div.document-type-band {
+  background-color: #9abd48;
+}
+
+p.document-type,
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+
+#governance-band p.document-type {
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+#standard-band p {
+  height: 270px;
+}
+
+#proposal-band p {
+  height: 150px;
+}
+
+#standard-band,
+#published-band {
+  background-color: #9abd48;
+}
+
+#standard,
+#published {
+  border-bottom: solid 3px #9abd48;
+}
+
+#governance,
+#policy-and-procedures {
+  border-bottom: solid 3px #750697;
+}
+
+#governance-band,
+#policy-and-procedures-band {
+  background-color: #750697;
+}
+
+#guide {
+  border-bottom: solid 3px #48a0e7;
+}
+
+#guide-band {
+  background-color: #48a0e7;
+}
+
+.coverpage-maturity {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+#working-draft,
+#proposal {
+  border-bottom: solid 3px #f7803c;
+}
+
+#working-draft-band,
+#proposal-band {
+  background-color: #f7803c;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd;
+}
+
+#committee-draft-band {
+  background-color: #fd06fd;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#draft-standard-band {
+  background-color: #fdf906;
+}
+
+#standard {
+  border-bottom: solid 3px #9abd48;
+}
+
+#standard-band {
+  background-color: #9abd48;
+}
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13;
+}
+
+#obsolete-band {
+  background-color: #7e0d13;
+}
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h2Annex,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Times New Roman", serif;
+  color: #00ADEF;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+h1,
+h2,
+h3, .h1, .h2, .h3 {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+
+h1, .h1 {
+  font-size: 33px;
+  font-weight: 500;
+  margin: 0.67em 0;
+  letter-spacing: -0.02em;
+  color: #4D4D4D;
+}
+
+h2, .h2 {
+  font-size: 27px;
+  color: #4D4D4D;
+}
+
+h3, .h3 {
+  font-size: 24px;
+  margin-top: 26px;
+  color: #000;
+}
+
+h4, .h4 {
+  font-size: 18.2px;
+  margin-bottom: 2px;
+  color: #4D4D4D;
+  letter-spacing: 0.03em;
+}
+
+h5, .h5 {
+  font-size: 16.25px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+h6, .h6 {
+  font-size: 13px;
+  color: #4D4D4D;
+  letter-spacing: 0.05em;
+}
+
+/*  h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-top: 2em;
+  }
+
+  h1#content {
+      margin-top: 2em;
+  }
+
+  h2 {
+    margin-top: 1.3em;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
+  h3 {
+    margin-top: 1.1em;
+    font-size: 1.1em;
+    font-weight: 100;
+  }*/
+.TermNum {
+  font-weight: 100;
+}
+
+.TermNum, .Terms, .AltTerms {
+  color: #00ADEF;
+}
+
+h2.TermNum {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+p.AltTerms {
+  /*
+    font-style: italic;
+     */
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/*
+    3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #00ADEF;
+}
+
+a:hover {
+  color: white;
+  background: #00ADEF;
+  box-shadow: 3px 0 0 #00ADEF, -3px 0 0 #00ADEF;
+}
+
+*::selection {
+  background: #00ADEF;
+  color: white;
+}
+
+*::-moz-selection {
+  background: #00ADEF;
+  color: white;
+}
+
+/*
+    3.3 Lists
+*/
+ul,
+ol {
+  margin-left: 1.2em;
+}
+
+ul > li p:first-child {
+  display: inline;
+}
+
+ul > li:first-child {
+  margin-top: 1em;
+}
+
+ul ul > li:first-child {
+  margin-top: 0;
+}
+
+ol ul > li:first-child {
+  margin-top: 0;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list li {
+  list-style-type: none;
+}
+
+#toc li::before {
+  content: " ";
+  display: none;
+}
+
+main ul > li {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin: 2em 0;
+}
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio,
+p.NormRef {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+/*
+    3.6 Source Code + figures
+*/
+.figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure,
+pre,
+.pseudocode {
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  margin: 1em 0;
+  padding: 1.2em;
+}
+.Note p {
+  margin: 0;
+}
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  margin: 1em 0;
+  padding: 1.2em;
+}
+.Admonition p {
+  margin: 0;
+}
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2.7em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid #000;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400;
+}
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f2f2f2;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f2f2f2;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  margin-top: 5em;
+  text-align: left;
+}
+
+.contact-info a,
+.contact-info a:hover {
+  color: #00ADEF;
+}
+
+.contact-info p,
+.contact-info a {
+  font-weight: 400;
+}
+
+.contact-info #boilerplate-feedback-name {
+  padding-left: 1px;
+  color: #4D4D4D;
+  font-size: 18.2px;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: 0.03em;
+  border-bottom: #00ADEF solid 3px;
+  padding-bottom: 7px;
+  margin-bottom: 9px;
+}
+
+.contact-info #boilerplate-feedback-address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+/*
+    Paragraphs
+*/
+p {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86;
+}
+
+.wrapper-top {
+  background: linear-gradient(85deg, #00ADEF, #5b92e5);
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #00ADEF;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: "Times New Roman", serif;
+}
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase;
+}
+
+.WordSection11 {
+  padding: 0 2em 0 3em;
+  text-align: center;
+}
+
+.title-footnote {
+  text-align: left;
+}
+
+.info-section {
+  padding: 0 2em;
+}
+
+.prefatory-section {
+  padding: 0 3em 0 6em;
+}
+
+.zzSTDTitle1,
+.MsoCommentText {
+  display: none;
+}
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em;
+}
+
+.coverpage-logo span,
+.coverpage-tc-name span {
+  font-family: "Times New Roman", serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+/*
+  4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.coverpage-title .title-second {
+  display: none;
+}
+
+.coverpage-stage-block {
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase;
+}
+
+/*
+  4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px;
+}
+
+.coverpage-warning .title {
+  font-family: "Times New Roman", serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+/*
+  4.4 Copyright
+*/
+.boilerplate-copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.boilerplate-copyright p {
+  text-align: center;
+}
+
+#boilerplate-ECEhdr {
+  border: solid;
+}
+
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+#myBtn {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  opacity: 1;
+}
+@media print {
+  #myBtn {
+    display: none;
+  }
+}
+#myBtn {
+  text-transform: uppercase;
+}
+#myBtn a.anchorjs-link:hover {
+  background: none;
+  color: #00ADEF;
+  box-shadow: none;
+}
+
+@page {
+  margin: 2cm 1cm;
+}
+@media print {
+  .document-info,
+  nav,
+  .copyright {
+    page-break-before: always;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+  .note,
+  .figure,
+  pre,
+  .pseudocode,
+  table {
+    page-break-inside: avoid;
+  }
+  .info-section {
+    display: none;
+  }
+  .coverpage {
+    height: 23cm;
+  }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+  }
+  .wrapper-top-bottom {
+    margin-top: -5px;
+  }
+  .container {
+    padding-left: 0;
+  }
+  #toc .toc-active a {
+    color: #4d7ea5;
+  }
+  #toc .toc-active,
+  #toc li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc li:hover a {
+    color: #000;
+  }
+  h1.content {
+    line-height: 2.5em;
+    margin-top: 2em;
+  }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  h2, .h2 {
+    font-size: 1.2em;
+  }
+  h3, .h3 {
+    font-size: 1em;
+  }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    margin: 2em 0 1em;
+    padding: 5px;
+  }
+  .Note p {
+    padding: 0 5px;
+  }
+  .Admonition {
+    background-color: #ffcccc;
+    color: #47430c;
+    margin: 2em 0 1em;
+    padding: 5px;
+  }
+  .Admonition p {
+    padding: 0 5px;
+  }
+  nav {
+    line-height: 1;
+  }
+  .wrapper-top-bottom {
+    display: none;
+  }
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>Annotated provisional agenda for the twenty-fourth session</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Space+Mono:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container"><div class="title-section"><div class="document-stage-band" id="published-band">
+    <p class="document-stage">Published</p>
+</div>
+
+<div class="document-type-band" id="plenary-band">
+    <p class="document-type">UNECE Plenary</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-logo">
+    <span>UNECE 2018</span>
+  </div>
+  <div class="coverpage-tc-name">
+    <span></span>
+  </div>
+  <div class="coverpage-doc-identity">
+    <div class="doc-number">
+      <p>Twenty-fourth session</p>
+      <p>Geneva, 30 April – 1 May 2018</p>
+
+
+<p>GE.18-01763(E)
+
+
+</p>
+    </div>
+
+
+
+
+
+    <div class="coverpage-title">
+      <span class="title-first">Annotated provisional agenda for the twenty-fourth session </span>
+      <!--<span class="title-second">To be held at the Palais des Nations, Geneva, starting at 10.00 on Monday, 30 April 2018,</span>-->
+    </div>
+  </div>
+  <div class="wrapper-top-bottom"></div>
+  </div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="plenary">UNECE Plenary</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="published"></span></p>
+
+
+<p><span class="coverpage-maturity">English only</span></p>
+
+</div>
+
+
+
+
+
+        
+
+
+<div class="info-section">
+<div class="copyright">
+  <p class="year">
+    © 2018 United Nations.
+  </p>
+
+  <div class="message">
+  <div class="boilerplate-license">
+
+<div id="_363711d5-65d9-fa9e-f4c2-384483c117c9"><p id="_e5535fff-375f-1a43-21ed-156b839efa11">None of the materials provided on this web site may be used, reproduced or transmitted, in whole or in part, in any form or by any means, electronic or mechanical, including photocopying, recording or the use of any information storage and retrieval system, except as provided for in the Terms and Conditions of Use of United Nations Web Sites, without permission in writing from the publisher.</p>
+
+<p id="_20d42d50-ce3b-fd48-375e-28552e241869">News-related material can be used as long as the appropriate credit is given and the United Nations is advised.</p>
+
+<p id="_4ac1f8f7-66fd-c4a1-3d8b-920cf517333c">To request such permission or for further enquires, please visit: <a href="https://shop.un.org/rights-permissions">United Nations Publications: Rights and Permissions.</a></p>
+</div>
+</div>
+  </div>
+
+<div class="contact-info">
+  <div class="boilerplate-feedback">
+
+<p id="boilerplate-feedback-name">UN Economic Commission for Europe: Information Service</p>
+
+<p id="boilerplate-feedback-address">Palais des Nations<br /> CH-1211 Geneva 10<br /> Switzerland<br /> <br /> <a href="tel:+41(0)229171234">+41 (0) 22 917 12 34 (switchboard)</a><br /></p>
+
+<p id="_b99ea419-a183-e8ed-d0c1-e46596211637"><a href="mailto:unece_info@un.org">unece_info@un.org<br /> ++[]</a></p>
+</div>
+</div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </div>
+
+
+</div>
+</header></div><br /><div class="prefatory-section">
+
+<nav>
+  <div id="toc"><ul><li class="h2"><a href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec">      
+  
+  Note
+</a></li>
+<li class="h1"><a href="#_5b7e3897-e0f4-7b9a-12e3-14f3d7f3179b">      
+  
+  Foreword
+</a></li>
+<li class="h1"><a href="#_b1830ba1-adfe-c3fe-ddae-468149890fc9">      
+  
+  I<span class="fmt-clause-delim">.</span>  Provisional agenda
+</a></li>
+<li class="h1"><a href="#_4af9ba19-9065-d8a3-ef9c-102797a1092c">      
+  
+  II<span class="fmt-clause-delim">.</span>  Annotations
+</a></li>
+<li class="h2"><a href="#_9fba3dca-26bd-a95d-a507-0b8184e373c7">      
+  
+  1<span class="fmt-clause-delim">.</span>  Openning
+</a></li>
+<li class="h2"><a href="#_72c267fe-6430-496c-dd68-7ee169f5ae78">      
+  
+  2<span class="fmt-clause-delim">.</span>  Item 1. Adoption of the agenda
+</a></li>
+<li class="h2"><a href="#_a602b4a1-fae5-56b4-c6b3-6c33703e2a9b">      
+  
+  3<span class="fmt-clause-delim">.</span>  Item 2. Elections
+</a></li>
+<li class="h2"><a href="#_7f41c534-d16e-89e2-b7e9-711eed8fa5cd">      
+  
+  4<span class="fmt-clause-delim">.</span>  Item 3. Matters arising since the twenty-third session
+</a></li>
+<li class="h2"><a href="#_fc243346-cd2f-5ce9-9db6-f750e49f2691">      
+  
+  5<span class="fmt-clause-delim">.</span>  Item 4.	Bureau overview of developments
+</a></li>
+<li class="h2"><a href="#_31c96008-bf8b-dde6-4bf8-8e850bd0258a">      
+  
+  6<span class="fmt-clause-delim">.</span>  Item 5. Reports of rapporteurs
+</a></li>
+<li class="h2"><a href="#_e2556928-80cc-b6fd-68eb-ff0562a50a23">      
+  
+  7<span class="fmt-clause-delim">.</span>  Item 6. Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business
+</a></li>
+<li class="h2"><a href="#_5b19b5c5-d82e-5fcb-625e-37f9215b1307">      
+  
+  A<span class="fmt-clause-delim">.</span>  Item 7.	Recommendations and standards
+</a></li>
+<li class="h2"><a href="#_1bf34cdc-f393-9b72-a203-5ff4eac61cac">      
+  
+  11<span class="fmt-clause-delim">.</span>  Item 8.	United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference and procedures
+</a></li>
+<li class="h2"><a href="#_1a9046f6-467c-0489-8592-a380e55b52ad">      
+  
+  12<span class="fmt-clause-delim">.</span>  Item 9.	Advisory Group on the United Nations Code for Trade and Transport Locations
+</a></li>
+<li class="h2"><a href="#_0e808076-c4a8-a7f0-8318-1ae9d4fbc296">      
+  
+  13<span class="fmt-clause-delim">.</span>  Item 10. Team of Specialists on Sustainable Fisheries
+</a></li>
+<li class="h2"><a href="#_6ed8f062-f16d-d1fe-72ac-45588e82a238">      
+  
+  14<span class="fmt-clause-delim">.</span>  Item 11. Future challenges in trade facilitation and electronic business
+</a></li>
+<li class="h2"><a href="#_a720cc15-3135-f182-a8b8-c4ed3debb6e1">      
+  
+  15<span class="fmt-clause-delim">.</span>  Item 12. Other business
+</a></li>
+<li class="h2"><a href="#_9e39eae6-5222-49e8-142a-a0fdb9abe40a">      
+  
+  16<span class="fmt-clause-delim">.</span>  Item 13. Adoption of decisions and draft report of the twenty-fourth session
+</a></li>
+<li class="h1"><a href="#_a2deff88-8203-e2fe-542c-f5476e7ee70e">      
+  
+  III<span class="fmt-clause-delim">.</span>  Provisional timetable
+</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority"><div class="boilerplate-copyright">
+
+<div id="_70922d8f-7f91-cc71-8327-4759e2cf34d3"><p id="boilerplate-ECEhdr">ECE/TRADE/437</p>
+
+<p id="_dc0f0843-d901-1d88-ff45-524ae5cd6086">Copyright © United Nations 2018<br /> All rights reserved worldwide<br /> United Nations publication issued by the Economic Commission for Europe</p>
+</div>
+</div>
+
+
+
+<div class="boilerplate-legal">
+
+<div id="_ba1048d8-5920-3def-f1e1-ed4e7de3f0c8"><div id="_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec"><h2 class="IntroTitle" id="_f0f64e20-a036-422e-aaeb-7d58e4eaa7e0"><a class="anchor" href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec"></a><a class="header" href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec">Note</a></h2>
+
+<p id="_04924f7b-e1bc-df70-d59b-e3fbe6f40359">The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.</p>
+</div>
+</div>
+</div>
+
+
+</div><br /><div id="_5b7e3897-e0f4-7b9a-12e3-14f3d7f3179b"><h1 class="ForewordTitle" id="_a5b29bbc-725e-4c87-a4ed-0c0fb233a9a2"><a class="anchor" href="#_5b7e3897-e0f4-7b9a-12e3-14f3d7f3179b"></a><a class="header" href="#_5b7e3897-e0f4-7b9a-12e3-14f3d7f3179b">Foreword</a></h1><div id="_66f73e2a-a90c-d2fb-6d90-cf437986a7a6" class="Note"><p><span class="note_label">NOTE</span>For reasons of economy, delegates are requested to bring copies of all relevant documents to the session. There will be no documentation available in the conference room. Before the session, documents may be downloaded from the UNECE website (<a href="http://www.unece.org/24thuncefactplenary.html">http://www.unece.org/24thuncefactplenary.html</a>).</p></div><div id="_ad45ae40-3a3f-a29c-3449-7a25153016d6" class="Note"><p><span class="note_label">NOTE</span>All delegates are requested to complete the online registration form available on the UNECE website (<a href="http://www.unece.org/24thuncefactplenary.html">http://www.unece.org/24thuncefactplenary.html</a>). Upon arrival at the Palais des Nations, delegates should obtain an identification badge at the UNOG Security and Safety Section, located at the Pregny Gate (14, Av. de la Paix). In case of difficulty, please contact the secretariat by telephone (ext. 73254). For a map of the Palais des Nations and other useful information, see the website: <a href="http://www.unece.org/meetings/practical.html">http://www.unece.org/meetings/practical.html</a>.</p></div></div><div id="_b1830ba1-adfe-c3fe-ddae-468149890fc9"><h1 id="_57e27f25-19e9-4afc-be52-fc0aa2f15984"><a class="anchor" href="#_b1830ba1-adfe-c3fe-ddae-468149890fc9"></a><a class="header" href="#_b1830ba1-adfe-c3fe-ddae-468149890fc9">I<span class="fmt-clause-delim">.</span>  Provisional agenda</a></h1><div class="ol_wrap"><ol type="1" id="_535066fa-a2de-026d-5d54-f793cd8ec1ac"><li id="_a2fbb3f8-2ee5-16e0-85e2-4240f9c04b01"><p id="_cae5fac1-9c5e-29f7-8487-7095b9305f5a">Adoption of the agenda.</p>
+</li>
+<li id="_c05f779b-db19-32e0-08f3-6d50abe7f6d8"><p id="_c3bb0970-bb10-7332-b844-539c741b356b">Elections.</p>
+</li>
+<li id="_dbdb591a-a64e-f7f9-0906-1182de36c9a8"><p id="_d94535d7-c329-2638-d385-19c3bb695426">Matters arising since the twenty-third session.</p>
+</li>
+<li id="_49384c29-e6bd-62d7-42a3-c66d72bba37f"><p id="_f780154b-de65-06fa-2320-1b8d7a490427">Bureau overview of developments.</p>
+</li>
+<li id="_e5c3e5dd-8498-abce-4d83-b78bdacfe054"><p id="_a393034f-c21d-7f92-be47-e7ea2f6067e4">Reports of rapporteurs.</p>
+</li>
+<li id="_fbd84355-ab58-30dc-210d-f85d367f2265"><p id="_5d76c5f2-79fe-5030-d3d8-d954a70e0175">Activities of other Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business.</p>
+</li>
+<li id="_22b02b60-8fb3-6f09-1359-9eaed02196eb"><p id="_5d1834a0-9782-de71-b3a1-ca4f6e62f3d7">Recommendations and standards.</p>
+</li>
+<li id="_053a49a6-a649-0cb2-4a82-4428e7577a2a"><p id="_75cd0cdc-bab0-0b66-2fad-7f32cf50745f">United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference and procedures.</p>
+</li>
+<li id="_a0438ceb-4182-27a5-0c55-80007327c07b"><p id="_54f8d3dd-6eb0-0d8a-8e90-12a0b2e7f8bd">Advisory Group on the United Nations Code for Trade and Transport Locations.</p>
+</li>
+<li id="_10dccdac-d8fc-b717-b6be-92c0b5f78b9d"><p id="_f71a1fd3-aa55-e409-d1b6-965312b75ab6">Team of Specialists on Sustainable Fisheries.</p>
+</li>
+<li id="_b329922c-d8f6-a749-f56a-4d1c199a6f5b"><p id="_d9f6ebec-db79-743f-d075-3188a97dc8e3">Future challenges in trade facilitation and electronic business.</p>
+</li>
+<li id="_f2aaa0f8-1a45-b01b-02e9-7452dc3c6722"><p id="_609fc671-3335-58d6-f553-2f6fdc7ec82a">Other business.</p>
+</li>
+<li id="_9db1583c-ce87-7b97-fa34-ebf81840ac88"><p id="_49850461-c3b1-c6a1-e367-23fa3bbcd4f8">Adoption of decisions and draft report of the twenty-fourth session.</p>
+</li>
+</ol></div></div><div id="_4af9ba19-9065-d8a3-ef9c-102797a1092c"><h1 id="_a808dce8-d8cd-4b37-86ce-12d43163dcab"><a class="anchor" href="#_4af9ba19-9065-d8a3-ef9c-102797a1092c"></a><a class="header" href="#_4af9ba19-9065-d8a3-ef9c-102797a1092c">II<span class="fmt-clause-delim">.</span>  Annotations</a></h1><div id="_9fba3dca-26bd-a95d-a507-0b8184e373c7"><h2 id="_549cd769-3e88-4991-ae28-c805296da0c9"><a class="anchor" href="#_9fba3dca-26bd-a95d-a507-0b8184e373c7"></a><a class="header" href="#_9fba3dca-26bd-a95d-a507-0b8184e373c7">1<span class="fmt-clause-delim">.</span>  Openning</a></h2>
+
+<p id="_9a824510-ed29-fdf2-8a70-e5c00095415e">The provisional agenda and timetable for the twenty-fourth session of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has been drawn up by the Bureau in consultation with the secretariat. It is based on the decisions adopted at the twenty-third session. There will be simultaneous interpretation into English, French and Russian.</p>
+
+<p id="_9939acc3-80d7-48a7-7ed9-0c158b74aab7">The session will be opened by the Executive Secretary of the United Nations Economic Commission for Europe (UNECE).</p>
+</div><div id="_72c267fe-6430-496c-dd68-7ee169f5ae78"><h2 id="_96b9959f-2164-4f0e-9a11-a617aa6f51cb"><a class="anchor" href="#_72c267fe-6430-496c-dd68-7ee169f5ae78"></a><a class="header" href="#_72c267fe-6430-496c-dd68-7ee169f5ae78">2<span class="fmt-clause-delim">.</span>  Item 1. Adoption of the agenda</a></h2>
+
+<table id="_d5b2d38f-6f4b-6b6b-607a-67537aaa4a20" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Draft agenda</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/1</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">For decision</td></tr></tbody></table>
+
+<p id="_a383896a-587a-651a-cc57-54b63ae88d97">The secretariat will present the dra|t agenda for adoption (ECE/TRADE/C/CEFACT/2018/1) and will inform the Plenary of any proposed changes.</p>
+</div><div id="_a602b4a1-fae5-56b4-c6b3-6c33703e2a9b"><h2 id="_5e9003bf-88d1-4129-aaae-962189ba7cda"><a class="anchor" href="#_a602b4a1-fae5-56b4-c6b3-6c33703e2a9b"></a><a class="header" href="#_a602b4a1-fae5-56b4-c6b3-6c33703e2a9b">3<span class="fmt-clause-delim">.</span>  Item 2. Elections</a></h2>
+
+<table id="_a0d2e299-725d-dd5b-10a7-30102a4ba9eb" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Consolidated United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) mandate and terms of reference</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2017/15</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">For information</td></tr></tbody></table>
+
+<p id="_f526425c-8bac-204c-b111-e9511b93a3a8">Delegations who are physically present will elect the Chair for the UN/CEFACT Bureau for the period 2018 – 2021. The Chair will preside over the rest of the twenty-fourth session.</p>
+
+<p id="_9802eea9-089e-3376-fd6d-5ac337291204">Delegations are encouraged to refer to “Consolidated UN/CEFACT mandate and terms of reference” (ECE/TRADE/C/CEFACT/2017/15), paragraphs 52-73, adopted at the twenty-third session.</p>
+</div><div id="_7f41c534-d16e-89e2-b7e9-711eed8fa5cd"><h2 id="_00d8accf-0577-47e3-9898-935b73c2a40a"><a class="anchor" href="#_7f41c534-d16e-89e2-b7e9-711eed8fa5cd"></a><a class="header" href="#_7f41c534-d16e-89e2-b7e9-711eed8fa5cd">4<span class="fmt-clause-delim">.</span>  Item 3. Matters arising since the twenty-third session</a></h2>
+
+<table id="_253f4954-cdea-face-de2a-8dbebf758481" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Matters arising since the twenty-third session</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/3</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">For information</td></tr></tbody></table>
+
+<p id="_83f2534e-c3ed-0e63-abe9-0cd5cfe6596a">The secretariat will report on matters arising from the UNECE’s Executive Committee (EXCOM) and other UN bodies and conferences since the twenty-third session.</p>
+
+<p id="_79046a55-5616-b85d-2020-158fedfbce8b">Delegations will have an opportunity to review and discuss the topics raised.</p>
+</div><div id="_fc243346-cd2f-5ce9-9db6-f750e49f2691"><h2 id="_e8cc3061-9b23-47c0-9dc8-3287f24bd7e2"><a class="anchor" href="#_fc243346-cd2f-5ce9-9db6-f750e49f2691"></a><a class="header" href="#_fc243346-cd2f-5ce9-9db6-f750e49f2691">5<span class="fmt-clause-delim">.</span>  Item 4.	Bureau overview of developments</a></h2>
+
+<p id="_fa717c21-f60d-d50f-494e-37fe68915b1d">The Bureau will provide an overview of developments since the last session and will set the stage for the following agenda items.</p>
+
+<p id="_1b2aa5e2-5647-5f0a-07e5-baf5ccf7501c">Delegations will have an opportunity to review and discuss the topics raised.</p>
+</div><div id="_31c96008-bf8b-dde6-4bf8-8e850bd0258a"><h2 id="_ddc77b95-05ce-415f-ab07-62628163005c"><a class="anchor" href="#_31c96008-bf8b-dde6-4bf8-8e850bd0258a"></a><a class="header" href="#_31c96008-bf8b-dde6-4bf8-8e850bd0258a">6<span class="fmt-clause-delim">.</span>  Item 5. Reports of rapporteurs</a></h2>
+
+<table id="_892694fa-182a-9752-bd7b-4215f9c9c695" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Report of Rapporteur for Africa</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/4</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Report of Rapporteur for Asia and the Pacific</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/5</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">For noting</td></tr></tbody></table>
+
+<p id="_3d94f526-c18e-aad6-e158-bc4f39daaf3b">The regional rapporteurs will report on activities related to UN/CEFACT in their regions.</p>
+
+<p id="_1af284a8-dbca-0995-ebd1-4c5ecdc75335">Delegations will have an opportunity to review and discuss the topics raised.</p>
+</div><div id="_e2556928-80cc-b6fd-68eb-ff0562a50a23"><h2 id="_091d9774-4fb2-42cd-b36a-d3494ab2f9a1"><a class="anchor" href="#_e2556928-80cc-b6fd-68eb-ff0562a50a23"></a><a class="header" href="#_e2556928-80cc-b6fd-68eb-ff0562a50a23">7<span class="fmt-clause-delim">.</span>  Item 6. Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business</a></h2>
+
+<p id="_5bf3558a-5798-af6a-3b9c-6d8b32bb24ff">Delegates will be briefed about activities of other UNECE bodies on matters of potential interest to UN/CEFACT. Representatives from other UN organizations and other international organizations will be invited to highlight areas for potential cooperation with UN/CEFACT as well as current and future activities of relevance.</p>
+
+<p id="_1ed490d0-6ec2-405a-3dc4-28185483303b">A discussion will take place on potential areas for collaboration between UN/CEFACT and other UNECE bodies and international organizations.</p>
+</div><div id="_5b19b5c5-d82e-5fcb-625e-37f9215b1307"><h2 id="_536bd918-2d6b-448c-9b48-bcba0558262e"><a class="anchor" href="#_5b19b5c5-d82e-5fcb-625e-37f9215b1307"></a><a class="header" href="#_5b19b5c5-d82e-5fcb-625e-37f9215b1307">A<span class="fmt-clause-delim">.</span>  Item 7.	Recommendations and standards</a></h2>
+
+<div id="_5f53a31c-7010-35f0-2adf-0267de81c645"><h3><a class="anchor" href="#_5f53a31c-7010-35f0-2adf-0267de81c645"></a><a class="header" href="#_5f53a31c-7010-35f0-2adf-0267de81c645">8<span class="fmt-clause-delim">.</span>  Standards for approval</a></h3>
+
+<p id="_63720dba-d84e-ab8d-5332-b0d47e84bd81">The following standards will be presented to the Plenary for approval and delegations will have an opportunity to discuss these:</p>
+
+<p id="_3b887910-7184-5ad6-574c-77ab6369ad8b">UN/EDIFACT Directory (Versions D.17A and D.17B) (<a href="http://www.unece.org/tradewelcome/un-centre-for-trade-facilitation-and-e-business-uncefact/outputs/standards/unedifact/directories/2011-present.html">http://www.unece.org/tradewelcome/un-centre-for-trade-facilitation-and-e-business-uncefact/outputs/standards/unedifact/directories/2011-present.html</a>)</p>
+
+<p id="_4a634a31-73e2-bf50-922f-76209290e34c">UN/LOCODE Directory (Versions 2017-1 and 2017-2) (<a href="http://www.unece.org/cefact/locode/welcome.html">http://www.unece.org/cefact/locode/welcome.html</a>)</p>
+
+<p id="_2c3efe3a-1d86-17b6-a91c-7bdaf52a2f68">UN/CEFACT Core Component Library (Versions D.17A and D.17B) (<a href="http://www.unece.org/cefact/codesfortrade/unccl/ccl_index.html">http://www.unece.org/cefact/codesfortrade/unccl/ccl_index.html</a>)</p>
+
+<p id="_eb694b57-160f-2eef-0eed-7d98c8cb28d1">UN/CEFACT XML Schema Library (Versions D.17A and D.17B) (<a href="http://www.unece.org/cefact/xml_schemas/index">http://www.unece.org/cefact/xml_schemas/index</a>)</p>
+
+<p id="_c91d2836-be0c-1288-ac4c-3ee18f610a05">Animal Traceability Business Requirement Specification version 1.2 (<a href="http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS_Animal_Traceability_BRS_v1.2.pdf">http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS_Animal_Traceability_BRS_v1.2.pdf</a>)</p>
+
+<p id="_1ce9b0fc-21d1-85dd-ffb0-8e741aa1f417">Fisheries Language for Universal eXchange (FLUX); also known as “Electronic Interchange of fisheries catch data” Business Requirements Specification version 1.1 (<a href="http://www.unece.org/fileadmin/DAM/cefact/brs/FLUX_P1000-v1.1.zip">http://www.unece.org/fileadmin/DAM/cefact/brs/FLUX_P1000-v1.1.zip</a>)</p>
+
+<p id="_c93be5f0-16e1-f60f-ee47-403d6bc1517d">Traceability of Primary Natural Products Business Requirements Specification version 1.0 (<a href="http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS__TraceabilityOfPrimaryNaturalProducts_v1.0.pdf">http://www.unece.org/fileadmin/DAM/uncefact/BRS/BRS__TraceabilityOfPrimaryNaturalProducts_v1.0.pdf</a>)</p>
+
+<p id="_9a15216a-4fac-b49a-2431-cea5831371ae">Cross Industry Scheduling Business Requirements Specification version 2.0 (<a href="http://www.unece.org/fileadmin/DAM/cefact/brs/BRS_Cross_Industry_Scheduling_Process_v2_FINAL.pdf">http://www.unece.org/fileadmin/DAM/cefact/brs/BRS_Cross_Industry_Scheduling_Process_v2_FINAL.pdf</a>)</p>
+
+<p id="_d4f0e61a-a7f3-dc48-4a9c-71d455eee2af">Cross Industry Catalogue Process Requirement Specification Mapping version 2 (<a href="http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIC_CCBDA_Cross_Industry_Catalogue_Process_v2.pdf">http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIC_CCBDA_Cross_Industry_Catalogue_Process_v2.pdf</a>)</p>
+
+<p id="_b5cba20b-5231-3834-4a3f-f60099c1e95d">Cross Industry Delivering Process Requirement Specification Mapping version 3 (<a href="http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CID_CCBDA_Cross_Industry_Delivering_Process_v3.pdf">http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CID_CCBDA_Cross_Industry_Delivering_Process_v3.pdf</a>)</p>
+
+<p id="_7402d466-ad9e-82b8-0e1a-14eaf006a7ae">Cross Industry Ordering Process Requirement Specification Mapping version 3 (<a href="http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIO_CCBDA_Cross_Industry_Ordering_Process_v3.pdf">http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIO_CCBDA_Cross_Industry_Ordering_Process_v3.pdf</a>)</p>
+
+<p id="_6f225e1c-4c40-0610-df55-5591a435f041">Cross Industry Quotation Process Requirement Specification Mapping version 2 (<a href="http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIQ_CCBDA_Cross_Industry_Quotation__Process_v2.pdf">http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIQ_CCBDA_Cross_Industry_Quotation__Process_v2.pdf</a>)</p>
+
+<p id="_3c960fc8-a52b-4251-32e7-0240b5f8462e">Cross Industry Remittance Process Requirement Specification Mapping version 2 (<a href="http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIR_CCBDA_Cross_Industry_Remittance_Process_v2.pdf">http://www.unece.org/fileadmin/DAM/cefact/rsm/RSM_CIR_CCBDA_Cross_Industry_Remittance_Process_v2.pdf</a>)</p>
+
+<p id="_6ae83709-1e62-f25e-df34-0ebebe55fd0f">eCMR Business Requirement Specification version 1 (to be put on the website shortly)</p>
+</div>
+
+<div id="_6e0d6e22-3e1a-0a54-e0e1-d77ea7bd1e7f"><h3><a class="anchor" href="#_6e0d6e22-3e1a-0a54-e0e1-d77ea7bd1e7f"></a><a class="header" href="#_6e0d6e22-3e1a-0a54-e0e1-d77ea7bd1e7f">9<span class="fmt-clause-delim">.</span>  Other deliverable for noting</a></h3>
+
+<table id="_0abead29-17da-6232-79a9-f91b7315809d" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">White Paper on Paperless Trade</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/6</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">White Paper on Trusted Transboundary Environment</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/7</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">White Paper on Data Pipeline Concept for Improving Data Quality in the Supply Chain</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/8</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">White Paper on Technical Application of Blockchain to United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Deliverables</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/9</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">White Paper on Women in Trade Facilitation</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/10</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Procedure for Reference Data Model Artefact Publication</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/11</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">For noting</td></tr></tbody></table>
+
+<p id="_12a8ae64-7f52-ad18-45a5-f0a4818e5fda">The above deliverables will be presented to the Plenary for noting and delegations will have an opportunity to review and discuss these.</p>
+</div>
+
+<div id="_db376cb2-62ba-8293-e075-d77a0af464af"><h3><a class="anchor" href="#_db376cb2-62ba-8293-e075-d77a0af464af"></a><a class="header" href="#_db376cb2-62ba-8293-e075-d77a0af464af">10<span class="fmt-clause-delim">.</span>  Related issues for noting and information</a></h3>
+
+<table id="_e3855b25-8c44-7bf7-e3ea-e9a9d6d11ce1" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Executive Guide on eInvoicing / Cross Industry Invoice</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/12</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Executive Guide on UN/LOCODE</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/13</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Executive Guide on e-CMR</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/14</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Meeting Report and Recommendations of the 4th UNECE International Conference on Single Window of October 2017</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/15</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For information</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Meeting Report of the 3rd UN/LOCODE Conference of April 2017</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/16</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For information</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">UNECE 2017 Regional Report on Trade Facilitation and Paperless Trade</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/17</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For information</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">UN Regional Commissions 2017 Global Report on Trade Facilitation and Paperless Trade</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/18</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For information</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Report on the use of United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Standards</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/Misc.1</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">For information</td></tr></tbody></table>
+
+<p id="_0cf5004b-39f4-d07b-25a6-6d94354dd35e">Three Executive Guides and two meeting reports will be presented to the Plenary for noting.</p>
+
+<p id="_ea7e13f1-5169-bad5-1007-879a58b9d581">The UNECE Trade Facilitation Secretariat, in cooperation with the other UN Regional Commissions, has performed a survey and a subsequent report on the state of trade facilitation and paperless trade. The Global Report and the Regional Report will be presented to the Plenary for noting.</p>
+
+<p id="_59bed53a-9b87-0951-3206-bfb47c7e47f5">Following up on Plenary Decision 16-16 (ECE/TRADE/C/CEFACT/2016/2 para 64) and Plenary Decision 17-21 (ECE/TRADE/C/CEFACT/2017/2 para 59-61), the secretariat has surveyed a sample of the user community in order to see how UN/CEFACT deliverables are being used. The Report (ECE/TRADE/C/CEFACT/2018/Misc.1) will be presented to the Plenary for information.</p>
+
+<p id="_4b90d91b-5ff6-2e30-1d33-ac3daed3b1c2">Delegations will have an opportunity to review and discuss these.</p>
+</div>
+</div><div id="_1bf34cdc-f393-9b72-a203-5ff4eac61cac"><h2 id="_6a0aeccc-0eaf-47e4-a07a-4e18486876b6"><a class="anchor" href="#_1bf34cdc-f393-9b72-a203-5ff4eac61cac"></a><a class="header" href="#_1bf34cdc-f393-9b72-a203-5ff4eac61cac">11<span class="fmt-clause-delim">.</span>  Item 8.	United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference and procedures</a></h2>
+
+<table id="_c010ae88-1af3-885d-eb11-b260f23f34c4" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Representation Procedure Guidelines</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/19</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">For noting</td></tr></tbody></table>
+
+<p id="_e97628fe-84e2-3969-3f71-0fa19de64eb2">The secretariat and the Bureau will present a Representation Procedure Guideline (ECE/TRADE/C/CEFACT/2018/19) to the Plenary for noting.</p>
+
+<p id="_650c3028-cb07-0273-8232-5cc479e45904">Delegations will have an opportunity to review and discuss this.</p>
+</div><div id="_1a9046f6-467c-0489-8592-a380e55b52ad"><h2 id="_9650f81c-9983-413c-975a-8a8edeb8ad9d"><a class="anchor" href="#_1a9046f6-467c-0489-8592-a380e55b52ad"></a><a class="header" href="#_1a9046f6-467c-0489-8592-a380e55b52ad">12<span class="fmt-clause-delim">.</span>  Item 9.	Advisory Group on the United Nations Code for Trade and Transport Locations</a></h2>
+
+<table id="_3d08d6d4-7141-0db3-c49c-ab6ca3e62564" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Meeting Report of the UN/LOCODE Advisory Group of December 2017</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/20</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">For endorsement</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Mandate and Terms of Reference of the Advisory Group on the United Nations Code for Trade and Transport Locations (UN/LOCODE)</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2017/17</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">For information</td></tr></tbody></table>
+
+<p id="_e71cce01-a029-ce50-6c19-66c2ae2b47dc">At the 23rd Plenary, the UN/LOCODE Advisory Group Mandate and Terms of Reference were approved (ECE/TRADE/C/CEFACT/2017/17). This group aims to ensure the maintenance and further develop the UN/LOCODE standards and to further enhance the network of UN/LOCODE Focal Points. The first meeting of this group was held in December 2017; this meeting’s report will be presented to the Plenary for endorsement.</p>
+
+<p id="_47d8f5b0-4ac2-6683-3856-eac8c1188f3f">Delegations will have an opportunity to review and discuss this.</p>
+</div><div id="_0e808076-c4a8-a7f0-8318-1ae9d4fbc296"><h2 id="_db16cf29-ff12-4ea9-b559-c22b4b329954"><a class="anchor" href="#_0e808076-c4a8-a7f0-8318-1ae9d4fbc296"></a><a class="header" href="#_0e808076-c4a8-a7f0-8318-1ae9d4fbc296">13<span class="fmt-clause-delim">.</span>  Item 10. Team of Specialists on Sustainable Fisheries</a></h2>
+
+<table id="_9e79a5e8-ac06-887b-3950-f4cd2b6fdb33" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Meeting Report of the Team of Specialists on Sustainable Fisheries of January 2018</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/21</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">For endorsement</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Programme of Work of the Team of Specialists on Sustainable Fisheries 2018-2019</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/22</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For endorsement</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Mandate and Terms of Reference of the Sustainable Fisheries Team of Specialists</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2017/16/Rev1</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">For information</td></tr></tbody></table>
+
+<p id="_f1ce07dc-f79a-cd81-a2d3-f740d8dfc70b">At the 23rd Plenary, the “Sustainable Fisheries Team of Specialists Mandate and Terms of Reference” were approved (ECE/TRADE/C/CEFACT/2017/16) and was subsequently approved, with minor modifications, by the UNECE Executive Committee (EXCOM), during its 92nd meeting (ECE/TRADE/C/CEFACT/2017/16/Rev1). This group aims to support the implementation of the Fisheries Language for Universal eXchange (FLUX) standard as well as other standards on sustainable fisheries on a global scale. The first meeting of this group was held in January 2018; this meeting’s report will be presented to the Plenary for information.</p>
+
+<p id="_e2645cdf-da7e-5e30-7c8c-a6a216abc2b8">The Sustainable Fisheries Team of Specialists will present for approval their proposed Programme of Work for the period 2018-2019 (ECE/TRADE/C/CEFACT/2018/22).</p>
+
+<p id="_e80a0ff3-d3f1-bad2-90e7-a3555a84d9e1">Delegations will have an opportunity to review and discuss this.</p>
+</div><div id="_6ed8f062-f16d-d1fe-72ac-45588e82a238"><h2 id="_f7d3d1d0-1912-4f3e-813c-c062ccab1b17"><a class="anchor" href="#_6ed8f062-f16d-d1fe-72ac-45588e82a238"></a><a class="header" href="#_6ed8f062-f16d-d1fe-72ac-45588e82a238">14<span class="fmt-clause-delim">.</span>  Item 11. Future challenges in trade facilitation and electronic business</a></h2>
+
+<table id="_66a610b5-04e6-a89e-583e-8c42af58d6c6" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Transparency in textile value chains in relation to the environmental, social and human health impacts of parts, components and production processes</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/23</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Briefing note on United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Contributions to UN Sustainable Development Goal 12 – Responsible Production and Consumption</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">ECE/TRADE/C/CEFACT/2018/24</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">For noting</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Briefing note on Blockchain for SDG</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/25</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">For noting</td></tr></tbody></table>
+
+<p id="_430ec8bc-ffb9-aed7-ca67-44e17670ac7d">Delegations will have an opportunity to provide their perspectives on emerging requirements and developments in the field of trade facilitation and electronic business.</p>
+
+<p id="_7705dc9f-f977-0dd5-0e16-f01ec303d46d">UN/CEFACT continues to have an important role to play in the implementation of the WTO’s Trade Facilitation Agreement, including with respect to the single window, use of international standards and national trade facilitation committees. Blockchain and Traceability is becoming an increasingly important issue for governments and business, as well as for organisations such as the WTO and WCO. It is critical that UN/CEFACT standards continue to underpin new trends in international trade. UN/CEFACT will also seek to ensure that its work supports the 2030 Agenda for Sustainable Development.</p>
+
+<p id="_74e23ffe-df0f-a436-9e9d-9da1e37420a9">The goal of this session is to brainstorm on how to build on progress in key projects and activities and on those areas that might be given priority in the future.</p>
+</div><div id="_a720cc15-3135-f182-a8b8-c4ed3debb6e1"><h2 id="_dc85fec3-fc45-483c-afd7-0b4487fac2ef"><a class="anchor" href="#_a720cc15-3135-f182-a8b8-c4ed3debb6e1"></a><a class="header" href="#_a720cc15-3135-f182-a8b8-c4ed3debb6e1">15<span class="fmt-clause-delim">.</span>  Item 12. Other business</a></h2>
+
+<p id="_ccfb0712-ad50-ced0-5905-82e16088972b">Delegations will be invited to raise other issues not previously addressed during the session.</p>
+</div><div id="_9e39eae6-5222-49e8-142a-a0fdb9abe40a"><h2 id="_70d73a4e-933c-47c3-bdfa-d3901fd40567"><a class="anchor" href="#_9e39eae6-5222-49e8-142a-a0fdb9abe40a"></a><a class="header" href="#_9e39eae6-5222-49e8-142a-a0fdb9abe40a">16<span class="fmt-clause-delim">.</span>  Item 13. Adoption of decisions and draft report of the twenty-fourth session</a></h2>
+
+<p id="_0afcc1b4-b947-a358-b195-594d14f8e30d">Delegations will be invited to adopt the decisions and the draft report.</p>
+
+<table id="_dc906783-a30e-5dea-11f2-80bde2e5fd35" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document title</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"><i>Document symbol</i></th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col"></th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Draft report of the twenty-fourth session</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">ECE/TRADE/C/CEFACT/2018/2</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">For decision</td></tr></tbody></table>
+
+<p id="_ba3aaf1e-9d3c-bcac-3a73-271a282fe91a"><b>Closing</b></p>
+</div></div><div id="_a2deff88-8203-e2fe-542c-f5476e7ee70e"><h1 id="_e788eec5-d17f-4b55-8ac6-e7a9fdd408ab"><a class="anchor" href="#_a2deff88-8203-e2fe-542c-f5476e7ee70e"></a><a class="header" href="#_a2deff88-8203-e2fe-542c-f5476e7ee70e">III<span class="fmt-clause-delim">.</span>  Provisional timetable</a></h1><table id="_46409b09-7a13-cbfe-354b-2c7368db8bec" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row"><i>Date and time</i></th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row"><i>Agenda item</i></th><th style="font-weight:bold;text-align:center;vertical-align:middle;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row"><i>Introduced by</i></th></tr><tr><td colspan="3" style="text-align:center;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Monday, 30 April</b></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10.00 – 10.15</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Opening</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Executive Secretary of the United Nations Economic Commission for Europe</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10.15 – 10.30</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 1:</b> Adoption of the agenda</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10.30 – 11:30</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 2:</b> Elections</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat and Bureau</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">11.30 – 12.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 3:</b> Matters arising since the twenty-third session</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">12.00 – 13.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 4:</b> Bureau overview of developments</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Bureau</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">13.00 – 15.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Lunch break</b></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">15.00 – 15.30</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 5:</b> Reports of rapporteurs</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Rapporteurs</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">15.30 – 16:00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 6:</b> Activities of other United Nations Economic Commission for Europe bodies and international organizations of interest to United Nations Centre for Trade Facilitation and Electronic Business</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">16.00 – 17.30</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 7:</b> United Nations Centre for Trade Facilitation and Electronic Business  recommendations and standards</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Bureau</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">17.30 – 18.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 8:</b> United Nations Centre for Trade Facilitation and Electronic Business structure, mandate, terms of reference, and procedures</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat and Bureau</td></tr><tr><td colspan="3" style="text-align:center;vertical-align:middle;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Tuesday, 1 May</b></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10:00 – 10:30</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 9:</b> Advisory Group on the United Nations Code for Trade and Transport Locations</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Advisory Group Chair</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10:30 – 11:00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 10:</b>  Team of Specialists on Sustainable Fisheries</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Team of Specialists Chair</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">11.00 – 12.30</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 11:</b> Future challenges in trade facilitation and electronic business</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">12.30 – 13.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 12:</b> Other business</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Chair</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">13.00 – 15.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Lunch break</b></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">15.00 – 18.00</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><b>Item 13:</b> Adoption of decisions and draft report of the twenty-fourth session</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Secretariat</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><b>Closing</b></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Chair</td></tr></tbody></table></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      if(!jqNav.length || !jqToggle.length) {
+        return;
+      }
+
+      const navWidthExpanded = jqNav.outerWidth();
+      const bodyPaddingLeftExpanded =
+        parseFloat(jqBody.css('paddingLeft')) > 0 ?
+          jqBody.css('paddingLeft') : navWidthExpanded + 'px';
+      const expandedToggleLeft = navWidthExpanded + 'px';
+      let bandWidth = 0;
+
+      $('.document-stage-band:visible, .document-type-band:visible')
+        .each(function() {
+          const bounds = this.getBoundingClientRect();
+          bandWidth = Math.max(bandWidth, bounds.right);
+        });
+
+      const toggleWidth = jqToggle.outerWidth();
+      const collapsedToggleLeft = bandWidth + 'px';
+      const collapsedBodyPaddingLeft = bandWidth + toggleWidth + 'px';
+      jqToggle.css({
+        'left': jqNav.is(':visible') ? expandedToggleLeft : collapsedToggleLeft,
+        'top': '0px'
+      });
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const navLeft = isNavVisible ? '-' + navWidthExpanded + 'px' : '0px';
+        const bodyPaddingLeft =
+          isNavVisible ? collapsedBodyPaddingLeft : bodyPaddingLeftExpanded;
+        const toggleLeft =
+          isNavVisible ? collapsedToggleLeft : expandedToggleLeft;
+
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+        jqToggle.stop(true, true);
+
+        if(!isNavVisible) {
+          jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'paddingLeft': bodyPaddingLeft}, animationSpeed);
+        jqToggle.animate({'left': toggleLeft}, animationSpeed);
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div ></div>", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body></html>

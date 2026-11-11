@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="0.12.21" schema-version="v2.3.0" flavor="un">
+<bibdata type="standard">
+<title type="main" language="en" format="text/plain">Mandate and Terms of Reference of the Advisory Group on Advanced Technologies in Trade and Logistics</title>
+<date type="updated"><on>8 April 2019</on></date><contributor><role type="author"/><organization>
+<name>United Nations</name>
+</organization></contributor><contributor><role type="publisher"/><organization>
+<name>United Nations</name>
+</organization></contributor><version>8 April 2019</version><language>en</language><script>Latn</script><abstract><p>At the Hangzhou Forum of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) in October 2018, the establishment of an Advisory Group was proposed to advise and support the United Nations Economic Commission for Europe (UNECE) Secretariat and UN/CEFACT on advanced technologies in the international supply chain. The technologies in question include blockchain<fn reference="1"><p>In this paper, the term blockchain refers to/includes all Distributed Ledger Technologies (DLT).</p>
+</fn>, Internet of Things (IoT), Artificial Intelligence (AI) and Application Programming Interfaces (API) - the most recent areas of rapid development in trade facilitation and electronic business.</p>
+
+<p>Document ECE/TRADE/C/CEFACT/2019/22/Rev.1 is submitted by the UN/CEFACT Bureau to the twenty-fifth session of the Plenary for decision.</p>
+</abstract><status><stage>published</stage></status><copyright><from>2019</from><owner><organization>
+<name>United Nations</name>
+</organization></owner></copyright><ext><doctype>standard</doctype><flavor>un</flavor><distribution>General</distribution><session><number>25</number><date>Geneva, 8-9 April 2019</date><item-number>8 of the provisional agenda</item-number><item-name>United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) structure</item-name><item-name>mandate</item-name><item-name>terms of reference and procedures</item-name><id>ECE/TRADE/C/CEFACT/2019/22/Rev.1</id></session></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><output-extensions>xml,html,doc,rxl</output-extensions><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_5c076a8a-190f-6c16-f1db-f3868903786a" inline-header="false" obligation="normative"><p id="_418d2d16-eac7-e4cc-930e-1435611a2553" anchor="boilerplate-ECEhdr">ECE/TRADE/437</p>
+
+<p id="_a56557b4-11e4-e940-999f-f500e41b6d29">Copyright © United Nations 2019<br/> All rights reserved worldwide<br/> United Nations publication issued by the Economic Commission for Europe</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_363711d5-65d9-fa9e-f4c2-384483c117c9" inline-header="false" obligation="normative"><p id="_e5535fff-375f-1a43-21ed-156b839efa11">None of the materials provided on this web site may be used, reproduced or transmitted, in whole or in part, in any form or by any means, electronic or mechanical, including photocopying, recording or the use of any information storage and retrieval system, except as provided for in the Terms and Conditions of Use of United Nations Web Sites, without permission in writing from the publisher.</p>
+
+<p id="_20d42d50-ce3b-fd48-375e-28552e241869">News-related material can be used as long as the appropriate credit is given and the United Nations is advised.</p>
+
+<p id="_4ac1f8f7-66fd-c4a1-3d8b-920cf517333c">To request such permission or for further enquires, please visit: <link target="https://shop.un.org/rights-permissions">United Nations Publications: Rights and Permissions.</link></p>
+</clause>
+</license-statement>
+
+<legal-statement>
+
+<clause id="_ba1048d8-5920-3def-f1e1-ed4e7de3f0c8" inline-header="false" obligation="normative"><clause id="_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec" inline-header="false" obligation="normative">
+<title id="_931238e1-35b5-cfeb-8948-a3513832c89b">Note</title>
+<p id="_04924f7b-e1bc-df70-d59b-e3fbe6f40359">The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.</p>
+</clause>
+</clause>
+</legal-statement>
+
+<feedback-statement>
+
+<p id="_92a44b2a-e338-34d2-e14b-c0ac5fea38ba" anchor="boilerplate-feedback-name">UN Economic Commission for Europe: Information Service</p>
+
+<p id="_a01aca00-8a64-2326-09e9-438506077c37" anchor="boilerplate-feedback-address">Palais des Nations<br/> CH-1211 Geneva 10<br/> Switzerland<br/> <br/> <link target="tel:+41(0)229171234">+41 (0) 22 917 12 34 (switchboard)</link><br/></p>
+
+<p id="_b99ea419-a183-e8ed-d0c1-e46596211637"><link target="mailto:unece_info@un.org">unece_info@un.org<br/> <link target="link:++https://www.unece.org/">www.unece.org/</link>++[]</link></p>
+</feedback-statement>
+</boilerplate><preface><abstract id="_07662d71-1af9-5aec-2bdb-4d67df8baa72"><title id="_bddaac0f-3db8-580b-f6b0-f25cdc8b8c2d">Summary</title><p id="_e16731fa-3917-5fe9-a814-f33132f1434b">At the Hangzhou Forum of the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) in October 2018, the establishment of an Advisory Group was proposed to advise and support the United Nations Economic Commission for Europe (UNECE) Secretariat and UN/CEFACT on advanced technologies in the international supply chain. The technologies in question include blockchain<fn id="_ed6f1d95-7c7f-5785-b635-637961819dbe" reference="1"><p id="_25f99b88-bbf8-d8fa-8877-16717f0df465">In this paper, the term blockchain refers to/includes all Distributed Ledger Technologies (DLT).</p>
+</fn>, Internet of Things (IoT), Artificial Intelligence (AI) and Application Programming Interfaces (API) — the most recent areas of rapid development in trade facilitation and electronic business.</p>
+
+<p id="_bfca8f50-6904-b93b-b0d0-6fc81cb52e20">Document ECE/TRADE/C/CEFACT/2019/22/Rev.1 is submitted by the UN/CEFACT Bureau to the twenty-fifth session of the Plenary for decision.</p>
+</abstract></preface><sections>
+<clause id="_0a8cc329-c908-e214-61f1-cf0d1ceeb901" inline-header="false" obligation="normative">
+<title id="_c23006c0-a910-d1f2-886d-b82c95142efc">Background</title>
+<p id="_4e5ae8c7-93e4-cf10-3032-a61bbb26c939">Based on discussions in the eGovernment Domain and Blockchain Whitepaper Project Team meetings during the United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) Forum in October 2018, the establishment of an Advisory Group was proposed to the Bureau in order to advise and support the UNECE secretariat and UN/CEFACT on advanced technologies in trade facilitation and electronic business. The technologies in question include blockchain1, Internet of Things (IoT), and Artificial Intelligence (AI) — the most recent areas of rapid development in the international supply chain.</p>
+</clause>
+
+<clause id="_0dbec470-6e1e-332b-d1c5-7a58a07d84ca" inline-header="false" obligation="normative">
+<title id="_6075b71c-242a-604b-3f55-3a94762bcee8">Objectives and activities</title>
+<p id="_74264176-c82e-b3d7-10cd-f9306b360467">The purpose of the Advisory Group is to advise on advanced technologies such as blockchain and IoT, as well as implementation challenges (such as regulatory obstacles). This includes the potential impact of these technologies on standards, services and everyday operations.</p>
+
+<p id="_86ffd0b2-e44a-902a-6174-6498111eb10e">To support UN/CEFACT in achieving this objective, the Advisory Group will:</p>
+
+<ol id="_c0186419-c28b-84f8-86e6-925b5051118f" type="arabic"><li><p id="_dd2e430d-6fd5-325c-ed7c-c726c5699b23">Monitor the business needs related to these technologies and how they relate back to UN/CEFACT and its deliverables;</p>
+</li>
+<li><p id="_9fcecea8-f672-c5aa-4c7b-9130c5a37fbe">Support dialogue with key external stakeholders;</p>
+</li>
+<li><p id="_1768df25-f9d4-a2ff-529a-59b210cf0279">Provide advice and expertise on implementation requirements and challenges;</p>
+</li>
+<li><p id="_bb5813cf-4f4e-c20e-20ed-3f199a2fe1c4">Identify new work items which will support the role of UN/CEFACT and its deliverables in the context of these technologies;</p>
+</li>
+<li><p id="_8377c2d0-6308-acd0-f0d8-40f89fa03685">Preparing synopses of good practices on selected issues within the Group’s mandate for discussion and endorsement by the Bureau; and</p>
+</li>
+<li><p id="_351e5c77-6afe-86b7-3130-f428c0cff711">Provide support to senior managers on advanced technology issues, especially in the context of how these can be used with UN/CEFACT standards and UNECE recommendations.</p>
+</li>
+</ol>
+
+<p id="_d688c9e6-12bb-a13b-10d3-b0babd4862cb">Under the guidance of the UNECE secretariat and within the framework of the UN/CEFACT “Terms of Reference for Liaison with other Organizations” (ECE/TRADE/C/CEFACT/2016-14), the Advisory Group may invite the participation of other organizations actively exploring the applications of this technology or their membership,  including the United Nations Office for Project Services (UNOPS), the World Food Programme (WFP), the United Nations Development Programme (UNDP), the World Bank, the International Monetary Fund (IMF), the Organization for Economic Cooperation and Development (OECD), the World Economic Forum (WEF), and other relevant standards development organizations.</p>
+</clause>
+
+<clause id="_17c07500-099b-a7ec-c8c8-328ba5292607" inline-header="false" obligation="normative">
+<title id="_e0099f39-8f29-4c8e-dc36-bb81e1c3edbe">Composition, its membership and participation in its meetings</title>
+<p id="_065e9b18-7cf9-23e1-eb20-9f8f11203423">The selection of Advisory Group members will be in line with the document “Guidelines for the establishment and functioning of Teams of Specialists” (ECE.EX.2/Rev.1). The rules and principles of the following paragraphs will also be applied.</p>
+
+<p id="_6331f6e2-898c-31e4-2276-e11d13ee0650">The Advisory Group shall be composed of experts with the collective expertise to address the specific tasks defined for it. These should be drawn from</p>
+
+<ol id="_05f56af7-3b59-cea8-69e6-bba6c9142e7e" type="arabic"><li><p id="_c4995709-21a5-8a04-8d12-314ee09b40bc">governmental institutions;</p>
+</li>
+<li><p id="_a2bf0867-239c-861d-d389-97956fa2aca8">the business community;</p>
+</li>
+<li><p id="_e2940a3a-c624-3b42-58ff-4f3435a2d42f">civil society;</p>
+</li>
+<li><p id="_9d324f89-fb40-7c24-b99e-ce819502ef17">consumer organizations;</p>
+</li>
+<li><p id="_89a0951a-88ca-3e63-f7df-40b1cc09f996">international organizations; and</p>
+</li>
+<li><p id="_a2275337-26f7-51e7-c741-36c770c613c4">academia.</p>
+</li>
+</ol>
+
+<p id="_296f20b7-8f29-9760-d1d5-1ef9e4cb020c">In order to be able to provide appropriate advice to UN/CEFACT and the UNECE secretariat, the membership of the Advisory Group should aim to include the following experts from the international supply chain:</p>
+
+<ol id="_3f782d48-77dc-a5de-455a-ef66d0b1ace9" type="arabic"><li><p id="_3dd28f36-c326-47ca-01f8-d5fb7fc5b59f">Managers responsible for the implementation of such advanced technologies projects;</p>
+</li>
+<li><p id="_b9962adb-d894-7602-93a7-71ceaa9d5dc3">Senior government officials responsible for research and/or policies and regulations of such advanced technology implementations;</p>
+</li>
+<li><p id="_23c11c0e-9652-feda-7048-e04a25df412a">High-level academics and officials from non-governmental and other organizations (such as blockchain technology consortia and trade associations) who support work on blockchain and advanced technology implementations in trade logistics; and</p>
+</li>
+<li><p id="_d9a5218c-f8f3-5fec-961f-65f168291751">Technical specialists.</p>
+</li>
+</ol>
+
+<p id="_3bc58062-4d72-5c68-8cef-ac96c0b4de7b">Participation in the Advisory Group will be on a voluntary basis. All members of the Advisory Group must register as experts of UN/CEFACT, in accordance with relevant procedures. All contributions to the work of the Advisory Group are in the context of the UN/CEFACT IPR Policy (ECE/TRADE/C/CEFACT/2010/20/Rev.2) and the Code of Conduct (ECE/TRADE/C/CEFACT/2010/18/Rev.1) and the overarching UN/CEFACT Mandate and Terms of Reference (ECE/TRADE/C/CEFACT/2017/15).</p>
+
+<p id="_1310c507-4708-1e0c-2ff7-7a8e017066cd">The Advisory Group appoints its Chair in accordance with the Guidelines for the establishment and functioning of teams of specialists (UNECE ECE/EX/2/Rev.1).</p>
+
+<p id="_6e6f361a-87da-e36d-043b-564c6b755157">The Advisory Group will meet virtually at least once every two months and plan at least one face-to-face meeting per year.</p>
+
+<p id="_8972a870-6ade-043e-1151-03985e6ac0f9">The UNECE secretariat provides necessary support to the Advisory Group within available resources.</p>
+</clause>
+
+<clause id="_b4c7da4f-3f2f-6814-f7cd-ce22ccb55cf5" inline-header="false" obligation="normative">
+<title id="_b4c5f235-052f-8e65-1190-4b12c547b46c">Reporting</title>
+<p id="_0e12fe8e-2b75-7383-e4db-43662617d301">The Advisory Group will report to the UN/CEFACT Plenary annually and will keep the UN/CEFACT Plenary Bureau informed of its activities.</p>
+</clause>
+</sections>
+</metanorma>

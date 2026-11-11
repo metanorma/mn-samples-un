@@ -1,0 +1,2188 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Times New Roman", serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New", monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Times New Roman", serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Times New Roman", serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+
+dl dt {
+  grid-column-start: 1;
+}
+
+dl dd {
+  grid-column-start: 2;
+}
+
+dl:has(dt .stem) {
+  grid-template-columns: fit-content(8em) auto;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+a.TableFootnoteRef, a.FootnoteRef, a.footnote-number,
+sup a, a:has(> sup) {
+  vertical-align: baseline;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+/*
+    1. HTML & Body
+*/
+/* http://www.un.org/styleguide/ color */
+/* http://www.99colors.net/name/united-nations-blue */
+/* http://www.un.org/styleguide/ label text */
+/* http://www.un.org/styleguide/ brand-bar */
+/* http://www.un.org/styleguide/ p */
+/* RT: I made this up */
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #333;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body {
+  font-weight: 400;
+}
+
+main {
+  margin: 0 3em 0 6em;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/*
+    2. Responsive navigation layout
+*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: #333;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #1661ad;
+  box-shadow: inset -5px 0px 10px -5px #1661ad !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: #333;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: #333;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+  color: white;
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: linear-gradient(280deg, #00ADEF, #5b92e5);
+  box-shadow: inset -5px 0px 10px -5px #00ADEF !important;
+}
+#toc .toc-active a,
+#toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: white;
+  background: none;
+  box-shadow: none;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: white;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 30px;
+    background-color: #f2f2f2;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #00ADEF;
+    color: white !important;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    z-index: 103;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    margin: 0;
+    padding: 0;
+  }
+}
+.figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure > img, .figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table div.figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+.document-stage-band > :first-child {
+  font-weight: 300;
+}
+
+div.document-stage-band,
+div.document-type-band {
+  background-color: #9abd48;
+}
+
+p.document-type,
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+
+#governance-band p.document-type {
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+#standard-band p {
+  height: 270px;
+}
+
+#proposal-band p {
+  height: 150px;
+}
+
+#standard-band,
+#published-band {
+  background-color: #9abd48;
+}
+
+#standard,
+#published {
+  border-bottom: solid 3px #9abd48;
+}
+
+#governance,
+#policy-and-procedures {
+  border-bottom: solid 3px #750697;
+}
+
+#governance-band,
+#policy-and-procedures-band {
+  background-color: #750697;
+}
+
+#guide {
+  border-bottom: solid 3px #48a0e7;
+}
+
+#guide-band {
+  background-color: #48a0e7;
+}
+
+.coverpage-maturity {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+#working-draft,
+#proposal {
+  border-bottom: solid 3px #f7803c;
+}
+
+#working-draft-band,
+#proposal-band {
+  background-color: #f7803c;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd;
+}
+
+#committee-draft-band {
+  background-color: #fd06fd;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#draft-standard-band {
+  background-color: #fdf906;
+}
+
+#standard {
+  border-bottom: solid 3px #9abd48;
+}
+
+#standard-band {
+  background-color: #9abd48;
+}
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13;
+}
+
+#obsolete-band {
+  background-color: #7e0d13;
+}
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h2Annex,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Times New Roman", serif;
+  color: #00ADEF;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+h1,
+h2,
+h3, .h1, .h2, .h3 {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+
+h1, .h1 {
+  font-size: 33px;
+  font-weight: 500;
+  margin: 0.67em 0;
+  letter-spacing: -0.02em;
+  color: #4D4D4D;
+}
+
+h2, .h2 {
+  font-size: 27px;
+  color: #4D4D4D;
+}
+
+h3, .h3 {
+  font-size: 24px;
+  margin-top: 26px;
+  color: #000;
+}
+
+h4, .h4 {
+  font-size: 18.2px;
+  margin-bottom: 2px;
+  color: #4D4D4D;
+  letter-spacing: 0.03em;
+}
+
+h5, .h5 {
+  font-size: 16.25px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+h6, .h6 {
+  font-size: 13px;
+  color: #4D4D4D;
+  letter-spacing: 0.05em;
+}
+
+/*  h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-top: 2em;
+  }
+
+  h1#content {
+      margin-top: 2em;
+  }
+
+  h2 {
+    margin-top: 1.3em;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+
+  h3 {
+    margin-top: 1.1em;
+    font-size: 1.1em;
+    font-weight: 100;
+  }*/
+.TermNum {
+  font-weight: 100;
+}
+
+.TermNum, .Terms, .AltTerms {
+  color: #00ADEF;
+}
+
+h2.TermNum {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+p.AltTerms {
+  /*
+    font-style: italic;
+     */
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/*
+    3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #00ADEF;
+}
+
+a:hover {
+  color: white;
+  background: #00ADEF;
+  box-shadow: 3px 0 0 #00ADEF, -3px 0 0 #00ADEF;
+}
+
+*::selection {
+  background: #00ADEF;
+  color: white;
+}
+
+*::-moz-selection {
+  background: #00ADEF;
+  color: white;
+}
+
+/*
+    3.3 Lists
+*/
+ul,
+ol {
+  margin-left: 1.2em;
+}
+
+ul > li p:first-child {
+  display: inline;
+}
+
+ul > li:first-child {
+  margin-top: 1em;
+}
+
+ul ul > li:first-child {
+  margin-top: 0;
+}
+
+ol ul > li:first-child {
+  margin-top: 0;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list li {
+  list-style-type: none;
+}
+
+#toc li::before {
+  content: " ";
+  display: none;
+}
+
+main ul > li {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin: 2em 0;
+}
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio,
+p.NormRef {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+/*
+    3.6 Source Code + figures
+*/
+.figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure,
+pre,
+.pseudocode {
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  margin: 1em 0;
+  padding: 1.2em;
+}
+.Note p {
+  margin: 0;
+}
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  margin: 1em 0;
+  padding: 1.2em;
+}
+.Admonition p {
+  margin: 0;
+}
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2.7em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid #000;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400;
+}
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f2f2f2;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f2f2f2;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  margin-top: 5em;
+  text-align: left;
+}
+
+.contact-info a,
+.contact-info a:hover {
+  color: #00ADEF;
+}
+
+.contact-info p,
+.contact-info a {
+  font-weight: 400;
+}
+
+.contact-info #boilerplate-feedback-name {
+  padding-left: 1px;
+  color: #4D4D4D;
+  font-size: 18.2px;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: 0.03em;
+  border-bottom: #00ADEF solid 3px;
+  padding-bottom: 7px;
+  margin-bottom: 9px;
+}
+
+.contact-info #boilerplate-feedback-address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+/*
+    Paragraphs
+*/
+p {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86;
+}
+
+.wrapper-top {
+  background: linear-gradient(85deg, #00ADEF, #5b92e5);
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #00ADEF;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: "Times New Roman", serif;
+}
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase;
+}
+
+.WordSection11 {
+  padding: 0 2em 0 3em;
+  text-align: center;
+}
+
+.title-footnote {
+  text-align: left;
+}
+
+.info-section {
+  padding: 0 2em;
+}
+
+.prefatory-section {
+  padding: 0 3em 0 6em;
+}
+
+.zzSTDTitle1,
+.MsoCommentText {
+  display: none;
+}
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em;
+}
+
+.coverpage-logo span,
+.coverpage-tc-name span {
+  font-family: "Times New Roman", serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+/*
+  4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.coverpage-title .title-second {
+  display: none;
+}
+
+.coverpage-stage-block {
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase;
+}
+
+/*
+  4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px;
+}
+
+.coverpage-warning .title {
+  font-family: "Times New Roman", serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+/*
+  4.4 Copyright
+*/
+.boilerplate-copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.boilerplate-copyright p {
+  text-align: center;
+}
+
+#boilerplate-ECEhdr {
+  border: solid;
+}
+
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+#myBtn {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  opacity: 1;
+}
+@media print {
+  #myBtn {
+    display: none;
+  }
+}
+#myBtn {
+  text-transform: uppercase;
+}
+#myBtn a.anchorjs-link:hover {
+  background: none;
+  color: #00ADEF;
+  box-shadow: none;
+}
+
+@page {
+  margin: 2cm 1cm;
+}
+@media print {
+  .document-info,
+  nav,
+  .copyright {
+    page-break-before: always;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+  .note,
+  .figure,
+  pre,
+  .pseudocode,
+  table {
+    page-break-inside: avoid;
+  }
+  .info-section {
+    display: none;
+  }
+  .coverpage {
+    height: 23cm;
+  }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+  }
+  .wrapper-top-bottom {
+    margin-top: -5px;
+  }
+  .container {
+    padding-left: 0;
+  }
+  #toc .toc-active a {
+    color: #4d7ea5;
+  }
+  #toc .toc-active,
+  #toc li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc li:hover a {
+    color: #000;
+  }
+  h1.content {
+    line-height: 2.5em;
+    margin-top: 2em;
+  }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  h2, .h2 {
+    font-size: 1.2em;
+  }
+  h3, .h3 {
+    font-size: 1em;
+  }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    margin: 2em 0 1em;
+    padding: 5px;
+  }
+  .Note p {
+    padding: 0 5px;
+  }
+  .Admonition {
+    background-color: #ffcccc;
+    color: #47430c;
+    margin: 2em 0 1em;
+    padding: 5px;
+  }
+  .Admonition p {
+    padding: 0 5px;
+  }
+  nav {
+    line-height: 1;
+  }
+  .wrapper-top-bottom {
+    display: none;
+  }
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>Programme of Work of the Advisory Group on Advanced Technologies in Trade and Logistics</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|Space+Mono:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container"><div class="title-section"><div class="document-stage-band" id="published-band">
+    <p class="document-stage">Published</p>
+</div>
+
+<div class="document-type-band" id="standard-band">
+    <p class="document-type">UNECE Standard</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-logo">
+    <span>UNECE 2020</span>
+  </div>
+  <div class="coverpage-tc-name">
+    <span></span>
+  </div>
+  <div class="coverpage-doc-identity">
+    <div class="doc-number">
+      <p>Twenty-sixth session</p>
+      <p>Geneva, 4-5 May 2019</p>
+
+<p>Agenda item 8 of the provisional agenda</p>
+
+
+<p>GE.20-02502(E)
+
+<p> Advisory Group on Advanced Technologies in Trade and Logistics</p>
+
+
+</p>
+    </div>
+
+
+
+
+
+    <div class="coverpage-title">
+      <span class="title-first">Programme of Work of the Advisory Group on Advanced Technologies in Trade and Logistics </span>
+      <!--<span class="title-second"></span>-->
+    </div>
+  </div>
+  <div class="wrapper-top-bottom"></div>
+  </div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="standard">UNECE Standard</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="published"></span></p>
+
+
+<p><span class="coverpage-maturity">English only</span></p>
+
+</div>
+
+
+
+
+
+        
+
+
+<div class="info-section">
+<div class="copyright">
+  <p class="year">
+    © 2020 United Nations.
+  </p>
+
+  <div class="message">
+  <div class="boilerplate-license">
+
+<div id="_363711d5-65d9-fa9e-f4c2-384483c117c9"><p id="_e5535fff-375f-1a43-21ed-156b839efa11">None of the materials provided on this web site may be used, reproduced or transmitted, in whole or in part, in any form or by any means, electronic or mechanical, including photocopying, recording or the use of any information storage and retrieval system, except as provided for in the Terms and Conditions of Use of United Nations Web Sites, without permission in writing from the publisher.</p>
+
+<p id="_20d42d50-ce3b-fd48-375e-28552e241869">News-related material can be used as long as the appropriate credit is given and the United Nations is advised.</p>
+
+<p id="_4ac1f8f7-66fd-c4a1-3d8b-920cf517333c">To request such permission or for further enquires, please visit: <a href="https://shop.un.org/rights-permissions">United Nations Publications: Rights and Permissions.</a></p>
+</div>
+</div>
+  </div>
+
+<div class="contact-info">
+  <div class="boilerplate-feedback">
+
+<p id="boilerplate-feedback-name">UN Economic Commission for Europe: Information Service</p>
+
+<p id="boilerplate-feedback-address">Palais des Nations<br /> CH-1211 Geneva 10<br /> Switzerland<br /> <br /> <a href="tel:+41(0)229171234">+41 (0) 22 917 12 34 (switchboard)</a><br /></p>
+
+<p id="_b99ea419-a183-e8ed-d0c1-e46596211637"><a href="mailto:unece_info@un.org">unece_info@un.org<br /> ++[]</a></p>
+</div>
+</div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </div>
+
+
+</div>
+</header></div><br /><div class="prefatory-section">
+
+<nav>
+  <div id="toc"><ul><li class="h2"><a href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec">      
+  
+  Note
+</a></li>
+<li class="h1"><a href="#_60c8830f-45a2-e600-89ac-e78c0922a112">      
+  
+  Summary
+</a></li>
+<li class="h1"><a href="#_71ced1bd-0559-1e84-91c4-96bbdca71a32">      
+  
+  1<span class="fmt-clause-delim">.</span>  Background
+</a></li>
+<li class="h1"><a href="#_ce5c0152-b90c-df63-93d1-9d88ca5a5ecc">      
+  
+  2<span class="fmt-clause-delim">.</span>  Introduction
+</a></li>
+<li class="h1"><a href="#_8c30c420-4493-30e8-892a-f00b38291d30">      
+  
+  3<span class="fmt-clause-delim">.</span>  Vision statement
+</a></li>
+<li class="h1"><a href="#_8a2e2f3d-43d9-8692-843a-ab6b0d4ae060">      
+  
+  4<span class="fmt-clause-delim">.</span>  Mission statement
+</a></li>
+<li class="h1"><a href="#_25c700df-e2a6-7af0-986c-df17931eb626">      
+  
+  I<span class="fmt-clause-delim">.</span>  Scope, overall objective, activities, work areas
+</a></li>
+<li class="h2"><a href="#_79f75c3f-041d-3266-0784-991499b3a5c1">      
+  
+  5<span class="fmt-clause-delim">.</span>  Scope
+</a></li>
+<li class="h2"><a href="#_df36c6c1-c68e-c0ec-f643-956e1a21759e">      
+  
+  6<span class="fmt-clause-delim">.</span>  Objective
+</a></li>
+<li class="h2"><a href="#_e4476f6a-151b-1bd2-3e6b-2c41787e421a">      
+  
+  7<span class="fmt-clause-delim">.</span>  Activities
+</a></li>
+<li class="h2"><a href="#_58e4519f-e4c9-0be0-0de0-cb018b1b3cec">      
+  
+  A<span class="fmt-clause-delim">.</span>  Work areas
+</a></li>
+<li class="h1"><a href="#_efb38f15-b975-c058-1794-e04e64e53829">      
+  
+  12<span class="fmt-clause-delim">.</span>  Governance
+</a></li>
+<li class="h1"><a href="#_70f37fea-09fd-802d-17b3-0ebb8dd857eb">      
+  
+  13<span class="fmt-clause-delim">.</span>  Reporting
+</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority"><div class="boilerplate-copyright">
+
+<div id="_0689c726-5c4d-1b4f-d7a1-4d168e337745"><p id="boilerplate-ECEhdr">ECE/TRADE/437</p>
+
+<p id="_02ec3575-b27d-e38b-070a-60e2c4b30f8c">Copyright © United Nations 2020<br /> All rights reserved worldwide<br /> United Nations publication issued by the Economic Commission for Europe</p>
+</div>
+</div>
+
+
+
+<div class="boilerplate-legal">
+
+<div id="_ba1048d8-5920-3def-f1e1-ed4e7de3f0c8"><div id="_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec"><h2 class="IntroTitle" id="_dba0c769-6cfa-4356-ad30-313a42d4a1fb"><a class="anchor" href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec"></a><a class="header" href="#_1c41e81d-7380-8cbc-536b-0b48d3e2a5ec">Note</a></h2>
+
+<p id="_04924f7b-e1bc-df70-d59b-e3fbe6f40359">The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.</p>
+</div>
+</div>
+</div>
+
+
+</div><br /><div id="_60c8830f-45a2-e600-89ac-e78c0922a112"><h1 class="AbstractTitle" id="_1debb2a3-b9af-4eff-939b-95cbc7e116e7"><a class="anchor" href="#_60c8830f-45a2-e600-89ac-e78c0922a112"></a><a class="header" href="#_60c8830f-45a2-e600-89ac-e78c0922a112">Summary</a></h1><p id="_57dcce51-6cae-2131-24f3-8a733b7d3db1">The Advisory Group on Advanced Technologies in Trade and Logistics will present its first draft Programme of Work for 2020-2021.</p><p id="_d5b41964-7d02-36d0-0a85-89d02618113b">Document ECE/TRADE/C/CEFACT/2020/18 is submitted by the UN/CEFACT Bureau to the twenty-sixth session of the Plenary for endorsement.</p></div><div id="_71ced1bd-0559-1e84-91c4-96bbdca71a32"><h1 id="_1fc34689-0b8a-40fe-8f62-ec4bf2383633"><a class="anchor" href="#_71ced1bd-0559-1e84-91c4-96bbdca71a32"></a><a class="header" href="#_71ced1bd-0559-1e84-91c4-96bbdca71a32">1<span class="fmt-clause-delim">.</span>  Background</a></h1><p id="_05242213-06eb-77b1-ddd0-22a61e9525be">The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) has proposed the establishment of an Advisory Group in order to advise and support the United Nations Economic Commission for Europe (UNECE) Secretariat and UN/CEFACT on advanced technologies in trade facilitation and electronic business. The technologies in question include blockchain, the Internet of Things (IoT), and Artificial Intelligence (AI). These are the most recent areas of rapid development in the international supply chain.</p><p id="_4ad5f80d-cf2e-a607-7185-fbd33bdfb40c">Technology is evolving faster than ever before in human history. We are at the intersection of several cutting-edge technologies that are redefining interactions between the physical and virtual world, driving disruption and enabling new business modes. The importance of technology innovation is recognized by the international community in Sustainable Development Goal 17: Strengthen the means of implementation and revitalize the global partnership for sustainable development.</p><p id="_df88b447-fa5f-b9f8-9fdb-f103837d2211">Technologies such as Distributed Ledger Technology, Artificial Intelligence, the Internet of Things, Quantum Computing, Edge computing, 5G and connectivity related ones, hold significant promise for trade facilitation. Given these cutting-edge developments in technology, it becomes important to keep up to date with the latest trends to evaluate which trends and approaches may be viable for future developments, investments and practical implementation.</p></div><div id="_ce5c0152-b90c-df63-93d1-9d88ca5a5ecc"><h1 id="_6fa165bd-5204-4439-a71a-d1e82dbc77a9"><a class="anchor" href="#_ce5c0152-b90c-df63-93d1-9d88ca5a5ecc"></a><a class="header" href="#_ce5c0152-b90c-df63-93d1-9d88ca5a5ecc">2<span class="fmt-clause-delim">.</span>  Introduction</a></h1><p id="_1d0ee7a8-0d73-71f7-9bfc-1519b8a0b7f5">The present document sets out the Programme of Work for the Advisory Group on Advanced Technologies in Trade and Logistics for 2020-2021.</p></div><div id="_8c30c420-4493-30e8-892a-f00b38291d30"><h1 id="_3e25f525-0931-4e3a-aa71-2a2e52553705"><a class="anchor" href="#_8c30c420-4493-30e8-892a-f00b38291d30"></a><a class="header" href="#_8c30c420-4493-30e8-892a-f00b38291d30">3<span class="fmt-clause-delim">.</span>  Vision statement</a></h1><p id="_ac50a51a-8e61-72d9-8d72-ddda6ec2ae2d">The work of the Advisory Group will be instrumental in</p><div class="ul_wrap"><ul id="_44b6ef43-1f60-c179-0436-ed806b84cc8b"><li id="_badc4b53-7d5f-e402-dae2-ef83e262c52a"><p id="_b877439e-f213-cff2-fe27-8da4ad6001b8">achieving an effective and efficient analysis of advanced technologies related to trade and logistics and the subsequent business needs and opportunities for all stakeholders;</p>
+</li>
+<li id="_5d0e8897-1b8a-6bf0-4f2c-ec58ac990223"><p id="_1d690283-4387-7b0e-700c-af321809ad2a">providing advice and expertise on implementation requirements and challenges;</p>
+</li>
+<li id="_cc08a590-0986-a284-9279-1383ce7e405f"><p id="_1929841f-7a43-74d6-5ea3-9a594c78cb2e">identifying potential new work items for UN/CEFACT and needs for updating existing deliverables; and</p>
+</li>
+<li id="_38fe0e0a-db66-ef22-dfa9-c06afa6f59a2"><p id="_7082af70-a8af-cb02-41df-88dd0036890c">contributing to the realization of Sustainable Development Goals, particularly goal 17 of the United Nations Agenda 2030 on strengthening the means of implementation and revitalizing the global partnership for sustainable development.</p>
+</li>
+</ul></div></div><div id="_8a2e2f3d-43d9-8692-843a-ab6b0d4ae060"><h1 id="_135c60c4-9f4f-4803-983b-4f92ceb76511"><a class="anchor" href="#_8a2e2f3d-43d9-8692-843a-ab6b0d4ae060"></a><a class="header" href="#_8a2e2f3d-43d9-8692-843a-ab6b0d4ae060">4<span class="fmt-clause-delim">.</span>  Mission statement</a></h1><p id="_70c7c4d5-6e77-0add-40a5-ce0681e89df0">The Advisory Group will monitor the latest enabling technology developments and trends relevant for trade and logistics; study the potential impact of these technologies on standards, business models and operations; and identify implementation challenges and best practices learned by overcoming these challenges. In particular, the Advisory Group will prepare regular reports on the latest technology trends and the way they may impact relevant trade and logistic areas.</p><p id="_f9221263-1888-e932-26f2-3234d592d776">In a collaborative environment, together with other relevant entities and organizations, the members of this Advisory Group will work to analyze the latest technology trends, share experiences in development and implementation issues, and facilitate and support the best practices for overcoming these issues.</p><p id="_c5a87364-ce5e-43b6-dbd1-9f72fb72b636">The Advisory Group will give advice and conduct support activities regarding policymaking and technical implementation of advanced technologies.</p><p id="_2d429e8d-fb0f-dd53-3d54-e982e4db5b79">The Advisory Group will contribute to information and knowledge exchange between all relevant stakeholders and provide outreach to other partner organizations in the areas of trade and logistics, management organizations and technical communities.</p><p id="_3d41b468-8978-4bf1-4df5-9189b7404a2f">The Advisory Group will propose new project developments to be taken up within UN/CEFACT under the Open Development Process (ECE/TRADE/C/CEFACT/2016/17), identify needs for updating existing deliverables and propose ways they could be updated to address findings from emerging technology analysis.</p><p id="_3933e00f-f62e-89e8-8053-cd63019089d6">The Advisory Group will function as a platform for the following:</p><div class="ul_wrap"><ul id="_4e8c39dd-013d-e9b9-dec7-f67dcbeaabf5"><li id="_396222b1-3918-8788-eb4f-ad95be9d85b4"><p id="_9d91193e-5b51-570c-2d36-5162f49bc439">Monitoring of advanced technologies, assessment and advice;</p>
+</li>
+<li id="_fc2abd3d-5ede-b3bd-dac2-a995f5184f38"><p id="_165de6f5-3bfe-917c-0df6-4b1cac41ca57">Dialog on implementation challenges and for the exchange of best practice;</p>
+</li>
+<li id="_fe4faddb-f56c-67c5-8efe-c034115b7941"><p id="_eb4ad927-d13d-6be5-4d22-39b693142980">Communication and outreach for Advisory Group findings;</p>
+</li>
+<li id="_ce1f1035-d272-0959-ed35-f0afd5d1ada4"><p id="_274a9f50-fa6a-c32e-380a-b6f57e85906c">Proposals related to Advanced Technologies.</p>
+</li>
+</ul></div></div><div id="_25c700df-e2a6-7af0-986c-df17931eb626"><h1 id="_a00324c1-137f-480e-897b-ba7e7b950804"><a class="anchor" href="#_25c700df-e2a6-7af0-986c-df17931eb626"></a><a class="header" href="#_25c700df-e2a6-7af0-986c-df17931eb626">I<span class="fmt-clause-delim">.</span>  Scope, overall objective, activities, work areas</a></h1><div id="_79f75c3f-041d-3266-0784-991499b3a5c1"><h2 id="_2deeadc1-69d5-4965-9cd9-4e4590694e18"><a class="anchor" href="#_79f75c3f-041d-3266-0784-991499b3a5c1"></a><a class="header" href="#_79f75c3f-041d-3266-0784-991499b3a5c1">5<span class="fmt-clause-delim">.</span>  Scope</a></h2>
+
+<p id="_ac838bc3-95e4-ae0f-a048-b39c7e5855f2">The work of the Advisory Group shall have a scope that potentially covers all United Nations Member States, international trade organizations and other organizations involved in technological development and technological implementation activities. It encompasses activities in support of sustainable trade and sustainable economic development.</p>
+
+<p id="_73ba2bc1-74c5-5a85-8121-63f55e439f32">It does so by monitoring and analyzing technology trends in trade and logistics and relevant business areas such as digital identity and trustworthiness, security, interoperability and others, promoting, facilitating and supporting the implementation of technology standards, including proposing any necessary development of such standards.</p>
+
+<p id="_2043b3aa-2ce8-e58c-4095-7e78163078e5">The Programme of Work is linked to the Terms of Reference (ECE/EX/2/Rev.1) as approved at the thirty-fifth meeting of the UNECE EXCOM (31 March 2010).</p>
+</div><div id="_df36c6c1-c68e-c0ec-f643-956e1a21759e"><h2 id="_74d1c838-6b4d-461b-9476-697ebd1f6af3"><a class="anchor" href="#_df36c6c1-c68e-c0ec-f643-956e1a21759e"></a><a class="header" href="#_df36c6c1-c68e-c0ec-f643-956e1a21759e">6<span class="fmt-clause-delim">.</span>  Objective</a></h2>
+
+<p id="_9478823b-a01f-69cb-0fa2-1417230f7f77">The purpose of the Advisory Group is to advise on advanced technologies such as blockchain and IoT, as well as implementation challenges (i.e. regulatory obstacles). This includes the potential impact of these technologies on standards, services and everyday electronic data exchange operations.</p>
+</div><div id="_e4476f6a-151b-1bd2-3e6b-2c41787e421a"><h2 id="_58dd34df-162e-42a7-b6ee-66ff1f035020"><a class="anchor" href="#_e4476f6a-151b-1bd2-3e6b-2c41787e421a"></a><a class="header" href="#_e4476f6a-151b-1bd2-3e6b-2c41787e421a">7<span class="fmt-clause-delim">.</span>  Activities</a></h2>
+
+<p id="_dcd6bfeb-4208-1c8f-5468-00dcc7310431">The Advisory Group aims to support UN/CEFACT in achieving this objective by:</p>
+
+<div class="ol_wrap"><ol type="1" id="_71bec149-608b-d6c3-b0f9-a84230f11008"><li id="_3096a794-9db5-edb0-31e3-33b0aeaf4d43"><p id="_a3b4ceb3-f67c-7f21-5c95-17bbcb92ce27">monitoring the business needs related to these technologies and how they relate back to UN/CEFACT and its deliverables;</p>
+</li>
+<li id="_805a2037-cddf-67d7-f9e5-9f501a3c5160"><p id="_c54ca4f7-fd1d-ef3b-cd43-7cb51e5209a3">supporting dialogue with key external stakeholders;</p>
+</li>
+<li id="_e0b040e6-1d4d-2392-6a11-74e669af69bb"><p id="_953dc376-87cc-c5d3-1de8-80b7bd9dea16">providing advice and expertise on implementation requirements and challenges;</p>
+</li>
+<li id="_d2362f37-4a21-2e99-ede1-f9e4e3a5fba8"><p id="_90f4794b-7599-b49e-3975-25a2845723a5">identifying new work items which will support the role of UN/CEFACT and its deliverables in the context of these technologies;</p>
+</li>
+<li id="_bc18f4f2-7314-a8ca-cba9-9767792c299c"><p id="_df815bcd-29e0-23a8-a57f-7233dc7ea0b5">preparing synopses of good practices on selected issues within the Group’s mandate for discussion and endorsement by the Bureau; and</p>
+</li>
+<li id="_b9cce993-d281-ca19-54c9-94641d9433a9"><p id="_b08b25b1-29eb-1bae-69be-d256fc733474">providing support to senior managers on advanced technology issues, especially in the context of how these can be used with UN/CEFACT standards and UNECE recommendations.</p>
+</li>
+</ol></div>
+
+<p id="_fd09e8b8-f427-d754-0bf9-a133c497faac">Under the guidance of the UNECE Secretariat, the Advisory Group may invite the participation of other organizations (or their membership) actively exploring the applications of this technology. Such organizations include the International Telecommunication Union (ITU), the United Nations Office for Project Services (UNOPS), the World Food Programme (WFP), the United Nations Development Programme (UNDP), the World Bank, the International Monetary Fund (IMF), the International Organization for Standardization (ISO), the Organization for Economic Cooperation and Development (OECD), the World Economic Forum (WEF), and other relevant standards development organizations.</p>
+</div><div id="_58e4519f-e4c9-0be0-0de0-cb018b1b3cec"><h2 id="_a5bb0731-fb6d-4c19-9531-cd81a4dbcbff"><a class="anchor" href="#_58e4519f-e4c9-0be0-0de0-cb018b1b3cec"></a><a class="header" href="#_58e4519f-e4c9-0be0-0de0-cb018b1b3cec">A<span class="fmt-clause-delim">.</span>  Work areas</a></h2>
+
+<p id="_0951ec05-c15e-ebbe-af57-24c3184c281e">The Programme of work is structured around the following work areas (WA):</p>
+
+<div class="ul_wrap"><ul id="_5fce0569-00bb-2224-3214-72e961dac8bb"><li id="_a90852a1-25c1-84c0-f616-1c88bdbc7ce5"><p id="_c6f1d0a9-3c03-456f-c54e-6b4dc7dcb26e">WA1: Technical monitoring, assessment and advice.</p>
+</li>
+<li id="_03ce491b-5e45-73fc-7b04-56351c5fdd2f"><p id="_1e2e9694-ef92-8e50-eefc-fcfbe6e56c05">WA2: Implementation challenges and good practices.</p>
+</li>
+<li id="_9e485a35-fa8e-6c82-0ab9-6ffaddb89385"><p id="_3e06232c-31fe-c181-c5ae-6d64a9087ebf">WA3: Support strategic dialogue with key external stakeholders.</p>
+</li>
+<li id="_7e7545a0-5647-4655-536f-c06062b52f47"><p id="_9c2d7a27-a430-84ae-339d-5d956ccd3d78">WA4: Proposals for new development.</p>
+</li>
+</ul></div>
+
+<div id="_806f2cd9-ab23-834d-45cb-8d6c8e734cfd"><h3><a class="anchor" href="#_806f2cd9-ab23-834d-45cb-8d6c8e734cfd"></a><a class="header" href="#_806f2cd9-ab23-834d-45cb-8d6c8e734cfd">8<span class="fmt-clause-delim">.</span>  WA1: Technical monitoring, assessment and advice</a></h3>
+
+<p id="_c99b6960-d07e-1f30-c3a1-7b382b70ef73">This Work Area involves monitoring and analyzing current and emerging technologies used in the trade and logistics areas. This Work Area encompasses active engagement with technology leaders, developers and early adopters on a global scale by contributing to events on technology developments related to trade and by contacting authorities, standardization organizations and academia.</p>
+</div>
+
+<div id="_a79eca28-6960-7a05-c048-6599c9a890ec"><h3><a class="anchor" href="#_a79eca28-6960-7a05-c048-6599c9a890ec"></a><a class="header" href="#_a79eca28-6960-7a05-c048-6599c9a890ec">9<span class="fmt-clause-delim">.</span>  WA2: Implementation challenges and good practices</a></h3>
+
+<p id="_b6b5a878-42ab-4051-5bb3-8e246ddb0c3c">The Work Area on implementation challenges and advice facilitates and supports the implementation of relevant advanced technologies on business, interoperability, legal and technical levels. The Advisory Group shall contribute by identifying and advising on business, legal and technical implementation issues related to technology and sharing best practices with a specific focus on support for decision-making.</p>
+</div>
+
+<div id="_816fc965-2fec-dbfe-7bbf-9c102c286509"><h3><a class="anchor" href="#_816fc965-2fec-dbfe-7bbf-9c102c286509"></a><a class="header" href="#_816fc965-2fec-dbfe-7bbf-9c102c286509">10<span class="fmt-clause-delim">.</span>  WA3: Support strategic dialogue with key external stakeholders</a></h3>
+
+<p id="_6f0b8e85-e4ad-90f9-0992-4485b925008e">Activities of this Work Area are as follows:</p>
+
+<div class="ul_wrap"><ul id="_a4a728ed-2061-2847-eefe-d30202a63ab1"><li id="_52988e05-6cb8-dcd2-d229-2d2364f052c1"><p id="_9d518a57-fc58-014b-089d-8096b90ff3cc">Creating the content for UNECE website of the Advisory Group (maintenance, content and design, including possible use of social media and videos)</p>
+</li>
+<li id="_c7598f5a-fdcc-48b3-7db8-31054f760091"><p id="_995275b4-54ac-8b20-64e2-0086ef75480f">Contributing to relevant events within the United Nations and in other organizations to disseminate the work of UN/CEFACT and the Advisory Group (in line with the internal UN/CEFACT Representation Guidelines)</p>
+</li>
+<li id="_a14def2f-beb6-0f25-2903-233c4dce3199"><p id="_459859e2-8a2b-cbd2-552d-c361993c69da">Reaching out to trade and logistics management organizations and technical communities to exploit the benefits sharing knowledge and expertise through partnerships and to minimize the chance of working separately on the same issues</p>
+</li>
+<li id="_5852560e-02c5-3450-7fab-a764289faa1b"><p id="_48e53f62-bfca-4f78-6610-e37c36173ee1">Capacity building in the use of advanced technologies in Trade and Logistics</p>
+</li>
+</ul></div>
+</div>
+
+<div id="_02057c95-e309-e6d0-0ae4-1381b4d42154"><h3><a class="anchor" href="#_02057c95-e309-e6d0-0ae4-1381b4d42154"></a><a class="header" href="#_02057c95-e309-e6d0-0ae4-1381b4d42154">11<span class="fmt-clause-delim">.</span>  WA4: Proposals for new development</a></h3>
+
+<p id="_8282ebe5-2fab-a138-9857-f527687af4fb">The Advisory Group shall identify areas where new standards or guidance material are necessary and propose such work items to be launched within UN/CEFACT under the Open Development Process (ECE/TRADE/C/CEFACT/2016/17) procedure for project development.</p>
+</div>
+</div></div><div id="_efb38f15-b975-c058-1794-e04e64e53829"><h1 id="_8fa3da08-3e09-44ef-bbac-261e4c27f661"><a class="anchor" href="#_efb38f15-b975-c058-1794-e04e64e53829"></a><a class="header" href="#_efb38f15-b975-c058-1794-e04e64e53829">12<span class="fmt-clause-delim">.</span>  Governance</a></h1><p id="_30543832-6524-77a6-f2f1-a9bef68e421b">Participation in the Advisory Group will be on a self-funded, voluntary basis. All members of the Advisory Group must register as experts of UN/CEFACT in accordance with relevant procedures. All contributions to the work of the Advisory Group are in the context of the UN/CEFACT Intellectual Property Rights Policy (ECE/TRADE/C/CEFACT/2010/20/Rev.2), the Code of Conduct (ECE/TRADE/C/CEFACT/2010/18/Rev.1) and the overarching UN/CEFACT Mandate and Terms of Reference (ECE/TRADE/C/CEFACT/2017/15).</p><p id="_80e84031-06bc-b04a-76f7-1fcda8c5a23c">The Advisory Group appoints its Chair and Vice-Chair(s) for a mandate of two years, in accordance with the Guidelines for the establishment and functioning of Teams of Specialists (UNECE ECE/EX/2/Rev.1).</p><p id="_b5c84b73-e44f-288e-9054-b0f2930bfa74">The Advisory Group will plan at least one face-to-face meeting per year and virtual meetings as necessary.</p><p id="_8d9b4301-3354-27cc-1e61-e7acbc50b4a5">It is the responsibility of the Chair that the objectives of the Group are met, and all relevant procedures properly applied including this Programme of Work.</p><p id="_3ce2b118-11dd-bd38-d951-662d36d76076">The UNECE Secretariat provides necessary support to the Advisory Group within available resources.</p></div><div id="_70f37fea-09fd-802d-17b3-0ebb8dd857eb"><h1 id="_3d5dfd23-3e4f-44e4-b281-8c17b12aee4c"><a class="anchor" href="#_70f37fea-09fd-802d-17b3-0ebb8dd857eb"></a><a class="header" href="#_70f37fea-09fd-802d-17b3-0ebb8dd857eb">13<span class="fmt-clause-delim">.</span>  Reporting</a></h1><p id="_bd90390d-12e1-d203-ee3a-47d0f75433c0">The Advisory Group will report to the UN/CEFACT Plenary annually and will keep the UN/CEFACT Plenary Bureau informed of its activities.</p></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      if(!jqNav.length || !jqToggle.length) {
+        return;
+      }
+
+      const navWidthExpanded = jqNav.outerWidth();
+      const bodyPaddingLeftExpanded =
+        parseFloat(jqBody.css('paddingLeft')) > 0 ?
+          jqBody.css('paddingLeft') : navWidthExpanded + 'px';
+      const expandedToggleLeft = navWidthExpanded + 'px';
+      let bandWidth = 0;
+
+      $('.document-stage-band:visible, .document-type-band:visible')
+        .each(function() {
+          const bounds = this.getBoundingClientRect();
+          bandWidth = Math.max(bandWidth, bounds.right);
+        });
+
+      const toggleWidth = jqToggle.outerWidth();
+      const collapsedToggleLeft = bandWidth + 'px';
+      const collapsedBodyPaddingLeft = bandWidth + toggleWidth + 'px';
+      jqToggle.css({
+        'left': jqNav.is(':visible') ? expandedToggleLeft : collapsedToggleLeft,
+        'top': '0px'
+      });
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const navLeft = isNavVisible ? '-' + navWidthExpanded + 'px' : '0px';
+        const bodyPaddingLeft =
+          isNavVisible ? collapsedBodyPaddingLeft : bodyPaddingLeftExpanded;
+        const toggleLeft =
+          isNavVisible ? collapsedToggleLeft : expandedToggleLeft;
+
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+        jqToggle.stop(true, true);
+
+        if(!isNavVisible) {
+          jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'paddingLeft': bodyPaddingLeft}, animationSpeed);
+        jqToggle.animate({'left': toggleLeft}, animationSpeed);
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div ></div>", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body></html>
